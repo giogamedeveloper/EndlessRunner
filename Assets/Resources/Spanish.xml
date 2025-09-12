@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <lang>
+        <string key="button_Start">Iniciar Partida</string>
+        <string key="button_tutorial">Tutorial</string>
+        <string key="button_Settings">Opciones</string>
+        <string key="button_Achievement">Logros</string>
+        <string key="button_ExitGame">Salir del juego</string>
+        <!--Settings-->
+        <string key="text_Audio">Audio</string>
+        <string key="text_Graficos">Gráficos y lenguaje</string>
+        <!--Settings/Audio-->
+        <string key="button_GeneralMusic">Volúmen general</string>
+        <string key="button_Musica">Volúmen de la música</string>
+        <string key="button_SFX">Volumen de los efectos</string>
+        <string key="text_GeneralMusic">Ajusta el volúmen general del juego.</string>
+        <string key="text_Musica">Ajusta el volúmen general de la música.</string>
+        <string key="text_SFX">Ajusta el volúmen de los efectos de sonido.</string>
+        <!--Settings/Graficos y lenguaje-->
+        <string key="button_Idioma">Idioma</string>
+        <string key="option_IdiomaI">Español</string>
+        <string key="option_IdiomaII">Inglés</string>
+        <string key="button_Graficos">Gráficos</string>
+        <string key="option_GraficosI">Alto</string>
+        <string key="option_GraficosII">Medio</string>
+        <string key="option_GraficosIII">Bajo</string>
+        <string key="button_Resolucion">Resolucción</string>
+        <string key="text_Idioma">Puedes elegir entre español o inglés para jugar en tu idioma preferido.</string>
+        <string key="textGraficosDescription">Ajusta el gráfico con el que te sientas más cómodo al jugar.</string>
+        <string key="text_Resolucion">Ajusta la resolución con el que te sientas más cómodo al jugar.</string>
+        <!--Menú de pausa-->
+        <string key="button_Back">Regresar</string>
+        <string key="button_BackMM">Regresar al Menú principal</string>
+        <string key="button_Reanude">Reanudar juego</string>
+        <string key="button_Restar">Reinciar juego</string>
+        <!--Canvas-->
+        <string key="gameOver">Has perdido!!</string>
+        <string key="menuPause">Menú de pausa</string>
+        <!--Como jugar-->
+       
+        <!--Extra-->
+        <string key="resetData">Restablecer los datos</string>
+        <string key="coinsObtainde">Monedas obtenidas</string>
+        <string key="collectables_PickUp">Colectables adquiridos</string>
+        <string key="enemiesKilled">Enemigos matados</string>
+        <string key="maxStepsScore">Puntuación máxima de pasos</string>
+        <string key="finalStepsScore">Puntuación final de pasos</string>
+        <string key="maxScore">Puntuación máxima</string>
+        <string key="actualRecord">Record Actual</string>
+        <!--Cheats-->
+        <string key="cheats">Trucos</string>
+        <string key="activatePowerUp">Activar Habilidad</string>
+        <string key="close">Cerrar</string>
+        <string key="manyCoins">Muchas monedas del infierno</string>
+        <string key="timeScale">Escala de tiempo</string>
+        <!--Tutorial-->
+    </lang>
+</main>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+    <lang>
+        <string key="button_Start">Start Game</string>
+        <string key="button_tutorial">Tutorial</string>
+        <string key="button_Settings">Settings</string>
+        <string key="button_Achievement">Achievements</string>
+        <string key="button_ExitGame">Exit Game</string>
+        <!--Settings-->
+        <string key="text_Audio">Audio</string>
+        <string key="text_Graficos">Graphics and Language</string>
+        <!--Settings/Audio-->
+        <string key="button_GeneralMusic">Master Volume</string>
+        <string key="button_Musica">Music Volume</string>
+        <string key="button_SFX">Sound Effects Volume</string>
+        <string key="text_GeneralMusic">Adjust the overall game volume.</string>
+        <string key="text_Musica">Adjust the overall music volume.</string>
+        <string key="text_SFX">Adjust the sound effects volume.</string>
+        <!--Settings/Graphics and Language-->
+        <string key="button_Idioma">Language</string>
+        <string key="option_IdiomaI">Spanish</string>
+        <string key="option_IdiomaII">English</string>
+        <string key="button_Graficos">Graphics</string>
+        <string key="option_GraficosI">High</string>
+        <string key="option_GraficosII">Medium</string>
+        <string key="option_GraficosIII">Low</string>
+        <string key="button_Resolucion">Resolution</string>
+        <string key="text_Idioma">You can choose between Spanish or English to play in your preferred language.</string>
+        <string key="text_Graficos">Adjust the graphics to what you feel most comfortable playing with.</string>
+        <string key="text_Resolucion">Adjust the resolution to what you feel most comfortable playing with.</string>
+        <!--Pause Menu-->
+        <string key="button_Back">Back</string>
+        <string key="button_BackMM">Back to Main Menu</string>
+        <string key="button_Reanude">Resume Game</string>
+        <string key="button_Restar">Restart Game</string>
+        <!--Canvas-->
+        <string key="gameOver">You lost!!</string>
+        <string key="menuPause">Pause Menu</string>
+        <!--How to play-->
+
+        <!--Extra-->
+        <string key="resetData">Reset Data</string>
+        <string key="coinsObtainde">Coins Obtained</string>
+        <string key="collectables_PickUp">Collectables Acquired</string>
+        <string key="enemiesKilled">Enemies Killed</string>
+        <string key="maxStepsScore">Max Steps Score</string>
+        <string key="finalStepsScore">Final Steps Score</string>
+        <string key="maxScore">High Score</string>
+        <string key="actualRecord">Current Record</string>
+        <!--Cheats-->
+        <string key="cheats">Cheats</string>
+        <string key="activatePowerUp">Activate Power-Up</string>
+        <string key="close">Close</string>
+        <string key="manyCoins">A Hell of a Lot of Coins</string>
+        <string key="timeScale">Time Scale</string>
+        <!--Tutorial-->
+    </lang>
+</main>

@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 77aeeea4eced58549a3eded5adcb5b3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6385612077423672970
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_0
+  - first:
+      213: 1964189935854830022
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_1
+  - first:
+      213: 8078006352768385161
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_2
+  - first:
+      213: -3220877183342513740
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_3
+  - first:
+      213: 1834453708503016964
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_4
+  - first:
+      213: -4318371767013676334
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_5
+  - first:
+      213: -7073439493950761947
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_6
+  - first:
+      213: 8587669982397127979
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_7
+  - first:
+      213: -3637539206240285090
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_8
+  - first:
+      213: 2366637384389666868
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_9
+  - first:
+      213: 6859903163594912956
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_10
+  - first:
+      213: -8703863116516363393
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_11
+  - first:
+      213: 6441323203986294420
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_12
+  - first:
+      213: 5989852835706538048
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_13
+  - first:
+      213: -901703594303250222
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_14
+  - first:
+      213: 5332879885501610784
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_15
+  - first:
+      213: 3444722647881501183
+    second: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e384c1a504e9850800000000000000
+      internalID: 6385612077423672970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 69
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c146060754324b10800000000000000
+      internalID: 1964189935854830022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 74
+        width: 152
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980cb1e8af7da1070800000000000000
+      internalID: 8078006352768385161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 165
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b175b544452d43d0800000000000000
+      internalID: -3220877183342513740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_4
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 73
+        width: 142
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4066834bde9457910800000000000000
+      internalID: 1834453708503016964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_5
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 75
+        width: 132
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dae213f1cf0214c0800000000000000
+      internalID: -4318371767013676334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_6
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 8
+        width: 184
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52498d6c14816dd90800000000000000
+      internalID: -7073439493950761947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_7
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 11
+        width: 133
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dd01d79588d2770800000000000000
+      internalID: 8587669982397127979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ecd7b4d5dd48dc0800000000000000
+      internalID: -3637539206240285090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_9
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 30
+        width: 169
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438a4b0892cf7d020800000000000000
+      internalID: 2366637384389666868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_10
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 85
+        width: 224
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb437abf495433f50800000000000000
+      internalID: 6859903163594912956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_11
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 89
+        width: 224
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73fa6e4c9aa53780800000000000000
+      internalID: -8703863116516363393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_12
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 97
+        width: 233
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4968511935d246950800000000000000
+      internalID: 6441323203986294420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_13
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 99
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04887212b6b302350800000000000000
+      internalID: 5989852835706538048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_14
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 68
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0acd0cb518c73f0800000000000000
+      internalID: -901703594303250222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_15
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 68
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b36254002320a40800000000000000
+      internalID: 5332879885501610784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_16
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 22
+        width: 138
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff948b05ffc1ecf20800000000000000
+      internalID: 3444722647881501183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_0: 6385612077423672970
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_1: 1964189935854830022
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_10: 6859903163594912956
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_11: -8703863116516363393
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_12: 6441323203986294420
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_13: 5989852835706538048
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_14: -901703594303250222
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_15: 5332879885501610784
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_16: 3444722647881501183
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_2: 8078006352768385161
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_3: -3220877183342513740
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_4: 1834453708503016964
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_5: -4318371767013676334
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_6: -7073439493950761947
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_7: 8587669982397127979
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_8: -3637539206240285090
+      ROBERTO_LEIVA_PIXELART_ENEMY_MELEE_SPRITE_SHEET_3_9: 2366637384389666868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

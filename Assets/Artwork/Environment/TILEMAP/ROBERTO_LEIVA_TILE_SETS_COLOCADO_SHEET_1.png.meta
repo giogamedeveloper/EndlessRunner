@@ -1,0 +1,6988 @@
+fileFormatVersion: 2
+guid: b250a30b96b314748b5edd737a73fb4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5421303076530911835
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_0
+  - first:
+      213: -822262187526609700
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_1
+  - first:
+      213: 6138259506069775988
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_2
+  - first:
+      213: 4085959501004919800
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_3
+  - first:
+      213: 6017678951152117321
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_4
+  - first:
+      213: 5423003134792277935
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_5
+  - first:
+      213: -7212286226905979145
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_6
+  - first:
+      213: -9101457343532221273
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_7
+  - first:
+      213: 8540076588104610958
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_8
+  - first:
+      213: 3179989906628037298
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_9
+  - first:
+      213: -2679114811809564993
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_10
+  - first:
+      213: -6727523647968328262
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_11
+  - first:
+      213: -8165074220717111660
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_12
+  - first:
+      213: 4121166394291574788
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_13
+  - first:
+      213: 2611565319776279411
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_14
+  - first:
+      213: 2766286611480801681
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_15
+  - first:
+      213: -1224231111471418430
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_16
+  - first:
+      213: 4045203468824019103
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_17
+  - first:
+      213: 6275620993188839492
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_18
+  - first:
+      213: 5037991708638466294
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_19
+  - first:
+      213: -975077408352181144
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_20
+  - first:
+      213: -7343842880593527462
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_21
+  - first:
+      213: 5158909138025774376
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_22
+  - first:
+      213: -1425045237574123835
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_23
+  - first:
+      213: 6092847986190456294
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_24
+  - first:
+      213: 6716436403030824633
+    second: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 32, y: 0}
+        - {x: 0, y: 32}
+        - {x: -32, y: 0}
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a584af3399a3c4b0800000000000000
+      internalID: -5421303076530911835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb496cd540cd54f96d2862f8d09132
+      internalID: 483490856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3d3c5cec9df5b459b32739ca1708c7
+      internalID: -1986107718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e83c5e77462d84cafdd8ee9110c212
+      internalID: 247712431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d4547089f1bd428fb27eb85a281ec
+      internalID: -213329460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94587e61944620c4eaa5ab37f2eeb5a8
+      internalID: 138787925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0fe59609f4e4245807d89ddb204aa3
+      internalID: -1650378746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaf2fb418839c7498ccf18b19ea5afa
+      internalID: -1494395578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e5f3d2338df84ab15dc30bb8ec1db
+      internalID: 1323871186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e69643315150a49a89d4a5d6b7e25c
+      internalID: -26659884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388a104210a6e9143a7b3c183dd38d57
+      internalID: -1806613830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca2182a4a8e3545a5f6db55b48a25c
+      internalID: -1478478240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a43d368aa697f49b3f327887b9a689
+      internalID: -424725650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999efa69217d80e45bb19a5809a2b945
+      internalID: -2084731050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd9bf294e83ad4ea352a471c18eef5
+      internalID: -848068699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e2104f0d42dc647a7358235c133db7
+      internalID: -1908171615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0ed631a5a835b49b8cfe943e6c5a40
+      internalID: 1307387939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6cd944a859c4047a9991e99175530f
+      internalID: 1698852616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdc11249b86dac4e9a2e6ddc1ea5194
+      internalID: -112720821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c532e73c7ba7d0b48b2f75d1d5ad636b
+      internalID: 1878384614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0a94ebb1f111041986c8aca697e082
+      internalID: -415761046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dab5467646f31459218c4fe512aaa6
+      internalID: 10290987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec93729c76d84b84b831b4b65b05a50e
+      internalID: 3311467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0420236945943684da17dc8c8298b109
+      internalID: -1436575427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404f014c91994844e96d4bb7e1ddb87c
+      internalID: -187492875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033b83fcef736e40938b3b0a492d83d
+      internalID: -1013071012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1504bc22c9328847aefe5bc7f03d92f
+      internalID: -649192256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d2a1361df9d9840a68e4e1bb38f1ec
+      internalID: -1005969007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3277cf7282b280742bd4ec221749083f
+      internalID: 1692717996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7e8a3f79f78474ab74b1d9c09c9869
+      internalID: -1181022206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c13bbaf98bf7747a73c89b6b839b4c
+      internalID: 1446874839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd23047cb8197e418d6a0a3ba1ca16b
+      internalID: -1023048756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d55b0269a11744869e3d6f1878872
+      internalID: -1379618023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226933a629cb92246b04fbe4a233a8ec
+      internalID: -1849976436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e422d494e5371439939db614c5e7e9
+      internalID: 1232029089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf460bf5a0cf05848bf0657e5e288358
+      internalID: 1998336731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_36
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02e86859202f834bbd942600ce14af5
+      internalID: -1629175227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b52bfeaa18cbf548a4dfcdbe3887673
+      internalID: 695114354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a6e0ece6a9d91449303d61f6141bfa
+      internalID: -1637872518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bdedd39424ef64c83e9c02d386929f
+      internalID: -478731421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bb58c18117c7d4880fcad8f41e88de
+      internalID: -1038155611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba3b8b9db9d92479b344aa0abec16a
+      internalID: 1237655564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fafb4731f98d8a4fbf95c868419ca94
+      internalID: 48982430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b2ff767e7588b4fb98ba1965d332df
+      internalID: -1731837579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03df1ea826b5bb46b7f22cf0782dca4
+      internalID: 1574369140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b85ca51291f37e46baab8ac1dc14262
+      internalID: -1818380441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee729b3736aeb3c47ac3cc9d51014e21
+      internalID: 1089334987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45f77be3feacbe4891aa4cc602100c1
+      internalID: -1196901948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b61e7478664e1a44b3026e0dd1c8d8d
+      internalID: 2104190534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171a688816ed0cd43b9fb3102e0678f7
+      internalID: -37868047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac92abe7a876a5468b564cf918965c1
+      internalID: -1512186774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578f5c6753ff0aa40b01c49010cbd6d4
+      internalID: 1087965941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e96d6c2aa4fa84aa9a0677353cd052
+      internalID: -50535085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa48e322f9045b148a85a4ec5ce1fd7a
+      internalID: -745303343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66e8d235228e349baf66c6ac6dfffe
+      internalID: -541733122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9874d19b45e3c40a42eb9862a7ace7
+      internalID: -1215351041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_56
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef677b610ce534ca3121a4b46aeb52
+      internalID: 131230714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec1ed73f5021f14c86cfd795af82158
+      internalID: 430406678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042b7dc6e870d445921229e4400a104
+      internalID: -573435942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240705151eca55a4589a19aef3df7057
+      internalID: 48255501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214fd193147dd1441aea46ca4a541f38
+      internalID: 2116340370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e493092f128346b752cf2cda2b9d5
+      internalID: -74856344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c9c733e6ff47a4a9a689933145cb36
+      internalID: 1904083265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4540d730c98e34c9ead414b7c3c7ed
+      internalID: 255338860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c16882e953e8c46b9dbe0f81623c30
+      internalID: -1171499542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b76a5f5ef85a44e93adcc33ba32b3f
+      internalID: -676099125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36aea8036d549e4d8073ccb8248a01b
+      internalID: 1770932020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391d8f36d4c3df94ea9f62e9d374f366
+      internalID: 1451024657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e67fe3259421e45abcd0fcdd61f0c0
+      internalID: -572564700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730b5a726861fce44a16fd7caa22b656
+      internalID: 2013506243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_70
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be6367472e11074e89ed63a78c05ffa
+      internalID: -1175195197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a2768e67a182f49a745b69dce4a9d8
+      internalID: 656458803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817264f8d18257459f1b3c5318e7350
+      internalID: -1572004302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfa5cd6cbe8956478c6ac9583af08af
+      internalID: 997184239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c867a224ef2714c8bd3f95a9d46d48
+      internalID: 370565642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_75
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d66b918328594f48a53e3a9ca094aa1
+      internalID: -852556779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad6393fc64d5bc46816c53f6d08c002
+      internalID: 887162436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_77
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c7865c684afce46a04fdd80b367698
+      internalID: -1146761223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931006e31efb4364892d1952341422fe
+      internalID: 1654071679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0d2eee2255e04bb52382d69bcf7de
+      internalID: 2014862223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dbf2eb37e6bbb42a8ef842d816cab7
+      internalID: -535541176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_81
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f27b4f35b5a45045b49361df101c74b
+      internalID: 1203753489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02820c0303382904c8ff978679710164
+      internalID: 632503483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07bf4abef21fa42a07369517b72b20
+      internalID: -1933863846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b1c20d98df8e14186e9590bea620ed
+      internalID: -1497925200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e4f0c2f2a7fa247a5771f89e4cbc56
+      internalID: -1591565904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907312228f2bf64380e35dc99074399
+      internalID: 781836346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_87
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9923eeb8d4474ee419b2b438fa35bbf4
+      internalID: -1152685686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbf2b2c68549f2428e23bbeba8737b8
+      internalID: 1167998706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a38445e6c2d2f488d9ec52637dbb21
+      internalID: -1117807105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6762a33c5a6b4a933145b5eadcbff
+      internalID: -1484410926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ba8337670ddeb4b90c0a801f73c25e
+      internalID: 304249350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeeb173e6fde054392d0c0a63447ec0
+      internalID: 221876765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b6057d8e6871d418895eabc3bb512d
+      internalID: -416716197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c1e926aa858674db758f7f22702792
+      internalID: 401964175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0506eaa545c274f8c2a73c39581722
+      internalID: 577392069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60487743f6f783e47959d2f063e7ecfb
+      internalID: -838097340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1137e377432c344ea891a8137f8cbc5
+      internalID: 103698624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649dc1f61ac36b4dbe1eb963bbe8fc1
+      internalID: -286913780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c08ccd8de8c0b4b9dbda9ad99606e2
+      internalID: -1341535340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7ad1a93db64414fa6b3adaa55b8df6
+      internalID: -1130988721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96889437e4608b841a41ce61496ca794
+      internalID: -361887886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff4f098dd125d647aa5f7dd038f6565
+      internalID: -1686549304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_103
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c184ca09d814eac45bca77543a56575c
+      internalID: -248606757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f182308958d7af645bc9dba5f2902bc1
+      internalID: -1683047808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8fc5f51b0654045bae5baf6da9f895
+      internalID: -763831295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691912089d976ff4bb0a9896a6ed7ee4
+      internalID: 770790474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1838759e440d484cb73544233e84d2a
+      internalID: 1664550051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8a38f86a81ed644915e6a12e5fb256
+      internalID: 500611029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feced5387b2300b41bb30437ec13ee07
+      internalID: -1724024449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935675d0c44285e4eba39460a8953ada
+      internalID: 481183013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a9c99b448e9e4b88d35840d848682
+      internalID: -1573831228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeadfec07ec69345b7f8862b34b5527
+      internalID: 314855527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7412d6274e127524a8fa0ed333179bfd
+      internalID: 1711922454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d3d7918ef608a43b419a79f219860c
+      internalID: 1420453915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af220dcb561c2949a8fa9bba92f21d2
+      internalID: 1135461275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0b76040b3d4814fa620cb009c8f46a
+      internalID: -1116572828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727e62ab70009e74e9e8955754fde100
+      internalID: 467605999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_118
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99765399706ebb44ea83b4d4faec9f44
+      internalID: 957694155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75111b1cd620c924b87851dee3902633
+      internalID: 1499652927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_120
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c5e7f5b97c6a245ae38f391ab14146
+      internalID: -1423298694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_121
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a508b73bf895448bff2741011ed7f
+      internalID: 2066021580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_122
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a08fbdbb26d4d47a0c919d0ec07b2f
+      internalID: -393539832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb350c57384df348ba5b56e2321e79e
+      internalID: -50106695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ed13b705f712e428d6efb7a4e41c35
+      internalID: 1343253127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578ae7f401ec88438e10c83ff91573b
+      internalID: 1425978463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46437431abd996458a2ab570d7f5bc7
+      internalID: 863238183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796077faa5dfe8547813d180feb84efb
+      internalID: -2005260643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e1a0ae81308a842ba618620cef7bd1
+      internalID: 1439613831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd223a0f8f2d764b8898101d04d40b1
+      internalID: 646733507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcce4eab8b265d45a7eaf3dcb2773f6
+      internalID: -1077021321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee829dcf14d8a459676c656a3cca08
+      internalID: -1091412673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b5f5d5d8261441abccb3c60eaa817
+      internalID: 860199556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786ef18b5f950140badb95cd5214444
+      internalID: 1196844116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2545dcea35493d04a8bfb7a15f10b946
+      internalID: -645955562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a56981751f427478ef6b21ec9019b0
+      internalID: -1653275193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b2a2491f896d944ab103251f02e904
+      internalID: 640810094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edbd40b2e9509e438b308c920cd33bc
+      internalID: 272176716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a678e07426ff4394f79b42da82e2f
+      internalID: 1087710735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182ef65331eefe94594128eb301e7bf1
+      internalID: -825171340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_140
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b775800b5c7d89040a74d33236e32ea3
+      internalID: -444086263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2777669c638c1614cb44264b36f06acb
+      internalID: 955219411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_142
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b926285682786e4ab8d1b567573184b
+      internalID: -989152989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0c9b08f11b4f4d9b647361449a69a
+      internalID: -399464969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_144
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addad382f41834a4c838d7b22c2a5ad3
+      internalID: 295577459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_145
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f3ade56f46684db35ae8c26fc4761
+      internalID: 746483439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_146
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1636085ececca94f8f059a59c2042e2
+      internalID: 1088191095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_147
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1535e8bd5a59ac14e8a28fff83e331be
+      internalID: 2063344742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e1bf6567acd164b8a5b3397ad27e1d
+      internalID: -661442260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825032e1d824514c89ca936f79e50b7
+      internalID: 1525699370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_150
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b4ff523f7dc6c4b9f4bac9c4e4e4c1
+      internalID: -1081086544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_151
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478ad67c8200bf340b57a3e1ca77f89e
+      internalID: -1807444912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454b8e007c0fbb846a82bd4c9149b6a3
+      internalID: -307969772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_153
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9811ce3d2dd8d2c4c9e6b6c18826a0a0
+      internalID: 1967037747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_154
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f5d7859ff90b43bc68b671bb79173
+      internalID: -302300087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_155
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9522bcce5cfa61343a450efd95660cff
+      internalID: -1664642082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff4770507e13943a697487ec6a1231
+      internalID: 1882399108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_157
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18575416f4b83244287bbd92b865da81
+      internalID: -1330528397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f6e82979d0826488392ac65340f693
+      internalID: 1633560693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_159
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec40b928f626f244aa224423628e150
+      internalID: 168881234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_160
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f7a0ea8fc3bd4a86a6e4211a5df8c
+      internalID: -483886640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_161
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3086062b6806254984bb43025d7215b
+      internalID: 1422499598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87df0b7e2f2a3c949b2370e9d55a02b5
+      internalID: -1027310782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_163
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3302bc92182df944fb927978d7fc6c56
+      internalID: -1822198704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_164
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e490aacbd7daa0f469d5f7aa405afa99
+      internalID: 99601857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd0e471b1325ff40b8dbe5cb78ef858
+      internalID: 504452622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_166
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11098527b468e074e91abb50a9df22fd
+      internalID: -428735462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c6bd05795fd0140b43a95d7d3248b1
+      internalID: 1353690667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d01dbbaff8f811458ccae73de7cc69f
+      internalID: 203615902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_169
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6a46af21842a14291b0b6c09c88ca8
+      internalID: 397332621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_170
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ace545994a86014894eb32a2f121604
+      internalID: 51676917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e3e4832ff83847be1e0f6e775ff38
+      internalID: 1809127575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae6afdb565720742b64621ed07dcd2f
+      internalID: -200785731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e84f37022603b54b920fee9bbdd1293
+      internalID: -577283989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_174
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40a84372e652de499db057121e3aead
+      internalID: 547997035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76e4cab37db87940b93f7161c1fb109
+      internalID: 85356824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_176
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da62958bc10f0148acf4659317ca5e4
+      internalID: -1588966623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70108e2d6404bc245beedfe70fc9eee1
+      internalID: 2009968812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_178
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8826cfcbdcae7af41a3985f258c33897
+      internalID: 206139717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_179
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c952bd49ecf28c45a339eea2c99b213
+      internalID: -50051531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_180
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4243e63d0b4ef24388bfa884a034d25
+      internalID: -1937308254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_181
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eff7d6a3fb53c438879290503ca391
+      internalID: -1651292207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_182
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363828bf176947f4c9146bb906a7240b
+      internalID: 730024474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35dadf7153c524982893bd56b3baa9
+      internalID: 921881414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_184
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ff3f88721c4b14fbf6755d88648af6
+      internalID: -1565102885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_185
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff44840d6340314a99c90ba850582ea
+      internalID: -2100605165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_186
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc8f4452401364d8fec1b5701e6a21
+      internalID: 1228163457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619eb3b0bb6dae845baf60a230a72045
+      internalID: -580019641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_188
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241c594a8983fde49a64ff80ff34798a
+      internalID: 1170098344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af790e60b239304ca5424249133cc9d
+      internalID: 989409021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_190
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad301dc5e9f5a674b8ba9750675a5419
+      internalID: -2079907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_191
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753ae6a3b5596742af6d03a7f29a53e
+      internalID: -517879667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_192
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2da3c0abc8863499ffb7f0fb6b3863
+      internalID: 1091173297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_193
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7018fdc703129478201ca427a3b3fa
+      internalID: 68883344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_194
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564c80d888352a4ba15867abb57e5b1
+      internalID: 1431226273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_195
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9542b146f072f4487d30c4c2db38c6
+      internalID: -1986380779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_196
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de90a7ae14c854cbf3314c71e054a2
+      internalID: 1214414998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_197
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09439fecbd73f45960c3a4b11ef188
+      internalID: 2144466450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d7839af03ad3143ad6172ecf647e8c
+      internalID: 885653357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_199
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9dd2bcb79fe8347a72cab5c16ddd26
+      internalID: -1718406860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_200
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00385703157c0644b85418d832129b74
+      internalID: -335480003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_201
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64a98c754382d4385a8f635b84703d
+      internalID: -905020209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775216d8e18be2845b7df848779cfa94
+      internalID: -1503187933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_203
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c58b95c2f3b3c9418fb0b72cc168c77
+      internalID: -1419319010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f5d4aa0fc6ff4bb18f467468510e4
+      internalID: -285540331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_205
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9049abab5486bd47bd3df7031d60568
+      internalID: 815994569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_206
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37f20450dbb0384bae925a09c3de986
+      internalID: 683763858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_207
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c8c0dd07dd4c468e33959f1918f04
+      internalID: 256303954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_208
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55857ec7c86d2704a896a325ce37bbe9
+      internalID: -1496582533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_209
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21be3a66b1b0f2a48ae958eceaa167e9
+      internalID: 191731263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_210
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f29df2c98913224faa91d9906bf45c3
+      internalID: 784113550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_211
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb6a9dcc02b1d24bad0b7bbd46e739e
+      internalID: 1405446507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10feee030c2b5f0418b38ba8b8a20d28
+      internalID: 656807747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_213
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11d7f7ce1ae87548a3ef46d573bad77
+      internalID: 857831288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_214
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff804236615e1d4c9b7e5340de9bf00
+      internalID: 307477892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_215
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874e964a60c7434e8a509253fbba9fb
+      internalID: -699199269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_216
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e783f9cd32156904dadbabb8fb341250
+      internalID: -722626301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_217
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d328107b493b04faa5278f1a158d4a
+      internalID: -260197504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_218
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5e8550704fc6547b6a8f5ef0cf23fb
+      internalID: 1286029139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_219
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dbe503a83492946aed648ebf825507
+      internalID: -1506342585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_220
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5073a247df16fa546b7e73d234ec2a68
+      internalID: 1312282929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6cdf26bdc28f1409a3cbc7e5ed26f8
+      internalID: -693797587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_222
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf51da58ad88214aa2b757c74f8cd28
+      internalID: 1718886153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_223
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d016d5de1a964cb715c96a20c756d
+      internalID: 505585874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_224
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a4dc670c0ba340a5ec448aa6cf066
+      internalID: -427175179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b648c4accdf573d4596ed2f4cc8501b6
+      internalID: 560582742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_226
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb4c6611a373b24380feb0cfa4ed614
+      internalID: 968573039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_227
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27399b8a70bf534badc87bab45c9dad
+      internalID: 467715168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_228
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19faa49f8154f142bd7a6751f78f6e1
+      internalID: 702449642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_229
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5659f6a83e7fc7c4b890f614a4e06167
+      internalID: -1355608233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_230
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44f92e6f60053042812bdfff4f4d110
+      internalID: -2007874604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_231
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73681b51a694c9147bd029ed1c77f996
+      internalID: -381890285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_232
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d82539c30754644297c89dfd8c8f4cd
+      internalID: -115739435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_233
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfe2ff998ab7ed4fabf752139d29314
+      internalID: -687872676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_234
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe1233fa06933d4e93f2cf97fc49095
+      internalID: 1163824019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_235
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8d020c066fc88428546796d5d92de8
+      internalID: -1326444445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_236
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c77d470bc5b20b4d9322c04c291b2cd
+      internalID: -481588603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_237
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e34714a9807d294099d99df5d84836d
+      internalID: 343937792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_238
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ef3f5eefa8c5b4c8f65c81253a17be
+      internalID: 1806030426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_239
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2070d61e48066a14896f437c7baf0c86
+      internalID: 1030030513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_240
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0351097028713a498e6dc0d3fa4543e
+      internalID: 1539878981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_241
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb886193159b9704fb5093871785f177
+      internalID: 1843255408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_242
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f614b027a7a7bf04380eca81df16101c
+      internalID: -1319531213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_243
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f196b52092be67841b178203b188d0c6
+      internalID: -666212868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_244
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7c43cbf5f42c9488d0d3e83158cffd
+      internalID: -1983428652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ddc754eecaafb4d8a146b5e01fb676
+      internalID: 956777070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_246
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbedd149075bff743b48ce2f0db83244
+      internalID: 136615828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_247
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675a326a34f9b474b923d1c41dc8cb0b
+      internalID: 1760587851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_248
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdd3c2d76498a74494496a4ca83d9ce
+      internalID: -874749704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_249
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f8ab349151b1468375b4435f4b732
+      internalID: -1905442408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_250
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b684d1614ec043446b4db917c1fc57d9
+      internalID: -567578631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_251
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dbba0f4e06f0948a34018f613aebc0
+      internalID: 130332219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_252
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a99bfca5ffdaa498ca2f220f5716c0
+      internalID: 1743758818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_253
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2f16999c340bf4b96a786382c3ca91
+      internalID: -1701056472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_254
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0050ed04eb495414abe2a6dd84d4c4ec
+      internalID: 1666383140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_255
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a936bf1f16b5f4daafc44c299da864
+      internalID: -410966270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_256
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5063b64d97a25784295022be17741a66
+      internalID: 1421868339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589a746f00629d4caf3a1d9876e15c6
+      internalID: -1306678922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_258
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db626c4b89933c4da1695415f916140
+      internalID: -1475959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_259
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec4fd434353f534ebcba72317c624f0
+      internalID: -954763631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_260
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701aadabc1fb3e64d90cbdc992d0d8d0
+      internalID: 231323751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_261
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8104b8f01840b104090b36a7f58b3559
+      internalID: 2118945838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_262
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a14d9da08cf444bc9427611fcf662
+      internalID: 1978584749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_263
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36afb99399a587244a85abc3cde11eac
+      internalID: -1655736986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_264
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242a80268b1fe04ab79e4a6efd84baa
+      internalID: -1802619363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_265
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9793adb2857adad46a4111a02d67c6bf
+      internalID: -1018044255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_266
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf621927c0383d40bac4367e14a5cba
+      internalID: 2088519315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_267
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61fa520d3c76d14f98d9afd27defe66
+      internalID: -1129962429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_268
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb7ffb9b2467a04286a61dd6811d5a7
+      internalID: 1158903724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_269
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5596553024205c344b15236dee9f7619
+      internalID: -1781480951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_270
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ac111549c7d254eb48f69da83c5d8b
+      internalID: 130855880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_271
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef1bc157b40c0f4287cf53c31ba1efc
+      internalID: -1147385080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_272
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95a61e3f21c1d14882b99671f6dbdd6
+      internalID: -220547348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_273
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd31b004d811541879edbee7028c80
+      internalID: -328111067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_274
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63c07eecb37b1544919829df5d6138f
+      internalID: 1933972507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_275
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56efb8c0965a174382bacc85f7f4ced
+      internalID: 1354625334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_276
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab409869350e0438ba4abe8ab5d7ad
+      internalID: 744822601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_277
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222eef610411384ebc4fa444396a823
+      internalID: -1447628504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_278
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac39afbc31d485479cb4d8870e24bdd
+      internalID: -2125322890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_279
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf4a92e844cafb47990ce4b079577eb
+      internalID: -107781300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_280
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868aedfd2ab858f4ca5f25a01b5c7551
+      internalID: 239718471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_281
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e4319012ad0084cb19e7547e77846b
+      internalID: 1723467493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_282
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f3853a1b919c547b0c2ebe9b231f9b
+      internalID: -1714552862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_283
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f9cd6ab46972f4795253a00a4b8ccc
+      internalID: -2119716775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_284
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a112606e1dd502542913450689e654f0
+      internalID: -1218487255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_285
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9f9a249ea482459844f96a775795b
+      internalID: -1017290559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_286
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051261d3a881c914bb8f1e540bf1c94f
+      internalID: 708937317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_287
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f447abee7df9448e1ceb97d3e96f3
+      internalID: -1727770232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_288
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd03657fda7b4d941b942c4cd7f642ca
+      internalID: 382550550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_289
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823f56eb8ffc24440979b7c52ff17224
+      internalID: 539773650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_290
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5130a9b1521fa0149a07008c70c33c8c
+      internalID: 1682147246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_291
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc0cc3549be7646b87143c20aaacb2
+      internalID: -1738696077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_292
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ac7bf7bd1129143adf1b644a31f1f4
+      internalID: 377911176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_293
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687ea17d895d1f54fa119f773b10c4f1
+      internalID: -1241666802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_294
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5873104b06c08f49a458fc819cf7584
+      internalID: 1831811468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 92624009db55fe942a5e127fccbca7b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_0: -5421303076530911835
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_1: 483490856
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_10: -1806613830
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_100: -1130988721
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_101: -361887886
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_102: -1686549304
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_103: -248606757
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_104: -1683047808
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_105: -763831295
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_106: 770790474
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_107: 1664550051
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_108: 500611029
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_109: -1724024449
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_11: -1478478240
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_110: 481183013
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_111: -1573831228
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_112: 314855527
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_113: 1711922454
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_114: 1420453915
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_115: 1135461275
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_116: -1116572828
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_117: 467605999
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_118: 957694155
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_119: 1499652927
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_12: -424725650
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_120: -1423298694
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_121: 2066021580
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_122: -393539832
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_123: -50106695
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_124: 1343253127
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_125: 1425978463
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_126: 863238183
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_127: -2005260643
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_128: 1439613831
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_129: 646733507
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_13: -2084731050
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_130: -1077021321
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_131: -1091412673
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_132: 860199556
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_133: 1196844116
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_134: -645955562
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_135: -1653275193
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_136: 640810094
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_137: 272176716
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_138: 1087710735
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_139: -825171340
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_14: -848068699
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_140: -444086263
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_141: 955219411
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_142: -989152989
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_143: -399464969
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_144: 295577459
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_145: 746483439
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_146: 1088191095
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_147: 2063344742
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_148: -661442260
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_149: 1525699370
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_15: -1908171615
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_150: -1081086544
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_151: -1807444912
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_152: -307969772
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_153: 1967037747
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_154: -302300087
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_155: -1664642082
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_156: 1882399108
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_157: -1330528397
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_158: 1633560693
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_159: 168881234
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_16: 1307387939
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_160: -483886640
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_161: 1422499598
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_162: -1027310782
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_163: -1822198704
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_164: 99601857
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_165: 504452622
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_166: -428735462
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_167: 1353690667
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_168: 203615902
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_169: 397332621
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_17: 1698852616
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_170: 51676917
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_171: 1809127575
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_172: -200785731
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_173: -577283989
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_174: 547997035
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_175: 85356824
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_176: -1588966623
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_177: 2009968812
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_178: 206139717
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_179: -50051531
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_18: -112720821
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_180: -1937308254
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_181: -1651292207
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_182: 730024474
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_183: 921881414
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_184: -1565102885
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_185: -2100605165
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_186: 1228163457
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_187: -580019641
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_188: 1170098344
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_189: 989409021
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_19: 1878384614
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_190: -2079907
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_191: -517879667
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_192: 1091173297
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_193: 68883344
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_194: 1431226273
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_195: -1986380779
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_196: 1214414998
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_197: 2144466450
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_198: 885653357
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_199: -1718406860
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_2: -1986107718
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_20: -415761046
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_200: -335480003
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_201: -905020209
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_202: -1503187933
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_203: -1419319010
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_204: -285540331
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_205: 815994569
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_206: 683763858
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_207: 256303954
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_208: -1496582533
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_209: 191731263
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_21: 10290987
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_210: 784113550
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_211: 1405446507
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_212: 656807747
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_213: 857831288
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_214: 307477892
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_215: -699199269
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_216: -722626301
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_217: -260197504
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_218: 1286029139
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_219: -1506342585
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_22: 3311467
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_220: 1312282929
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_221: -693797587
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_222: 1718886153
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_223: 505585874
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_224: -427175179
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_225: 560582742
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_226: 968573039
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_227: 467715168
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_228: 702449642
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_229: -1355608233
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_23: -1436575427
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_230: -2007874604
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_231: -381890285
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_232: -115739435
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_233: -687872676
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_234: 1163824019
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_235: -1326444445
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_236: -481588603
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_237: 343937792
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_238: 1806030426
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_239: 1030030513
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_24: -187492875
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_240: 1539878981
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_241: 1843255408
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_242: -1319531213
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_243: -666212868
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_244: -1983428652
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_245: 956777070
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_246: 136615828
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_247: 1760587851
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_248: -874749704
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_249: -1905442408
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_25: -1013071012
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_250: -567578631
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_251: 130332219
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_252: 1743758818
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_253: -1701056472
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_254: 1666383140
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_255: -410966270
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_256: 1421868339
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_257: -1306678922
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_258: -1475959179
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_259: -954763631
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_26: -649192256
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_260: 231323751
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_261: 2118945838
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_262: 1978584749
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_263: -1655736986
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_264: -1802619363
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_265: -1018044255
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_266: 2088519315
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_267: -1129962429
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_268: 1158903724
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_269: -1781480951
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_27: -1005969007
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_270: 130855880
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_271: -1147385080
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_272: -220547348
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_273: -328111067
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_274: 1933972507
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_275: 1354625334
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_276: 744822601
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_277: -1447628504
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_278: -2125322890
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_279: -107781300
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_28: 1692717996
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_280: 239718471
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_281: 1723467493
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_282: -1714552862
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_283: -2119716775
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_284: -1218487255
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_285: -1017290559
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_286: 708937317
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_287: -1727770232
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_288: 382550550
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_289: 539773650
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_29: -1181022206
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_290: 1682147246
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_291: -1738696077
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_292: 377911176
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_293: -1241666802
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_294: 1831811468
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_3: 247712431
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_30: 1446874839
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_31: -1023048756
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_32: -1379618023
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_33: -1849976436
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_34: 1232029089
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_35: 1998336731
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_36: -1629175227
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_37: 695114354
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_38: -1637872518
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_39: -478731421
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_4: -213329460
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_40: -1038155611
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_41: 1237655564
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_42: 48982430
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_43: -1731837579
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_44: 1574369140
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_45: -1818380441
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_46: 1089334987
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_47: -1196901948
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_48: 2104190534
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_49: -37868047
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_5: 138787925
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_50: -1512186774
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_51: 1087965941
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_52: -50535085
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_53: -745303343
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_54: -541733122
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_55: -1215351041
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_56: 131230714
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_57: 430406678
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_58: -573435942
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_59: 48255501
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_6: -1650378746
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_60: 2116340370
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_61: -74856344
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_62: 1904083265
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_63: 255338860
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_64: -1171499542
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_65: -676099125
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_66: 1770932020
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_67: 1451024657
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_68: -572564700
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_69: 2013506243
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_7: -1494395578
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_70: -1175195197
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_71: 656458803
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_72: -1572004302
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_73: 997184239
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_74: 370565642
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_75: -852556779
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_76: 887162436
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_77: -1146761223
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_78: 1654071679
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_79: 2014862223
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_8: 1323871186
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_80: -535541176
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_81: 1203753489
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_82: 632503483
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_83: -1933863846
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_84: -1497925200
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_85: -1591565904
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_86: 781836346
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_87: -1152685686
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_88: 1167998706
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_89: -1117807105
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_9: -26659884
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_90: -1484410926
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_91: 304249350
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_92: 221876765
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_93: -416716197
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_94: 401964175
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_95: 577392069
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_96: -838097340
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_97: 103698624
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_98: -286913780
+      ROBERTO_LEIVA_TILE_SETS_COLOCADO_SHEET_1_99: -1341535340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
