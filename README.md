@@ -24,7 +24,7 @@
 
 ## 🚀 Instalación
 
-1. Descarga la última versión desde [itch.io](https://tugame.itch.io/run-to-hell)
+1. Descarga la última versión desde [itch.io](https://giod3v.itch.io/run-to-hell-sabrs-tu-origen)
 2. Descomprime el archivo ZIP
 3. Ejecuta `RunToHell.exe`
 
