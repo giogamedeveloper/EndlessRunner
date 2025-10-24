@@ -139,8 +139,6 @@ public class GameManager : MonoBehaviour
         {
             InitializeTutorial();
         }
-        // MusicManager.Instance.PlayGame();
-        // MusicManager.Instance.PitchRegular();
     }
 
     /// <summary>
@@ -205,13 +203,6 @@ public class GameManager : MonoBehaviour
         // Método que puedes llamar desde OnTypingComplete
         ChangeTimeScale(1f);
     }
-
-    public void PauseForTutorialMessage()
-    {
-        // Método para pausar durante mensajes
-        ChangeTimeScale(0.3f);
-    }
-
     private void AddItemsToHUD()
     {
         if (quantityItems > 0) createSlotsItems(quantityItems);
@@ -404,12 +395,5 @@ public class GameManager : MonoBehaviour
             if (itemInventory[i].Quantity > 0) quantityItems++;
         }
     }
-
-    public void PlayRespawnSound()
-    {
-        // Aquí puedes agregar sonido de respawn si quieres
-        Debug.Log("Sonido de respawn reproducido");
-    }
-
-    #endregion
+ #endregion
 }

@@ -9,6 +9,9 @@ public class SwitchSettingsMM : MonoBehaviour
     [SerializeField]
     CanvasGroup settingsCanvasGroup;
 
+    [SerializeField]
+    CanvasGroup tutoCanvasGroup;
+
 
     [SerializeField]
     GameObject scene;
@@ -46,6 +49,12 @@ public class SwitchSettingsMM : MonoBehaviour
         mainCanvasGroup.interactable = !_isActive;
         mainCanvasGroup.blocksRaycasts = !_isActive;
         mainCanvasGroup.alpha = _isActive ? 0 : 1;
+        if (tutoCanvasGroup != null)
+        {
+            tutoCanvasGroup.interactable = !_isActive;
+            tutoCanvasGroup.blocksRaycasts = !_isActive;
+            tutoCanvasGroup.alpha = _isActive ? 0 : 1;
+        }
         if (scene != null)
             scene.SetActive(!_isActive);
     }

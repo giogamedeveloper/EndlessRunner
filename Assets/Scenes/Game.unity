@@ -10864,7 +10864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1270304602
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14470,33 +14470,9 @@ PrefabInstance:
       value: ------MANAGER-------
       objectReference: {fileID: 0}
     - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: currentSection
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: sectionContainer
       value: 
       objectReference: {fileID: 425805477}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: 'sectionPrefabs.Array.data[0]'
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: 'sectionPrefabs.Array.data[1]'
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: 'sectionPrefabs.Array.data[2]'
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: 'sectionPrefabs.Array.data[3]'
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: 83a7cd9f144de09438f213c562385bf1, type: 3}
-    - target: {fileID: 1306526651496735900, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: 'sectionPrefabs.Array.data[4]'
-      value: 
-      objectReference: {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
     - target: {fileID: 3934538218522506526, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: scene
       value: 
@@ -14569,14 +14545,6 @@ PrefabInstance:
       propertyPath: finalStepsScoreText
       value: 
       objectReference: {fileID: 1486655568}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: itemsIco.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: itemsImage.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6217238207653630093, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

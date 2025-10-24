@@ -214,15 +214,19 @@ MonoBehaviour:
   stepsText: {fileID: 0}
   currentIndex: 1
   quantityItems: 0
-  itemsImage: []
-  itemsSprites:
-  - {fileID: 5881004440222881101, guid: 9827697c254dd6544b2ce0ce16c2d2a3, type: 3}
-  - {fileID: 8509550459451208454, guid: fbeb7fa09f8f46749b4061dfee8dfb33, type: 3}
-  - {fileID: -1229117854290043521, guid: 0211276c736985a47bb75f73cd2c0cdb, type: 3}
-  - {fileID: -6123120713815288241, guid: 76eb71f6008ee5b4d89cc52c37cd2955, type: 3}
-  - {fileID: 403208247147482157, guid: f681c400158dbab4e84f85f4de3d4da9, type: 3}
+  itemsIco:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemsImage:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   quantityText: []
-  emptySlot: {fileID: 8382754832659277255, guid: cbd0bac51a398ef42b8f8e541bfa4914, type: 3}
   inventoryContent: {fileID: 0}
   ItemsObject:
   - {fileID: 1662990678566168523, guid: 86ee087c49762584d9dd293c37466f3c, type: 3}
@@ -230,7 +234,6 @@ MonoBehaviour:
   - {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
   - {fileID: 1662990678566168523, guid: 979e24442085e5e478e4a31d196a1833, type: 3}
   - {fileID: 1662990678566168523, guid: 7d631fbe2bd5dc1498cd7f66c6942575, type: 3}
-  slotItemObject: {fileID: 3108539624207270577, guid: 9ecf452f86fb68a43853362ab7e117a9, type: 3}
   hud: {fileID: 0}
   endGameMenu: {fileID: 0}
   maxStepsScoreText: {fileID: 0}
@@ -302,15 +305,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sectionPrefabs:
-  - {fileID: 217709643176528963, guid: 996b67084643ba145a2c31144e15fd1b, type: 3}
-  - {fileID: 217709643176528963, guid: b6d3790e2d52537439e5ea837e250a6a, type: 3}
-  - {fileID: 217709643176528963, guid: 03c11d06a3253b54b99791ca8510f853, type: 3}
-  - {fileID: 217709643176528963, guid: 03c11d06a3253b54b99791ca8510f853, type: 3}
-  - {fileID: 217709643176528963, guid: 03c11d06a3253b54b99791ca8510f853, type: 3}
+  - {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
+  - {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
+  - {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
+  - {fileID: 217709643176528963, guid: 83a7cd9f144de09438f213c562385bf1, type: 3}
+  - {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
   sectionContainer: {fileID: 0}
-  currentSection: {fileID: 217709643176528963, guid: 5ee4b710525447f4e8f184d4d1e246eb, type: 3}
+  currentSection: {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
   initialLoad: 4
-  isTutorialMode: 0
 --- !u!1 &5066972984774820115
 GameObject:
   m_ObjectHideFlags: 0
