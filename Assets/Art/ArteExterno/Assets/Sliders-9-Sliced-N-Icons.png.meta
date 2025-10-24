@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 44f23873bb7034242a8d19b4bc1cfe74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1387705247622783689
+    second: Sliders-9-Sliced-N-Icons_0
+  - first:
+      213: 4338955804687767884
+    second: Sliders-9-Sliced-N-Icons_1
+  - first:
+      213: 5763944475744018819
+    second: Sliders-9-Sliced-N-Icons_2
+  - first:
+      213: -3650561052806635459
+    second: Sliders-9-Sliced-N-Icons_3
+  - first:
+      213: 4374158105844573485
+    second: Sliders-9-Sliced-N-Icons_4
+  - first:
+      213: -6218220792445263983
+    second: Sliders-9-Sliced-N-Icons_5
+  - first:
+      213: -62093944894433024
+    second: Sliders-9-Sliced-N-Icons_6
+  - first:
+      213: -3980926049635235265
+    second: Sliders-9-Sliced-N-Icons_7
+  - first:
+      213: 7734588425338009716
+    second: Sliders-9-Sliced-N-Icons_8
+  - first:
+      213: -6727004529699060265
+    second: Sliders-9-Sliced-N-Icons_9
+  - first:
+      213: 1902648855008110946
+    second: Sliders-9-Sliced-N-Icons_10
+  - first:
+      213: 7332337024019627424
+    second: Sliders-9-Sliced-N-Icons_11
+  - first:
+      213: 4619640841560962249
+    second: Sliders-9-Sliced-N-Icons_12
+  - first:
+      213: -2582679284479459911
+    second: Sliders-9-Sliced-N-Icons_13
+  - first:
+      213: -1682721920446302832
+    second: Sliders-9-Sliced-N-Icons_14
+  - first:
+      213: 8792982023830968104
+    second: Sliders-9-Sliced-N-Icons_15
+  - first:
+      213: -8513008548671239613
+    second: Sliders-9-Sliced-N-Icons_16
+  - first:
+      213: -864780595021156614
+    second: Sliders-9-Sliced-N-Icons_17
+  - first:
+      213: 1714732987676767438
+    second: Sliders-9-Sliced-N-Icons_18
+  - first:
+      213: 2254570472752003248
+    second: Sliders-9-Sliced-N-Icons_19
+  - first:
+      213: 766749404064102482
+    second: Sliders-9-Sliced-N-Icons_20
+  - first:
+      213: 4264529236670742280
+    second: Sliders-9-Sliced-N-Icons_21
+  - first:
+      213: 6505719037118437558
+    second: Sliders-9-Sliced-N-Icons_22
+  - first:
+      213: -5162212715857664964
+    second: Sliders-9-Sliced-N-Icons_23
+  - first:
+      213: -4280048186505563603
+    second: Sliders-9-Sliced-N-Icons_24
+  - first:
+      213: -718026359447721132
+    second: Sliders-9-Sliced-N-Icons_25
+  - first:
+      213: 7868888981159304633
+    second: Sliders-9-Sliced-N-Icons_26
+  - first:
+      213: -6304100502367555424
+    second: Sliders-9-Sliced-N-Icons_27
+  - first:
+      213: -7038581998085885053
+    second: Sliders-9-Sliced-N-Icons_28
+  - first:
+      213: -6886598202627953060
+    second: Sliders-9-Sliced-N-Icons_29
+  - first:
+      213: -2555816393936690019
+    second: Sliders-9-Sliced-N-Icons_30
+  - first:
+      213: 4410732499445423138
+    second: Sliders-9-Sliced-N-Icons_31
+  - first:
+      213: -4966978259647363863
+    second: Sliders-9-Sliced-N-Icons_32
+  - first:
+      213: 568252724330999071
+    second: Sliders-9-Sliced-N-Icons_33
+  - first:
+      213: 3768772829652616205
+    second: Sliders-9-Sliced-N-Icons_34
+  - first:
+      213: -1342528068183335479
+    second: Sliders-9-Sliced-N-Icons_35
+  - first:
+      213: -8298310677706972680
+    second: Sliders-9-Sliced-N-Icons_36
+  - first:
+      213: -7714555201066408919
+    second: Sliders-9-Sliced-N-Icons_37
+  - first:
+      213: 6785313631658276000
+    second: Sliders-9-Sliced-N-Icons_38
+  - first:
+      213: -8707794551872554338
+    second: Sliders-9-Sliced-N-Icons_39
+  - first:
+      213: -2841657438128738455
+    second: Sliders-9-Sliced-N-Icons_40
+  - first:
+      213: 8582198894631956444
+    second: Sliders-9-Sliced-N-Icons_41
+  - first:
+      213: 3270449214691147341
+    second: Sliders-9-Sliced-N-Icons_42
+  - first:
+      213: -6697900784954085566
+    second: Sliders-9-Sliced-N-Icons_43
+  - first:
+      213: -1076593234947754835
+    second: Sliders-9-Sliced-N-Icons_44
+  - first:
+      213: 5946191970891301655
+    second: Sliders-9-Sliced-N-Icons_45
+  - first:
+      213: 250474450491386
+    second: Sliders-9-Sliced-N-Icons_46
+  - first:
+      213: -447276528512525885
+    second: Sliders-9-Sliced-N-Icons_47
+  - first:
+      213: -395738747934386707
+    second: Sliders-9-Sliced-N-Icons_48
+  - first:
+      213: 1025495903336744206
+    second: Sliders-9-Sliced-N-Icons_49
+  - first:
+      213: 2153556973830168937
+    second: Sliders-9-Sliced-N-Icons_50
+  - first:
+      213: -7948557195319904215
+    second: Sliders-9-Sliced-N-Icons_51
+  - first:
+      213: -779819738206145458
+    second: Sliders-9-Sliced-N-Icons_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d9f7efd61edbce0800000000000000
+      internalID: -1387705247622783689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 175
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49988ac051173c30800000000000000
+      internalID: 4338955804687767884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3812cc546f4adff40800000000000000
+      internalID: 5763944475744018819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30a590601a965dc0800000000000000
+      internalID: -3650561052806635459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25e24a3f9124bc30800000000000000
+      internalID: 4374158105844573485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f1a53822174b9a0800000000000000
+      internalID: -6218220792445263983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0095dd7d2e5632ff0800000000000000
+      internalID: -62093944894433024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a846689d8e0c8c0800000000000000
+      internalID: -3980926049635235265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 143
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478be187137c65b60800000000000000
+      internalID: 7734588425338009716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 141
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d508dc7501e4a2a0800000000000000
+      internalID: -6727004529699060265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269ef0f8d01976a10800000000000000
+      internalID: 1902648855008110946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 140
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad722acca1b1c560800000000000000
+      internalID: 7332337024019627424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 142
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4b0279ed24c1040800000000000000
+      internalID: 4619640841560962249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 140
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd77d7dfda782cd0800000000000000
+      internalID: -2582679284479459911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 142
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095f80c2455c5a8e0800000000000000
+      internalID: -1682721920446302832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 140
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82717de3092f60a70800000000000000
+      internalID: 8792982023830968104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a469e24d7bbd980800000000000000
+      internalID: -8513008548671239613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeec1171aeaff3f0800000000000000
+      internalID: -864780595021156614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec43e173194fbc710800000000000000
+      internalID: 1714732987676767438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_19
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 83
+        width: 153
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b77556e7d94f10800000000000000
+      internalID: 2254570472752003248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258bbf4458a04aa00800000000000000
+      internalID: 766749404064102482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ff60e0fb6ae2b30800000000000000
+      internalID: 4264529236670742280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_22
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8d0f7def4f84a50800000000000000
+      internalID: 6505719037118437558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34ac40b2e22c58b0800000000000000
+      internalID: -5162212715857664964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_24
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22f7cdd9d63a94c0800000000000000
+      internalID: -4280048186505563603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_25
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b60c194de0906f0800000000000000
+      internalID: -718026359447721132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd5cf256d8e33d60800000000000000
+      internalID: 7868888981159304633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a035006ef55388a0800000000000000
+      internalID: -6304100502367555424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_28
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383b1a9f6fee15e90800000000000000
+      internalID: -7038581998085885053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_29
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 66
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e6485eb63ed60a0800000000000000
+      internalID: -6886598202627953060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a840f78ae78cd0800000000000000
+      internalID: -2555816393936690019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_31
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 48
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c17b4d6d1163d30800000000000000
+      internalID: 4410732499445423138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e481aac69fb11bb0800000000000000
+      internalID: -4966978259647363863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 48
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1da56097d6d2e700800000000000000
+      internalID: 568252724330999071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d048696bbee5d4430800000000000000
+      internalID: 3768772829652616205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 48
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd0f2c5d16e5de0800000000000000
+      internalID: -1342528068183335479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_36
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 15
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1e17ba76a76dc80800000000000000
+      internalID: -8298310677706972680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 48
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9246b480be460f490800000000000000
+      internalID: -7714555201066408919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 50
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a47b904cc64a2e50800000000000000
+      internalID: 6785313631658276000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9afd8eadf2b72780800000000000000
+      internalID: -8707794551872554338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 50
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f6df2ad976098d0800000000000000
+      internalID: -2841657438128738455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa94a9c681a1770800000000000000
+      internalID: 8582198894631956444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_42
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 50
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4efe91bb38f26d20800000000000000
+      internalID: 3270449214691147341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_43
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f600c19b64c03a0800000000000000
+      internalID: -6697900784954085566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_44
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 50
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4b957282c2f01f0800000000000000
+      internalID: -1076593234947754835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_45
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713814fd71e158250800000000000000
+      internalID: 5946191970891301655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_46
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 50
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af795a02ec3e00000800000000000000
+      internalID: 250474450491386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c914a9fd54fac9f0800000000000000
+      internalID: -447276528512525885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_48
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5538994bd028af0800000000000000
+      internalID: -395738747934386707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05410d371b4b3e00800000000000000
+      internalID: 1025495903336744206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96166bc58a8f2ed10800000000000000
+      internalID: 2153556973830168937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_51
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928f418185d01b190800000000000000
+      internalID: -7948557195319904215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sliders-9-Sliced-N-Icons_52
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44726b64168d25f0800000000000000
+      internalID: -779819738206145458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

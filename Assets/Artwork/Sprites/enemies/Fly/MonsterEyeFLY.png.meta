@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: ea6a9ea2ca70f0148983c499974456de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -247756075449569130
+    second: MonsterEyeFLY_0
+  - first:
+      213: -8771671473798281743
+    second: MonsterEyeFLY_1
+  - first:
+      213: 6019497200590121092
+    second: MonsterEyeFLY_2
+  - first:
+      213: -1406723683863107108
+    second: MonsterEyeFLY_3
+  - first:
+      213: 6002012785647639988
+    second: MonsterEyeFLY_4
+  - first:
+      213: 4463703184818814754
+    second: MonsterEyeFLY_5
+  - first:
+      213: 6638016588188186908
+    second: MonsterEyeFLY_6
+  - first:
+      213: -4640432197062908717
+    second: MonsterEyeFLY_7
+  - first:
+      213: -3668648132536915453
+    second: MonsterEyeFLY_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MonsterEyeFLY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49062192, y: 0.3794237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69032eb792bcf8cf0800000000000000
+      internalID: -247756075449569130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 100
+        height: 55
+      alignment: 9
+      pivot: {x: 0.47974318, y: 0.29538566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f583d5d443c44680800000000000000
+      internalID: -8771671473798281743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 97
+        height: 55
+      alignment: 9
+      pivot: {x: 0.48375773, y: 0.5245536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e1afafcc898350800000000000000
+      internalID: 6019497200590121092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 100
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4932477, y: 0.5522495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9e53e33405a7ce0800000000000000
+      internalID: -1406723683863107108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 93
+        height: 56
+      alignment: 9
+      pivot: {x: 0.46611795, y: 0.56832683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd51e914de6b4350800000000000000
+      internalID: 6002012785647639988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 88
+        height: 56
+      alignment: 9
+      pivot: {x: 0.42838496, y: 0.55224985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb7e9956242fd30800000000000000
+      internalID: 4463703184818814754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 90
+        height: 56
+      alignment: 9
+      pivot: {x: 0.48749593, y: 0.56028813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a7c9b08fd99fb0800000000000000
+      internalID: -4640432197062908717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonsterEyeFLY_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1
+        width: 109
+        height: 55
+      alignment: 9
+      pivot: {x: 0.497936, y: 0.57366097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aac36f5f7561dc0800000000000000
+      internalID: -3668648132536915453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c77cc04840f0f54a8bff0e69ac7c5f4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MonsterEyeFLY_0: -247756075449569130
+      MonsterEyeFLY_1: -8771671473798281743
+      MonsterEyeFLY_2: 6019497200590121092
+      MonsterEyeFLY_3: -1406723683863107108
+      MonsterEyeFLY_4: 6002012785647639988
+      MonsterEyeFLY_5: 4463703184818814754
+      MonsterEyeFLY_7: -4640432197062908717
+      MonsterEyeFLY_8: -3668648132536915453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

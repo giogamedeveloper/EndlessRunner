@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: 38606f015e9d3d64293608d1c30d8b70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8416595808551752118
+    second: Collectables-removebg-preview_0
+  - first:
+      213: -823366133754925445
+    second: Collectables-removebg-preview_1
+  - first:
+      213: 8044852985520874495
+    second: Collectables-removebg-preview_2
+  - first:
+      213: -5720163773864345042
+    second: Collectables-removebg-preview_3
+  - first:
+      213: 708650409464678624
+    second: Collectables-removebg-preview_4
+  - first:
+      213: -7053235692336147676
+    second: Collectables-removebg-preview_5
+  - first:
+      213: -402356903669206495
+    second: Collectables-removebg-preview_6
+  - first:
+      213: -884594332935999244
+    second: Collectables-removebg-preview_7
+  - first:
+      213: -3341320861923972726
+    second: Collectables-removebg-preview_8
+  - first:
+      213: -1266154686846404330
+    second: Collectables-removebg-preview_9
+  - first:
+      213: 569188740354918194
+    second: Collectables-removebg-preview_10
+  - first:
+      213: 8717360509110468985
+    second: Collectables-removebg-preview_11
+  - first:
+      213: 1019426034506579993
+    second: Collectables-removebg-preview_12
+  - first:
+      213: -1720642504216046507
+    second: Collectables-removebg-preview_13
+  - first:
+      213: -6847073105491615952
+    second: Collectables-removebg-preview_14
+  - first:
+      213: -6725082726732284645
+    second: Collectables-removebg-preview_15
+  - first:
+      213: 3546687232691219969
+    second: Collectables-removebg-preview_16
+  - first:
+      213: -3425780055947052902
+    second: Collectables-removebg-preview_17
+  - first:
+      213: -7309061745836169318
+    second: Collectables-removebg-preview_18
+  - first:
+      213: 7024464555676627611
+    second: Collectables-removebg-preview_19
+  - first:
+      213: 925000583566918958
+    second: Collectables-removebg-preview_20
+  - first:
+      213: -6850675147001378758
+    second: Collectables-removebg-preview_21
+  - first:
+      213: 5225232123085370423
+    second: Collectables-removebg-preview_22
+  - first:
+      213: -921996875056331586
+    second: Collectables-removebg-preview_23
+  - first:
+      213: 7680338710567723058
+    second: Collectables-removebg-preview_24
+  - first:
+      213: -4862458733270476552
+    second: Collectables-removebg-preview_25
+  - first:
+      213: -2398928340952074959
+    second: Collectables-removebg-preview_26
+  - first:
+      213: 5893305613682829116
+    second: Collectables-removebg-preview_27
+  - first:
+      213: 5835101602279857057
+    second: Collectables-removebg-preview_28
+  - first:
+      213: 2823793427478229987
+    second: Collectables-removebg-preview_29
+  - first:
+      213: 5696237152238784883
+    second: Collectables-removebg-preview_30
+  - first:
+      213: 5101171766575675202
+    second: Collectables-removebg-preview_31
+  - first:
+      213: -5127439952466671180
+    second: Collectables-removebg-preview_32
+  - first:
+      213: -5693594865523508477
+    second: Collectables-removebg-preview_33
+  - first:
+      213: -8412170909391221267
+    second: Collectables-removebg-preview_34
+  - first:
+      213: -8281343047633442
+    second: Collectables-removebg-preview_35
+  - first:
+      213: 7179047934892369547
+    second: Collectables-removebg-preview_36
+  - first:
+      213: -4817416533834578163
+    second: Collectables-removebg-preview_37
+  - first:
+      213: 388875432508677346
+    second: Collectables-removebg-preview_38
+  - first:
+      213: 6812398008468419895
+    second: Collectables-removebg-preview_39
+  - first:
+      213: -1640793982383669132
+    second: Collectables-removebg-preview_40
+  - first:
+      213: 8086732340538965368
+    second: Collectables-removebg-preview_41
+  - first:
+      213: -535918598885618331
+    second: Collectables-removebg-preview_42
+  - first:
+      213: -4785729075860757618
+    second: Collectables-removebg-preview_43
+  - first:
+      213: 9102989897481012202
+    second: Collectables-removebg-preview_44
+  - first:
+      213: 7574060550789169030
+    second: Collectables-removebg-preview_45
+  - first:
+      213: 2509368841828907672
+    second: Collectables-removebg-preview_46
+  - first:
+      213: -6647544353086830671
+    second: Collectables-removebg-preview_47
+  - first:
+      213: 8884714240711934830
+    second: Collectables-removebg-preview_48
+  - first:
+      213: -7890055704452980909
+    second: Collectables-removebg-preview_49
+  - first:
+      213: -4940077999504676214
+    second: Collectables-removebg-preview_50
+  - first:
+      213: -7419196834123718888
+    second: Collectables-removebg-preview_51
+  - first:
+      213: -7524158953649222211
+    second: Collectables-removebg-preview_52
+  - first:
+      213: 7775956736023620824
+    second: Collectables-removebg-preview_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e2b3584be323b80800000000000000
+      internalID: -8416595808551752118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e637d1dd0d294f0800000000000000
+      internalID: -823366133754925445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff36638ba2f05af60800000000000000
+      internalID: 8044852985520874495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2202c9ba55ed90b0800000000000000
+      internalID: -5720163773864345042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c316fac1a5d900800000000000000
+      internalID: 708650409464678624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4239239e18fdd1e90800000000000000
+      internalID: -7053235692336147676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122fed3278a8a6af0800000000000000
+      internalID: -402356903669206495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0b607142a49b3f0800000000000000
+      internalID: -884594332935999244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a896b60116e31a1d0800000000000000
+      internalID: -3341320861923972726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f2db4507bd6ee0800000000000000
+      internalID: -1266154686846404330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237c107c42a26e700800000000000000
+      internalID: 569188740354918194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9714c8c42394af870800000000000000
+      internalID: 8717360509110468985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910cc85c39ab52e00800000000000000
+      internalID: 1019426034506579993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55493ce32cc0f18e0800000000000000
+      internalID: -1720642504216046507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f9a04b94f4af0a0800000000000000
+      internalID: -6847073105491615952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 210
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db10c14e4bba2a0800000000000000
+      internalID: -6725082726732284645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e29f93f3d583130800000000000000
+      internalID: 3546687232691219969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9878ae803f2570d0800000000000000
+      internalID: -3425780055947052902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97e906311ff09a90800000000000000
+      internalID: -7309061745836169318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b927d62db49eb7160800000000000000
+      internalID: 7024464555676627611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e250980412346dc00800000000000000
+      internalID: 925000583566918958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c26f00438de0a0800000000000000
+      internalID: -6850675147001378758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734b6757ee0c38840800000000000000
+      internalID: 5225232123085370423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb44f322ab86433f0800000000000000
+      internalID: -921996875056331586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23022167d5b069a60800000000000000
+      internalID: 7680338710567723058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8da646b83158cb0800000000000000
+      internalID: -4862458733270476552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1353feb426b45bed0800000000000000
+      internalID: -2398928340952074959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3761684b3a39c150800000000000000
+      internalID: 5893305613682829116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1438ddf17af050800000000000000
+      internalID: 5835101602279857057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e33ce34921203720800000000000000
+      internalID: 2823793427478229987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371539f82891d0f40800000000000000
+      internalID: 5696237152238784883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 158
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247befcc1b00bc640800000000000000
+      internalID: 5101171766575675202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b90412978ca7d8b0800000000000000
+      internalID: -5127439952466671180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bbb71c2a94cf0b0800000000000000
+      internalID: -5693594865523508477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded8cd3a027f14b80800000000000000
+      internalID: -8412170909391221267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5f161992492eff0800000000000000
+      internalID: -8281343047633442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86e2c08f0a11a360800000000000000
+      internalID: 7179047934892369547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0742bdaf29152db0800000000000000
+      internalID: -4817416533834578163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec5e804520956500800000000000000
+      internalID: 388875432508677346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735b65325ef7a8e50800000000000000
+      internalID: 6812398008468419895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4704c6af09aba39e0800000000000000
+      internalID: -1640793982383669132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dfc77e738d93070800000000000000
+      internalID: 8086732340538965368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dc5ecafd80098f0800000000000000
+      internalID: -535918598885618331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83af0ae2cca59db0800000000000000
+      internalID: -4785729075860757618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae343510511545e70800000000000000
+      internalID: 9102989897481012202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f761d11f77c1960800000000000000
+      internalID: 7574060550789169030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a35ab9aa113d220800000000000000
+      internalID: 2509368841828907672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 106
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b70b9d81ad2fb3a0800000000000000
+      internalID: -6647544353086830671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634d785788dc4b70800000000000000
+      internalID: 8884714240711934830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f190ed324e08290800000000000000
+      internalID: -7890055704452980909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a2dccab31517bb0800000000000000
+      internalID: -4940077999504676214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f5a57b9c7b90990800000000000000
+      internalID: -7419196834123718888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdc92edb41d49790800000000000000
+      internalID: -7524158953649222211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc6e7fd37fb9eb60800000000000000
+      internalID: 7775956736023620824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c9161fd697a174a92ea28a557e2862
+      internalID: -254674955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f619ac5709c6fa4abea73f485cc3581
+      internalID: 1695444592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fae9ae798e07d044921e2927e522236
+      internalID: 1355778420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c980a6671e2a44a936ef8469d49069
+      internalID: 1105804906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f338398be3dc14eb29239d82290b23
+      internalID: 1328268274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e80062f4c08aa4ca858a7935f52cfc
+      internalID: -753351044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b01fb9b5e81ac45bb00d6c7a30eee0
+      internalID: -551184009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b80d97ace059b4f8ee4c0b3088cc2d
+      internalID: 1682905630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b077df0df0c6164aa134473121b3dd2
+      internalID: -123208760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c2e4ec166378148b94ae59879fc083
+      internalID: 830665021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356e573bd0cb8d4fa5beca817e31f32
+      internalID: -948346097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ce433d71e8f64195e834e6d1a0d14
+      internalID: -478779578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea5e96908aadc45a5016c7a7a34848
+      internalID: -435333129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5f233af446874185ca190c97c183f
+      internalID: 1313544434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27603e3bc214904428e2a26e1cce7396
+      internalID: -1071331843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5cf5d251ef653468561970b4c30165
+      internalID: -1014877147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568537f5f0a1d3841b75cb41a6e5bf1a
+      internalID: 1137081809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f407fb9ddacad14798c703ccd151515
+      internalID: -413758886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daa06095a393cf45bc948782085e603
+      internalID: 1246117760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40619fb98ad731e45ab87577bda6542c
+      internalID: -1706942226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f8498dad57c8458df833deaab5537
+      internalID: -2009496973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200bec75bb172734f8b4fc1045942684
+      internalID: 1885234670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc064d4f67a81648a4259ccd8db12bd
+      internalID: -1184880426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959f0f078b94124468e8f12f8cf74007
+      internalID: -126070693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e7e2bb2deb17144ba01ec5746237e0
+      internalID: 1422628848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectables-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58848264ce46ca4ebd55ecface0f33f
+      internalID: 1898007722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cf177675c13c29849bda07318e804b31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Collectables-removebg-preview_0: -8416595808551752118
+      Collectables-removebg-preview_1: -823366133754925445
+      Collectables-removebg-preview_10: 569188740354918194
+      Collectables-removebg-preview_11: 8717360509110468985
+      Collectables-removebg-preview_12: 1019426034506579993
+      Collectables-removebg-preview_13: -1720642504216046507
+      Collectables-removebg-preview_14: -6847073105491615952
+      Collectables-removebg-preview_15: -6725082726732284645
+      Collectables-removebg-preview_16: 3546687232691219969
+      Collectables-removebg-preview_17: -3425780055947052902
+      Collectables-removebg-preview_18: -7309061745836169318
+      Collectables-removebg-preview_19: 7024464555676627611
+      Collectables-removebg-preview_2: 8044852985520874495
+      Collectables-removebg-preview_20: 925000583566918958
+      Collectables-removebg-preview_21: -6850675147001378758
+      Collectables-removebg-preview_22: 5225232123085370423
+      Collectables-removebg-preview_23: -921996875056331586
+      Collectables-removebg-preview_24: 7680338710567723058
+      Collectables-removebg-preview_25: -4862458733270476552
+      Collectables-removebg-preview_26: -2398928340952074959
+      Collectables-removebg-preview_27: 5893305613682829116
+      Collectables-removebg-preview_28: 5835101602279857057
+      Collectables-removebg-preview_29: 2823793427478229987
+      Collectables-removebg-preview_3: -5720163773864345042
+      Collectables-removebg-preview_30: 5696237152238784883
+      Collectables-removebg-preview_31: 5101171766575675202
+      Collectables-removebg-preview_32: -5127439952466671180
+      Collectables-removebg-preview_33: -5693594865523508477
+      Collectables-removebg-preview_34: -8412170909391221267
+      Collectables-removebg-preview_35: -8281343047633442
+      Collectables-removebg-preview_36: 7179047934892369547
+      Collectables-removebg-preview_37: -4817416533834578163
+      Collectables-removebg-preview_38: 388875432508677346
+      Collectables-removebg-preview_39: 6812398008468419895
+      Collectables-removebg-preview_4: 708650409464678624
+      Collectables-removebg-preview_40: -1640793982383669132
+      Collectables-removebg-preview_41: 8086732340538965368
+      Collectables-removebg-preview_42: -535918598885618331
+      Collectables-removebg-preview_43: -4785729075860757618
+      Collectables-removebg-preview_44: 9102989897481012202
+      Collectables-removebg-preview_45: 7574060550789169030
+      Collectables-removebg-preview_46: 2509368841828907672
+      Collectables-removebg-preview_47: -6647544353086830671
+      Collectables-removebg-preview_48: 8884714240711934830
+      Collectables-removebg-preview_49: -7890055704452980909
+      Collectables-removebg-preview_5: -7053235692336147676
+      Collectables-removebg-preview_50: -4940077999504676214
+      Collectables-removebg-preview_51: -7419196834123718888
+      Collectables-removebg-preview_52: -7524158953649222211
+      Collectables-removebg-preview_53: 7775956736023620824
+      Collectables-removebg-preview_54: -254674955
+      Collectables-removebg-preview_55: 1695444592
+      Collectables-removebg-preview_56: 1355778420
+      Collectables-removebg-preview_57: 1105804906
+      Collectables-removebg-preview_58: 1328268274
+      Collectables-removebg-preview_59: -753351044
+      Collectables-removebg-preview_6: -402356903669206495
+      Collectables-removebg-preview_60: -551184009
+      Collectables-removebg-preview_61: 1682905630
+      Collectables-removebg-preview_62: -123208760
+      Collectables-removebg-preview_63: 830665021
+      Collectables-removebg-preview_64: -948346097
+      Collectables-removebg-preview_65: -478779578
+      Collectables-removebg-preview_66: -435333129
+      Collectables-removebg-preview_67: 1313544434
+      Collectables-removebg-preview_68: -1071331843
+      Collectables-removebg-preview_69: -1014877147
+      Collectables-removebg-preview_7: -884594332935999244
+      Collectables-removebg-preview_70: 1137081809
+      Collectables-removebg-preview_71: -413758886
+      Collectables-removebg-preview_72: 1246117760
+      Collectables-removebg-preview_73: -1706942226
+      Collectables-removebg-preview_74: -2009496973
+      Collectables-removebg-preview_75: 1885234670
+      Collectables-removebg-preview_76: -1184880426
+      Collectables-removebg-preview_77: -126070693
+      Collectables-removebg-preview_78: 1422628848
+      Collectables-removebg-preview_79: 1898007722
+      Collectables-removebg-preview_8: -3341320861923972726
+      Collectables-removebg-preview_9: -1266154686846404330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
