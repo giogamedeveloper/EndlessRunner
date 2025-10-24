@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brown_inlay_0: 4633165256146129111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UIpackSheet_magenta_0: 1595560361391818289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

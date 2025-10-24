@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tan_inlay_0: -8022650213173576469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

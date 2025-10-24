@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Windows-9-Sliced_0: 7700492812452993500
+      Windows-9-Sliced_1: 8725933339306753306
+      Windows-9-Sliced_2: 1002505301642422985
+      Windows-9-Sliced_3: -1105002980412821154
+      Windows-9-Sliced_4: -5990745795858065260
+      Windows-9-Sliced_5: -3506500087649031052
+      Windows-9-Sliced_6: -1727581737843925098
+      Windows-9-Sliced_7: -156055087920709633
+      Windows-9-Sliced_8: 2906134430865447360
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
