@@ -11,7 +11,6 @@ public class TutorialController : MonoBehaviour
     {
         Inactive,
         MoveIntro,
-        MovePractice,
         JumpIntro,
         JumpPractice,
         DoubleJumpIntro,
@@ -21,11 +20,6 @@ public class TutorialController : MonoBehaviour
         Completed
     }
 
-    [Header("Respawn Settings")]
-    public Vector3 respawnPoint = new Vector3(-2, -1.6f, 0);
-
-    public float respawnDelay = 1.5f;
-
     [Header("Referencias")]
     public PlayerController playerController;
 
@@ -34,10 +28,7 @@ public class TutorialController : MonoBehaviour
 
     [Header("Mensajes del tutorial")]
     [TextArea(2, 6)]
-    public string welcomeMessage = "¡Bienvenido al tutorial!\nCuando estés listo, pulsa la letra J para comenzar.";
-
-    [TextArea(2, 6)]
-    public string moveMessage = "Usa M para moverte lateralmente al igual si mueres";
+    public string welcomeMessage = "¡Bienvenido al tutorial!";
 
     [TextArea(2, 6)]
     public string jumpMessage = "Pulsa SPACE para saltar obstáculos\n¡Cuidado! Si te caes, volverás aquí.";
@@ -56,105 +47,36 @@ public class TutorialController : MonoBehaviour
     [Header("Configuración")]
     public float messageDelay = 1f;
 
-    public float inputWaitTime = 3f;
-
-    [Header("Scene Management")]
-    public bool reloadSceneOnDeath = true;
-
     // Variable estática para mantener el estado entre recargas
-    private static TutorialState savedState = TutorialState.Inactive;
     private static bool tutorialWasActive = false;
 
     [Header("Eventos")]
     public UnityEvent OnTutorialStart;
 
     public UnityEvent OnTutorialComplete;
-    public UnityEvent OnPlayerRespawn;
 
     private TutorialState currentState = TutorialState.Inactive;
-    private bool isTutorialActive = false;
+    public bool isTutorialActive = false;
     private Coroutine tutorialRoutine;
     private bool playerFailed = false;
+    private bool attackDetected;
 
 
     void Start()
     {
-        // ✅ CARGAR ESTADO GUARDADO SI EXISTE
-        if (savedState != TutorialState.Inactive && tutorialWasActive)
-        {
-            currentState = savedState;
-            isTutorialActive = tutorialWasActive;
-
-            // Iniciar desde la fase guardada
-            StartCoroutine(ContinueFromSavedState());
-        }
-        else
-        {
-            // Inicio normal
-            StartCoroutine(InitializeWithDelay());
-        }
+        playerFailed = false;
+        attackDetected = false;
+        // Inicio normal
+        StartCoroutine(InitializeWithDelay());
     }
 
-    private IEnumerator ContinueFromSavedState()
+    private void Update()
     {
-        yield return null;
-        yield return null;
-
-        Debug.Log($"Continuando tutorial desde: {currentState}");
-
-        // Configurar player
-        if (playerController != null)
+        if (playerController.enemyCount > 0)
         {
-            playerController.respawnPosition = respawnPoint;
-            playerController.transform.position = respawnPoint;
-            playerController.SetTutorialMode(currentState != TutorialState.Completed);
-
-            // Si estamos continuando desde un estado guardado, activar el movimiento
-            if (currentState > TutorialState.MoveIntro)
-            {
-                playerController.SetTutorialReady(true);
-                if (currentState == TutorialState.AttackIntro || currentState == TutorialState.AttackPractice)
-                {
-                    playerController.SetAutoMove(true);
-                    Debug.Log("AutoMove activado al continuar desde fase de ataque");
-                }
-            }
-            else
-            {
-                playerController.SetTutorialReady(false);
-            }
+            attackDetected = true;
         }
-
-        // Continuar según el estado guardado
-        switch (currentState)
-        {
-            case TutorialState.MoveIntro:
-                tutorialRoutine = StartCoroutine(WelcomePhase());
-                break;
-
-            case TutorialState.MovePractice:
-                tutorialRoutine = StartCoroutine(TeachMovement());
-                break;
-
-            case TutorialState.JumpIntro:
-            case TutorialState.JumpPractice:
-                tutorialRoutine = StartCoroutine(TeachJump());
-                break;
-
-            case TutorialState.DoubleJumpIntro:
-            case TutorialState.DoubleJumpPractice:
-                tutorialRoutine = StartCoroutine(TeachDoubleJump());
-                break;
-
-            case TutorialState.AttackIntro:
-            case TutorialState.AttackPractice:
-                tutorialRoutine = StartCoroutine(TeachAttack());
-                break;
-
-            case TutorialState.Completed:
-                Debug.Log("Tutorial ya estaba completado");
-                break;
-        }
+        IsPlayerDeadOrFallen();
     }
 
     private IEnumerator InitializeWithDelay()
@@ -199,18 +121,8 @@ public class TutorialController : MonoBehaviour
     {
         isTutorialActive = true;
 
-        // Establecer punto de respawn inicial
-        if (playerController != null)
-        {
-            playerController.respawnPosition = respawnPoint;
-            playerController.transform.position = respawnPoint;
-        }
-
         // Paso 1: Bienvenida
         yield return StartCoroutine(WelcomePhase());
-
-        // Paso 2: Movimiento
-        yield return StartCoroutine(TeachMovement());
 
         // Paso 3: Salto
         yield return StartCoroutine(TeachJump());
@@ -220,13 +132,6 @@ public class TutorialController : MonoBehaviour
 
         // Paso 5: Ataque
         yield return StartCoroutine(TeachAttack());
-        yield return StartCoroutine(CompleteTutorial());
-
-        currentState = TutorialState.Completed;
-        isTutorialActive = false;
-
-        OnTutorialComplete?.Invoke();
-
     }
 
     private IEnumerator WelcomePhase()
@@ -237,7 +142,6 @@ public class TutorialController : MonoBehaviour
         if (playerController != null)
         {
             playerController.SetTutorialMode(true);
-            playerController.transform.position = respawnPoint;
             playerController.SetTutorialReady(false);
         }
 
@@ -246,28 +150,11 @@ public class TutorialController : MonoBehaviour
         {
             typewriter.StartTyping(welcomeMessage);
         }
-        // Esperar a que el player presione J
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.J));
+        yield return new WaitForSeconds(3f);
         if (playerController != null)
         {
             playerController.SetTutorialReady(true);
         }
-    }
-
-    // Método para forzar guardado de estado
-    public void SaveTutorialState()
-    {
-        savedState = currentState;
-        tutorialWasActive = isTutorialActive;
-        Debug.Log($"Estado guardado manualmente: {savedState}");
-    }
-
-    // Método para limpiar estado guardado
-    public static void ClearSavedState()
-    {
-        savedState = TutorialState.Inactive;
-        tutorialWasActive = false;
-        Debug.Log("Estado del tutorial limpiado");
     }
 
     // Al destruirse, guardar estado si está activo
@@ -275,57 +162,8 @@ public class TutorialController : MonoBehaviour
     {
         if (isTutorialActive && currentState != TutorialState.Completed)
         {
-            savedState = currentState;
             tutorialWasActive = true;
         }
-    }
-
-    private IEnumerator TeachMovement()
-    {
-        Debug.Log("Fase 2 - Movimiento");
-        currentState = TutorialState.MoveIntro;
-        playerFailed = false;
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(true);
-            playerController.SetTutorialReady(true); // Permitir movimiento
-            playerController.transform.position = respawnPoint;
-        }
-        // Mostrar mensaje de movimiento
-        if (typewriter != null)
-        {
-            typewriter.StartTyping(moveMessage);
-            yield return new WaitUntil(() => typewriter.IsTypingComplete());
-            yield return new WaitForSecondsRealtime(messageDelay);
-        }
-
-        // Práctica
-        currentState = TutorialState.MovePractice;
-        Debug.Log("¡Ahora practica moviéndote con A/D!");
-
-        // Esperar input del jugador
-        float timer = 0f;
-        while (timer < inputWaitTime && !playerFailed)
-        {
-            if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f)
-            {
-                Debug.Log("Input de movimiento detectado!");
-                SetRespawnPoint(playerController.transform.position);
-                break;
-            }
-
-            // Verificar si player murió
-            if (IsPlayerDeadOrFallen())
-            {
-                yield return StartCoroutine(HandlePlayerDeath());
-                timer = 0f; // Reset timer
-            }
-
-            timer += Time.deltaTime;
-            yield return null;
-        }
-
-        Debug.Log("Paso movimiento completado");
     }
 
     private IEnumerator TeachJump()
@@ -355,28 +193,12 @@ public class TutorialController : MonoBehaviour
 
         // Bucle hasta salto exitoso
         bool jumpSuccessful = false;
-        float phaseStartTime = Time.time;
 
-        while (!jumpSuccessful && Time.time - phaseStartTime < 30f && !playerFailed)
+        while (!jumpSuccessful && !playerFailed)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                jumpSuccessful = true;
-                Debug.Log("Salto exitoso detectado");
-                SetRespawnPoint(playerController.transform.position);
-            }
-
-            // Verificar si player murió
-            if (IsPlayerDeadOrFallen())
-            {
-                yield return StartCoroutine(HandlePlayerDeath());
-                phaseStartTime = Time.time; // Reset timer
-            }
-
+            jumpSuccessful = true;
             yield return null;
         }
-
-        Debug.Log("Paso salto completado");
     }
 
     private IEnumerator TeachDoubleJump()
@@ -399,91 +221,87 @@ public class TutorialController : MonoBehaviour
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
             yield return new WaitForSecondsRealtime(messageDelay);
         }
-
-        // Práctica
         currentState = TutorialState.DoubleJumpPractice;
-        Debug.Log("¡Haz un doble salto!");
-
         // Esperar doble salto con verificación de muerte
         float timer = 0f;
         bool doubleJumpDetected = false;
-
         while (timer < 15f && !doubleJumpDetected && !playerFailed)
         {
             // Detectar doble salto
             if (playerController != null && !playerController.isGrounded && playerController.jumpInAirCounter >= 1)
             {
                 doubleJumpDetected = true;
-                Debug.Log("Doble salto detectado!");
-                SetRespawnPoint(playerController.transform.position);
             }
-
-            // Verificar si player murió
-            if (IsPlayerDeadOrFallen())
-            {
-                yield return StartCoroutine(HandlePlayerDeath());
-                timer = 0f; // Reset timer
-            }
-
             timer += Time.deltaTime;
             yield return null;
         }
-
-        Debug.Log("Paso doble salto completado");
     }
 
-    private IEnumerator TeachAttack()
+    public IEnumerator TeachAttack()
     {
-        Debug.Log("Fase 5 - Ataque");
         currentState = TutorialState.AttackIntro;
         playerFailed = false;
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(false); // Desactivar modo tutorial para permitir movimiento completo
-            playerController.SetTutorialReady(true);
-            playerController.SetAutoMove(true); // Activar movimiento automático
-            Debug.Log("AutoMove activado para fase de ataque");
-        }
-        // Mostrar mensaje de ataque
+        attackDetected = false;
         if (typewriter != null)
         {
             typewriter.StartTyping(attackMessage);
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
             yield return new WaitForSecondsRealtime(messageDelay);
+            if (typewriter.IsTypingComplete())
+            {
+                typewriter.messageText.enabled = false;
+                typewriter._panel.alpha = 0;
+            }
+        }
+        if (playerController != null)
+        {
+            playerController.SetTutorialMode(false);
+            playerController.SetTutorialReady(true);
+            playerController.SetAutoMove(true);
+            Debug.Log("👤 Player configurado para ataque");
+        }
+        else
+        {
+            Debug.LogError("❌❌❌ PlayerController es NULL!");
         }
 
-        // Práctica
+        // Mostrar mensaje de ataque
         currentState = TutorialState.AttackPractice;
-        // Esperar ataque con verificación de muerte
+
+        float timeout = 30f;
         float timer = 0f;
-        bool attackDetected = false;
 
-        while (timer < 20f && !attackDetected && !playerFailed)
+        while (!attackDetected && !playerFailed && timer < timeout)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.LeftControl))
-            {
-                attackDetected = true;
-            }
-
-            // Verificar si player murió
-            if (IsPlayerDeadOrFallen())
-            {
-                yield return StartCoroutine(HandlePlayerDeath());
-                timer = 0f; // Reset timer
-            }
-
             timer += Time.deltaTime;
+
             yield return null;
+        }
+        if (attackDetected)
+        {
+            yield return StartCoroutine(CompleteTutorial());
+            currentState = TutorialState.Completed;
+            isTutorialActive = false;
+            OnTutorialComplete?.Invoke();
+        }
+        else if (playerFailed)
+        {
+            Debug.Log("❌ Jugador falló durante ataque");
+        }
+        else
+        {
+            Debug.LogWarning("⏰ Timeout en espera de ataque");
         }
     }
 
     private IEnumerator CompleteTutorial()
     {
-        Debug.Log("=== MOSTRANDO MENSAJE FINAL ===");
-
+        typewriter._panel.alpha = 1;
+        typewriter.messageText.enabled = true;
         currentState = TutorialState.Completed;
         isTutorialActive = false;
-
+        if (playerController != null)
+            playerController.SetAutoMove(false);
         // Mostrar mensaje de finalización
         if (typewriter != null)
         {
@@ -492,54 +310,10 @@ public class TutorialController : MonoBehaviour
         }
 
         // Esperar un momento para que el jugador lea el mensaje
-        yield return new WaitForSecondsRealtime(completionDelay);
+        yield return new WaitForSeconds(completionDelay);
 
         sceneController.ChangeScene("MainMenu");
         OnTutorialComplete?.Invoke();
-    }
-
-    private IEnumerator HandlePlayerDeath()
-    {
-        Debug.Log("Manejando muerte del jugador...");
-        playerFailed = true;
-        if (playerController != null)
-        {
-            playerController.SetAutoMove(false);
-        }
-        // ✅ GUARDAR ESTADO ACTUAL
-        savedState = currentState;
-        tutorialWasActive = isTutorialActive;
-
-        // ✅ RESETEAR SECCIONES DE MANERA ROBUSTA
-        yield return new WaitForSeconds(0.1f); // Pequeña espera
-
-        // Reposicionar jugador
-        if (playerController != null)
-        {
-            playerController.transform.position = respawnPoint;
-        }
-
-        yield return new WaitForSeconds(respawnDelay);
-
-        if (reloadSceneOnDeath)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-        else
-        {
-            if (playerController != null && playerController.IsDead)
-            {
-                playerController.Respawn(respawnPoint);
-                if (currentState == TutorialState.AttackPractice || currentState == TutorialState.AttackIntro)
-                {
-                    // Pequeño delay para asegurar que el respawn se complete
-                    yield return new WaitForSeconds(0.5f);
-                    playerController.SetAutoMove(true);
-                    Debug.Log("AutoMove reactivado después del respawn en fase de ataque");
-                }
-            }
-            playerFailed = false;
-        }
     }
 
     private bool IsPlayerDeadOrFallen()
@@ -551,27 +325,13 @@ public class TutorialController : MonoBehaviour
 
         if (isDeadOrFallen)
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log("Player detectado como muerto/caído");
         }
 
         return isDeadOrFallen;
     }
 
-    private void Update()
-    {
-        // Verificar muerte continuamente
-        if (isTutorialActive && IsPlayerDeadOrFallen() && !playerFailed)
-        {
-            StartCoroutine(HandlePlayerDeath());
-        }
-
-        // Controles de debug
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Debug.Log("=== REINICIAR TUTORIAL ===");
-            StartTutorial();
-        }
-    }
 
     public void SkipTutorial()
     {
@@ -585,20 +345,5 @@ public class TutorialController : MonoBehaviour
             typewriter.StopTyping();
 
         OnTutorialComplete?.Invoke();
-    }
-
-    public bool IsTutorialComplete()
-    {
-        return currentState == TutorialState.Completed;
-    }
-
-    public void SetRespawnPoint(Vector3 newPosition)
-    {
-        respawnPoint = newPosition;
-        if (playerController != null)
-        {
-            playerController.respawnPosition = newPosition;
-        }
-        Debug.Log($"Nuevo punto de respawn: {newPosition}");
     }
 }

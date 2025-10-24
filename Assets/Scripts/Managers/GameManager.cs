@@ -365,8 +365,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void Restart()
     {
-        TutorialController.ClearSavedState();
-        //We reset the time scale.
         Time.timeScale = 1;
         //We reload the current scene.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

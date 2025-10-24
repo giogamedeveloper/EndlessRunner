@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerFeedback: {fileID: 5424305705224832282}
+  _tutorialController: {fileID: 6128000766157515294, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
   gravityMultiplier: 1
   isJump: 0
   data: {fileID: 0}
@@ -399,8 +400,8 @@ MonoBehaviour:
   controlsEnabled: 1
   deadLimit: -5
   isAutoMove: 1
-  maxSpeed: 8
-  acceleration: 10
+  maxSpeed: 6
+  acceleration: 8
   powerUpDuration: 3
   powerUpCounter: 0
   isPowerUp: 0
@@ -476,6 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLife: 3
   maxLife: 3
+  _tutorialController: {fileID: 6128000766157515294, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
   changeLife:
     m_PersistentCalls:
       m_Calls:

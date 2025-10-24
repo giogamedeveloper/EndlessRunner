@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private PlayerFeedback _playerFeedback;
 
+    [SerializeField]
+    private TutorialController _tutorialController;
+
     [Header("Jump Settings")]
     public float gravityMultiplier = 3f;
 
@@ -537,7 +540,6 @@ public class PlayerController : MonoBehaviour
     public void SetAutoMove(bool autoMove)
     {
         isAutoMove = autoMove;
-        Debug.Log($"AutoMove set to: {isAutoMove}");
     }
 
     #endregion

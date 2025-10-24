@@ -235,6 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coll2D: {fileID: 8586492428493350681}
+  _tutorialController: {fileID: 6128000766157515294, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
   spriteRenderer: {fileID: 3372668571167351025}
   _animator: {fileID: 8149235508949531632}
 --- !u!114 &91986419192604599

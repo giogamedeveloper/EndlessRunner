@@ -6,6 +6,8 @@ public class LifePlayer : MonoBehaviour
     public int currentLife;
     public int maxLife;
 
+    [SerializeField]
+    private TutorialController _tutorialController;
 
     public UnityEvent<int, int> changeLife;
 
@@ -17,6 +19,7 @@ public class LifePlayer : MonoBehaviour
 
     public int TakeDamage(int damage)
     {
+        if (_tutorialController != null && _tutorialController.isTutorialActive) return currentLife;
         Debug.Log(currentLife);
         currentLife -= damage;
         changeLife.Invoke(currentLife, maxLife);

@@ -119,7 +119,6 @@ public class AudioController : MonoBehaviour
         if (_menuMusic == null || _gameMusic == null) Debug.LogWarning("Clips de música no asignados");
         if (sceneName == "MainMenu")
         {
-            Debug.Log("Entró aquí");
             if (musicAudioSource.clip == _menuMusic) return;
             if (fadeCorutine != null) StopCoroutine(fadeCorutine);
             fadeCorutine = StartCoroutine(FadeAndChangeClip(_menuMusic));

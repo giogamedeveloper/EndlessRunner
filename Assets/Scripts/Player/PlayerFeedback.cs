@@ -37,7 +37,6 @@ public class PlayerFeedback : MonoBehaviour
         
         if (trailRenderer != null) trailRenderer.emitting = true;
         AudioController.Instance.PlaySound("Jump");
-        CameraShake.Instance.Shake(0.1f, 0.05f);
     }
 
     public void PlayEnemyKillFeedback(Vector3 position)
@@ -46,7 +45,6 @@ public class PlayerFeedback : MonoBehaviour
         ParticleManager.Instance.PlayEffect("EnemyDeath", position, Color.red);
         
         AudioController.Instance.PlaySound("EnemyKill");
-        CameraShake.Instance.Shake(0.15f, 0.1f);
     }
 
     public void PlayDamageFeedback(Vector3 position)
@@ -55,7 +53,6 @@ public class PlayerFeedback : MonoBehaviour
         ParticleManager.Instance.PlayEffect("Damage", position, Color.red);
         
         AudioController.Instance.PlaySound("Damage");
-        CameraShake.Instance.Shake(0.2f, 0.2f);
 
         // Flash del sprite
         StartCoroutine(FlashSprite());

@@ -7,7 +7,8 @@ public class TypewriterEffect : MonoBehaviour
 {
     [Header("Referencias")]
     public TextMeshProUGUI messageText; // Texto a modificar
-    public float typingSpeed = 0.05f;   // Velocidad de escritura
+    public float typingSpeed = 0.05f;
+    public CanvasGroup _panel;// Velocidad de escritura
 
     [Header("Eventos")]
     public UnityEvent OnTypingComplete = new UnityEvent();
@@ -93,9 +94,4 @@ public class TypewriterEffect : MonoBehaviour
         OnTypingComplete?.Invoke();
     }
 
-    // Método para test rápido
-    public void TestTypewriter()
-    {
-        StartTyping("Texto de prueba del typewriter");
-    }
 }
