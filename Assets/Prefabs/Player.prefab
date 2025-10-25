@@ -387,8 +387,8 @@ MonoBehaviour:
   isJump: 0
   data: {fileID: 0}
   jumpForce: 5
-  maxHp: 1
-  currentLife: 1
+  maxHp: 3
+  currentLife: 3
   jumpInAirAllowed: 1
   jumpInAirCounter: 0
   groundCheck: {fileID: 8450213442218398209}

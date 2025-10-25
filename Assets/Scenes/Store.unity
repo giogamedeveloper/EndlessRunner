@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 194252227}
   - component: {fileID: 194252226}
   - component: {fileID: 194252230}
+  - component: {fileID: 194252231}
   - component: {fileID: 194252229}
   m_Layer: 5
   m_Name: Button
@@ -271,12 +272,36 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 194252231}
+          m_TargetAssemblyTypeName: HoverDescription, Assembly-CSharp
+          m_MethodName: OnHoverEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 194252230}
           m_TargetAssemblyTypeName: ButtonHoverText, Assembly-CSharp
+          m_MethodName: OnHoverExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 194252231}
+          m_TargetAssemblyTypeName: HoverDescription, Assembly-CSharp
           m_MethodName: OnHoverExit
           m_Mode: 1
           m_Arguments:
@@ -319,6 +344,19 @@ MonoBehaviour:
   normalColor: {r: 1, g: 0.65, b: 0.23, a: 1}
   hoverColor: {r: 1, g: 0.95, b: 0.46, a: 1}
   pressedColor: {r: 0.36, g: 0.1, b: 0, a: 1}
+--- !u!114 &194252231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194252224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3073a507312b499b07b12bb2eec9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDescription: {fileID: 1876320612}
 --- !u!1 &381017147
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,6 +1003,24 @@ MonoBehaviour:
   coins: 0
   volume: 0
   maxStepsScore: 0
+--- !u!1 &685572027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8629330222711242682, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+  m_PrefabInstance: {fileID: 9017576532984236847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &685572032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685572027}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3073a507312b499b07b12bb2eec9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDescription: {fileID: 1876320612}
 --- !u!1 &753878598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,30 +1117,29 @@ MonoBehaviour:
     _cover: {fileID: 5216961189936626888, guid: 8ab60281d41d09245843985ae23342a7, type: 3}
     price: 100
     isPurchased: 0
-    description: {fileID: 1876320612}
+    description: LLama azul
   - image: {fileID: 8509550459451208454, guid: fbeb7fa09f8f46749b4061dfee8dfb33, type: 3}
     _cover: {fileID: 5216961189936626888, guid: 8ab60281d41d09245843985ae23342a7, type: 3}
     price: 80
     isPurchased: 0
-    description: {fileID: 1876320612}
+    description: Agua purificadora
   - image: {fileID: -1229117854290043521, guid: 0211276c736985a47bb75f73cd2c0cdb, type: 3}
     _cover: {fileID: 5216961189936626888, guid: 8ab60281d41d09245843985ae23342a7, type: 3}
     price: 45
     isPurchased: 0
-    description: {fileID: 1876320612}
+    description: "Restaura 1 coraz\xF3n de salud"
   - image: {fileID: -6123120713815288241, guid: 76eb71f6008ee5b4d89cc52c37cd2955, type: 3}
     _cover: {fileID: 5216961189936626888, guid: 8ab60281d41d09245843985ae23342a7, type: 3}
     price: 300
     isPurchased: 0
-    description: {fileID: 1876320612}
+    description: "A\xF1ade un coraz\xF3n a la salud m\xE1xima"
   - image: {fileID: 403208247147482157, guid: f681c400158dbab4e84f85f4de3d4da9, type: 3}
     _cover: {fileID: 5216961189936626888, guid: 8ab60281d41d09245843985ae23342a7, type: 3}
     price: 1000
     isPurchased: 0
-    description: {fileID: 1876320612}
-  itemsDescription: []
-  description: {fileID: 1876320610}
+    description: Flame
   _animator: {fileID: 790034730}
+  currentDescription: {fileID: 1876320612}
   itemTemplate: {fileID: 1793140666}
   shopScrollView: {fileID: 1793140667}
 --- !u!1 &790034728
@@ -2429,17 +2484,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 20
+    m_Left: 100
     m_Right: 20
     m_Top: 20
     m_Bottom: 20
-  m_ChildAlignment: 1
+  m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 150, y: 280}
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 1
-  m_ConstraintCount: 3
+  m_ConstraintCount: 5
 --- !u!114 &1793140669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,8 +2633,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5, y: 90.435}
-  m_SizeDelta: {x: 157, y: 84}
+  m_AnchoredPosition: {x: 2, y: -247}
+  m_SizeDelta: {x: 153.9773, y: 149.8216}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1876320612
 MonoBehaviour:
@@ -2610,8 +2665,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2628,15 +2683,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 18
+  m_fontSizeBase: 15
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontSizeMax: 18
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3132,9 +3187,65 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 381017148}
     m_Modifications:
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 685572032}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 685572032}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHoverEnter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHoverExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HoverDesciption, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HoverDesciption, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180469371431267602, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
       propertyPath: m_Name
       value: ico
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093635991832994016, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5708118148012146700, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
       propertyPath: m_Pivot.x
@@ -3216,15 +3327,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6412430575360374551, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
-      propertyPath: m_TextStyleHashCode
-      value: -1183493901
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 803883461883845773, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+    m_RemovedComponents:
+    - {fileID: 4093635991832994016, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8629330222711242682, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 685572032}
   m_SourcePrefab: {fileID: 100100000, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

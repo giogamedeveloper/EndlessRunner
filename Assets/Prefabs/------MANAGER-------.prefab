@@ -52,6 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCanvasGroup: {fileID: 0}
   settingsCanvasGroup: {fileID: 0}
+  tutoCanvasGroup: {fileID: 0}
   scene: {fileID: 0}
   _changeLenguage: 0
   _isActive: 0
@@ -158,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxScore: 0
   enemies: 0
-  maxHp: 0
+  maxHp: 2
   coins: 0
   volume: 0
   maxStepsScore: 0

@@ -1,12 +1,11 @@
-using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Shop : MonoBehaviour, IPointerEnterHandler
+public class Shop : MonoBehaviour
 {
     [System.Serializable]
     public class ShopItem
@@ -15,20 +14,28 @@ public class Shop : MonoBehaviour, IPointerEnterHandler
         public Sprite _cover;
         public int price;
         public bool isPurchased = false;
-        public TextMeshProUGUI description;
+
+        [TextArea(2, 4)]
+        public string description;
     }
+
     [SerializeField]
     public List<ShopItem> shopItemsList;
-    public List<TextMeshProUGUI> itemsDescription;
-    public GameObject description;
 
     [SerializeField]
     private Animator _animator;
+
+    private Coroutine autoHideCoroutine;
+    public TextMeshProUGUI currentDescription;
+
     [SerializeField]
     GameObject itemTemplate;
+
     GameObject g;
+
     [SerializeField]
     public Transform shopScrollView;
+
     Button buyButton;
 
     public List<ShopItem> Inventory => shopItemsList;
@@ -46,7 +53,7 @@ public class Shop : MonoBehaviour, IPointerEnterHandler
             g.transform.GetChild(0).GetChild(1).GetComponent<Image>().sprite = shopItemsList[i].image;
             g.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].price.ToString();
             g.transform.GetChild(2).GetComponent<Button>().interactable = !shopItemsList[i].isPurchased;
-            // g.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].description.ToString();
+            g.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].description;
             buyButton = g.transform.GetChild(2).GetComponent<Button>();
             DataManager.Instance.LoadItems();
             buyButton.interactable = !shopItemsList[i].isPurchased;
@@ -55,21 +62,6 @@ public class Shop : MonoBehaviour, IPointerEnterHandler
                 buyButton.interactable = false;
         }
         Destroy(itemTemplate);
-
-        // CheckDescription();
-        // itemsDescription = new GameObject[description.transform.childCount];
-    }
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-    void Update()
-    {
-
-    }
-    private void CheckDescription()
-    {
-        description = GameObject.FindGameObjectWithTag("Description");
-        itemsDescription.Add(description.GetComponent<TextMeshProUGUI>());
     }
 
     /// <summary>
@@ -97,10 +89,5 @@ public class Shop : MonoBehaviour, IPointerEnterHandler
         {
             _animator.SetTrigger("NoCoins");
         }
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-
     }
 }

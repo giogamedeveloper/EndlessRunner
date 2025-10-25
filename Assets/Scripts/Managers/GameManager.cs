@@ -203,11 +203,13 @@ public class GameManager : MonoBehaviour
         // Método que puedes llamar desde OnTypingComplete
         ChangeTimeScale(1f);
     }
+
     private void AddItemsToHUD()
     {
         if (quantityItems > 0) createSlotsItems(quantityItems);
         else changeItems(quantityItems);
     }
+
     private void createSlotsItems(int quantityItems)
     {
         for (int i = 0; i < quantityItems; i++)
@@ -223,10 +225,11 @@ public class GameManager : MonoBehaviour
             Image marcoImage = itemObject.transform.GetChild(0).GetComponent<Image>();
             Image iconoImage = itemObject.transform.GetChild(1).GetComponent<Image>();
             TextMeshProUGUI textComponent = itemObject.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
+            Debug.Log(textComponent);
             // Añadir a las listas
             itemsIco.Add(marcoImage); // MARCO
-            quantityText.Add(textComponent); // TEXTO
             itemsImage.Add(iconoImage); // ICONO
+            quantityText.Add(textComponent); // TEXTO
 
             // Configurar
             if (itemInventory[i].Quantity == 0)
@@ -395,5 +398,6 @@ public class GameManager : MonoBehaviour
             if (itemInventory[i].Quantity > 0) quantityItems++;
         }
     }
- #endregion
+
+    #endregion
 }

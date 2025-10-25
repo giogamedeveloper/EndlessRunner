@@ -3,13 +3,14 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
-
     public struct ItemInventory
     {
         public Sprite Image;
         public int Quantity;
     }
+
     public ItemInventory[] itemInventory = new ItemInventory[5];
+
     //Maximum score recorded.
     public int maxScore = 0;
     public int enemies = 0;
@@ -20,6 +21,7 @@ public class DataManager : MonoBehaviour
 
     private static DataManager _intance;
     public static DataManager Instance => _intance;
+
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
@@ -42,6 +44,7 @@ public class DataManager : MonoBehaviour
             Destroy(this);
         }
     }
+
     /// <summary>
     /// It will persistently store information in the PlayerPrefs.
     /// </summary>
@@ -56,6 +59,7 @@ public class DataManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("life", maxHp);
     }
+
     public void SaveItem(int _index)
     {
         switch (_index)
@@ -81,7 +85,9 @@ public class DataManager : MonoBehaviour
                 break;
 
         }
-    }public void UpdateItem(int _index)
+    }
+
+    public void UpdateItem(int _index)
     {
         switch (_index)
         {
@@ -103,11 +109,13 @@ public class DataManager : MonoBehaviour
                 break;
         }
     }
+
     public void SaveCoins(int _coins)
     {
         coins += _coins;
         PlayerPrefs.SetInt("coins", _coins);
     }
+
     /// <summary>
     /// Save the music for all scenes.
     /// </summary>
@@ -116,16 +124,14 @@ public class DataManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("music", volume);
     }
+
     public void SaveEnemies(int enemy)
     {
         PlayerPrefs.SetInt("enemy", enemy);
     }
+
     public void LoadItems()
     {
-        // for (int i = 1; i <= itemInventory.Length-1; i++)
-        // {
-        //     itemInventory[i].Quantity = PlayerPrefs.GetInt("item " + i.ToString());
-        // }
         itemInventory[0].Quantity = PlayerPrefs.GetInt("item 1");
         itemInventory[1].Quantity = PlayerPrefs.GetInt("item 2");
         itemInventory[2].Quantity = PlayerPrefs.GetInt("item 3");
@@ -133,14 +139,17 @@ public class DataManager : MonoBehaviour
         itemInventory[4].Quantity = PlayerPrefs.GetInt("item 5");
 
     }
+
     public void LoadCoins()
     {
         coins = PlayerPrefs.GetInt("coins");
     }
+
     public void LoadMusic()
     {
-        volume= PlayerPrefs.GetFloat("music");
+        volume = PlayerPrefs.GetFloat("music");
     }
+
     public void LoadHp()
     {
         maxHp = PlayerPrefs.GetInt("life");
@@ -156,12 +165,14 @@ public class DataManager : MonoBehaviour
         enemies = PlayerPrefs.GetInt("enemy");
 
     }
+
     public void LoadScore()
     {
         //We retrieve the value of the corresponding key from the PlayerPrefs.
         maxScore = PlayerPrefs.GetInt("maxScore");
 
     }
+
     public void LoadSTeps()
     {
         //We retrieve the value of the corresponding key from the PlayerPrefs.
