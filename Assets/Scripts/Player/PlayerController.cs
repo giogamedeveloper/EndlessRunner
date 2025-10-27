@@ -181,6 +181,7 @@ public class PlayerController : MonoBehaviour
             {
                 enemyDead.Disappears();
                 _playerFeedback.PlayEnemyKillFeedback(other.contacts[0].point);
+                GameManager.Instance.PickUpCollectable(2);
                 enemyCount++;
             }
             else if (lifePlayer.currentLife > 1)
