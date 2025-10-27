@@ -428,7 +428,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e4faffff
+      m_ExpandedIDs: 5e2cfdff822ffdffe4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1731,7 +1731,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio/SFX
+    - Assets/Prefabs/Enemies
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1741,16 +1741,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Audio/SFX
+  - Assets/Prefabs/Enemies
   m_LastFoldersGridSize: 96
   m_LastProjectPath: F:\Master\Proyectos\1erPoyecto\EndlessRunner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 92}
-    m_SelectedIDs: 92be0000
-    m_LastClickedID: 48786
-    m_ExpandedIDs: 0000000034ba000036ba000038ba0000
+    scrollPos: {x: 0, y: 136}
+    m_SelectedIDs: 5ae00000
+    m_LastClickedID: 57434
+    m_ExpandedIDs: 000000006cc100006ec1000070c10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1779,7 +1779,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034ba000036ba000038ba0000
+    m_ExpandedIDs: 000000006cc100006ec1000070c10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

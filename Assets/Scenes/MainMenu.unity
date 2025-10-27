@@ -203,12 +203,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 50
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 1000, y: 150}
+  m_CellSize: {x: 1920, y: 150}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 1
@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 185894861}
   - component: {fileID: 185894865}
   - component: {fileID: 185894864}
+  - component: {fileID: 185894866}
   m_Layer: 5
   m_Name: OptionButton
   m_TagString: Untagged
@@ -573,6 +574,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &185894866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185894859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_Settings
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 59747751}
 --- !u!1 &361509743
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +603,7 @@ GameObject:
   - component: {fileID: 361509745}
   - component: {fileID: 361509749}
   - component: {fileID: 361509748}
+  - component: {fileID: 361509750}
   m_Layer: 5
   m_Name: 'ExitButton '
   m_TagString: Untagged
@@ -785,6 +802,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &361509750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361509743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_ExitGame
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 1529239260}
 --- !u!1 &450550804
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +873,7 @@ GameObject:
   - component: {fileID: 474734680}
   - component: {fileID: 474734682}
   - component: {fileID: 474734681}
+  - component: {fileID: 474734683}
   m_Layer: 5
   m_Name: TitleGame
   m_TagString: Untagged
@@ -887,7 +920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Run TO HELL
+  m_text: Camino al Infierno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56a36be82fe4ac048b40ec2cccf90d09, type: 2}
   m_sharedMaterial: {fileID: -5435024078517572688, guid: 56a36be82fe4ac048b40ec2cccf90d09, type: 2}
@@ -914,12 +947,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.2
+  m_fontSize: 60
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 70
+  m_fontSizeMax: 60
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -966,6 +999,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474734679}
   m_CullTransparentMesh: 1
+--- !u!114 &474734683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474734679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_Title
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 474734681}
 --- !u!1 &502344065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,12 +1335,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 50
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1353,6 +1401,7 @@ GameObject:
   - component: {fileID: 854123251}
   - component: {fileID: 854123255}
   - component: {fileID: 854123254}
+  - component: {fileID: 854123256}
   m_Layer: 5
   m_Name: TutorialButton
   m_TagString: Untagged
@@ -1551,6 +1600,21 @@ MonoBehaviour:
   normalColor: {r: 1, g: 0.65, b: 0.23, a: 1}
   hoverColor: {r: 1, g: 0.95, b: 0.46, a: 1}
   pressedColor: {r: 0.36, g: 0.1, b: 0, a: 1}
+--- !u!114 &854123256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854123249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_tutorial
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 743632237}
 --- !u!1 &858997955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,12 +2138,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 50
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2312,12 +2376,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 50
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2410,6 +2474,7 @@ GameObject:
   - component: {fileID: 1669532727}
   - component: {fileID: 1669532730}
   - component: {fileID: 1669532731}
+  - component: {fileID: 1669532732}
   m_Layer: 5
   m_Name: 'StoreButton '
   m_TagString: Untagged
@@ -2608,6 +2673,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1669532732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669532725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_Shop
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 1279582409}
 --- !u!1001 &1751987603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2688,22 +2768,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1195239040105507789, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1195239040105507789, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1195239040105507789, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1195239040105507789, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1336718644649112435, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2754,22 +2818,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528650708404910645, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9013060877890632485, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9013060877890632485, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9013060877890632485, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9013060877890632485, guid: 22f3a1560fa38ec40bec0a8ed096d803, type: 3}
-      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3166,14 +3214,30 @@ PrefabInstance:
       propertyPath: _text
       value: button_Start
       objectReference: {fileID: 0}
+    - target: {fileID: 8700138106137550507, guid: c161711aa81369d489b30527ac89174b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 579a4b299d3e91f4695fa5e757e785af, type: 2}
     - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -7717648691887396514, guid: 579a4b299d3e91f4695fa5e757e785af, type: 2}
+    - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8742176446626522350, guid: c161711aa81369d489b30527ac89174b, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0

@@ -14,8 +14,6 @@ public class Shop : MonoBehaviour
         public Sprite _cover;
         public int price;
         public bool isPurchased = false;
-
-        [TextArea(2, 4)]
         public string description;
     }
 
@@ -26,7 +24,6 @@ public class Shop : MonoBehaviour
     private Animator _animator;
 
     private Coroutine autoHideCoroutine;
-    public TextMeshProUGUI currentDescription;
 
     [SerializeField]
     GameObject itemTemplate;
@@ -53,7 +50,9 @@ public class Shop : MonoBehaviour
             g.transform.GetChild(0).GetChild(1).GetComponent<Image>().sprite = shopItemsList[i].image;
             g.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].price.ToString();
             g.transform.GetChild(2).GetComponent<Button>().interactable = !shopItemsList[i].isPurchased;
-            g.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].description;
+            Debug.Log(shopItemsList[i].description);
+            g.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text =
+                TranslateManager.Instance.GetText(shopItemsList[i].description);
             buyButton = g.transform.GetChild(2).GetComponent<Button>();
             DataManager.Instance.LoadItems();
             buyButton.interactable = !shopItemsList[i].isPurchased;

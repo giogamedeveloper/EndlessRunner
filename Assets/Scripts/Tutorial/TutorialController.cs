@@ -148,7 +148,7 @@ public class TutorialController : MonoBehaviour
         // Mostrar mensaje de bienvenida
         if (typewriter != null)
         {
-            typewriter.StartTyping(welcomeMessage);
+            typewriter.StartTyping(TranslateManager.Instance.GetText(welcomeMessage));
         }
         yield return new WaitForSeconds(3f);
         if (playerController != null)
@@ -182,7 +182,7 @@ public class TutorialController : MonoBehaviour
         // Mostrar mensaje de salto
         if (typewriter != null)
         {
-            typewriter.StartTyping(jumpMessage);
+            typewriter.StartTyping(TranslateManager.Instance.GetText(jumpMessage));
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
             yield return new WaitForSecondsRealtime(messageDelay);
         }
@@ -217,7 +217,7 @@ public class TutorialController : MonoBehaviour
         // Mostrar mensaje de doble salto
         if (typewriter != null)
         {
-            typewriter.StartTyping(doubleJumpMessage);
+            typewriter.StartTyping(TranslateManager.Instance.GetText(doubleJumpMessage));
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
             yield return new WaitForSecondsRealtime(messageDelay);
         }
@@ -244,7 +244,7 @@ public class TutorialController : MonoBehaviour
         attackDetected = false;
         if (typewriter != null)
         {
-            typewriter.StartTyping(attackMessage);
+            typewriter.StartTyping(TranslateManager.Instance.GetText(attackMessage));
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
             yield return new WaitForSecondsRealtime(messageDelay);
             if (typewriter.IsTypingComplete())
@@ -305,7 +305,7 @@ public class TutorialController : MonoBehaviour
         // Mostrar mensaje de finalización
         if (typewriter != null)
         {
-            typewriter.StartTyping(completionMessage);
+            typewriter.StartTyping(TranslateManager.Instance.GetText(completionMessage));
             yield return new WaitUntil(() => typewriter.IsTypingComplete());
         }
 

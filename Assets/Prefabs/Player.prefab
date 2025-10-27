@@ -411,7 +411,6 @@ MonoBehaviour:
   IsPlayingTuto: 0
   maxItems: 5
   lifePlayer: {fileID: 7105412158696254859}
-  respawnPosition: {x: 0, y: 0, z: 0}
   isRespawning: 0
   tutorialReady: 1
   changeItems:

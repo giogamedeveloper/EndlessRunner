@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <main>
     <lang>
+        <string key="button_Title">Camino al Infierno</string>
         <string key="button_Start">Iniciar Partida</string>
         <string key="button_tutorial">Tutorial</string>
         <string key="button_Settings">Opciones</string>
-        <string key="button_Achievement">Logros</string>
+        <string key="button_Shop">Tienda</string>
         <string key="button_ExitGame">Salir del juego</string>
         <!--Settings-->
         <string key="text_Audio">Audio</string>
-        <string key="text_Graficos">Gráficos y lenguaje</string>
+        <string key="text_Button_Graficos">Gráficos y lenguaje</string>
         <!--Settings/Audio-->
         <string key="button_GeneralMusic">Volúmen general</string>
         <string key="button_Musica">Volúmen de la música</string>
@@ -36,23 +37,26 @@
         <!--Canvas-->
         <string key="gameOver">Has perdido!!</string>
         <string key="menuPause">Menú de pausa</string>
-        <!--Como jugar-->
        
-        <!--Extra-->
-        <string key="resetData">Restablecer los datos</string>
-        <string key="coinsObtainde">Monedas obtenidas</string>
-        <string key="collectables_PickUp">Colectables adquiridos</string>
-        <string key="enemiesKilled">Enemigos matados</string>
-        <string key="maxStepsScore">Puntuación máxima de pasos</string>
-        <string key="finalStepsScore">Puntuación final de pasos</string>
-        <string key="maxScore">Puntuación máxima</string>
-        <string key="actualRecord">Record Actual</string>
+        <!--Tutorial-->
+        <string key="welcome">¡Bienvenido al tutorial! 
+            El movimineto será automático</string>
+        <string key="jump">Pulsa SPACE para saltar obstáculos y obtener puntos.</string>
+        <string key="doubleJump">Haz un doble salto para obtener el coleccionable.</string>
+        <string key="attack">Acércate a un enemigo y pulsa Control Izq para derrotarlo.</string>
+        <string key="finishTuto">¡Tutorial Finalizado!
+            Regresando al menú principal...</string>
+        <!--Habilidades-->
+        <string key="blueFlame">LLama azul, que te proporciona un escudo</string>
+        <string key="waterPurify">Agua purificadora, elimina a todos los enemigos</string>
+        <string key="evadBull">Restaura un corazón de salud</string>
+        <string key="bible">Añade un corazón a la salud máxima</string>
+        <string key="redFlame">Flama que te otorga inmoratlidad (Ratio 20%)</string>
         <!--Cheats-->
         <string key="cheats">Trucos</string>
         <string key="activatePowerUp">Activar Habilidad</string>
         <string key="close">Cerrar</string>
         <string key="manyCoins">Muchas monedas del infierno</string>
         <string key="timeScale">Escala de tiempo</string>
-        <!--Tutorial-->
     </lang>
 </main>

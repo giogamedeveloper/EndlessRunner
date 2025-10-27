@@ -270,6 +270,7 @@ public class GameManager : MonoBehaviour
 
     private void AddItem(int quantity)
     {
+        if (itemsIco.Count < 1) return;
         for (int i = 0; i <= quantity; i++)
         {
             currentIndex = i;
@@ -308,6 +309,16 @@ public class GameManager : MonoBehaviour
     {
         player = FindFirstObjectByType<PlayerController>();
         stepsCount = MathF.Round(player.transform.position.x + 3);
+        if (stepsCount > 500f)
+        {
+            player.acceleration = 10f;
+            player.maxSpeed = 8f;
+        }
+        else if (stepsCount > 1000f)
+        {
+            player.acceleration = 12f;
+            player.maxSpeed = 10f;
+        }
         stepsText.text = stepsCount.ToString("00");
     }
 
@@ -322,8 +333,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void EndGame()
     {
-        Debug.Log("entra");
-
         enemiesDefeatCount = player.EnemyCount;
         //If we have surpassed the current record we show the new record text and store the new maximum score.
         if (((int)MathF.Round(stepsCount) + collectableCount + enemiesDefeatCount) > DataManager.Instance.maxScore)

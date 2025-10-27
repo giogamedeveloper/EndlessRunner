@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxScore: 0
   enemies: 0
-  maxHp: 2
+  maxHp: 0
   coins: 0
   volume: 0
   maxStepsScore: 0
@@ -215,18 +215,8 @@ MonoBehaviour:
   stepsText: {fileID: 0}
   currentIndex: 1
   quantityItems: 0
-  itemsIco:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  itemsImage:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  itemsIco: []
+  itemsImage: []
   quantityText: []
   inventoryContent: {fileID: 0}
   ItemsObject:
@@ -308,11 +298,17 @@ MonoBehaviour:
   sectionPrefabs:
   - {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
   - {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
-  - {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
+  - {fileID: 217709643176528963, guid: cc83bf9009488714bb4ffb3fda120695, type: 3}
   - {fileID: 217709643176528963, guid: 83a7cd9f144de09438f213c562385bf1, type: 3}
+  - {fileID: 217709643176528963, guid: cc83bf9009488714bb4ffb3fda120695, type: 3}
   - {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
+  - {fileID: 217709643176528963, guid: d23e94673ed76004c828bacc4d4c8b1b, type: 3}
+  - {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
+  - {fileID: 217709643176528963, guid: cc83bf9009488714bb4ffb3fda120695, type: 3}
+  - {fileID: 217709643176528963, guid: 83a7cd9f144de09438f213c562385bf1, type: 3}
+  - {fileID: 217709643176528963, guid: 5d9096e93927cdd4aae0fca44fac6740, type: 3}
   sectionContainer: {fileID: 0}
-  currentSection: {fileID: 217709643176528963, guid: f622ea3349e7cfe47954739a52b3212c, type: 3}
+  currentSection: {fileID: 217709643176528963, guid: f08d77ee84c518547b894bc8fd72a615, type: 3}
   initialLoad: 4
 --- !u!1 &5066972984774820115
 GameObject:

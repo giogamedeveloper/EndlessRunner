@@ -45,36 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de1e5e786f15114cb495f941615ce23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: -2, y: -1.6, z: 0}
-  respawnDelay: 3
   playerController: {fileID: 0}
   typewriter: {fileID: 4646561010968718609}
   sceneController: {fileID: 0}
-  welcomeMessage: "\xA1Bienvenido al tutorial!\nEl movimineto ser\xE1 autom\xE1tico"
-  jumpMessage: "Pulsa SPACE para saltar obst\xE1culos u obtener puntos, Toma ese
-    encima de t\xED"
-  doubleJumpMessage: En el aire, presiona Space de nuevo para un salto doble y comencemos.
-  attackMessage: "Ac\xE9rcate a un enemigo y pulsa Control Izq para derrotarlo."
-  completionMessage: "\xA1Tutorial Finalizado!\nRegresando al men\xFA principal..."
+  welcomeMessage: welcome
+  jumpMessage: jump
+  doubleJumpMessage: doubleJump
+  attackMessage: attack
+  completionMessage: finishTuto
   completionDelay: 3
   messageDelay: 1
-  inputWaitTime: 3
-  reloadSceneOnDeath: 0
   OnTutorialStart:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: SetTutorialMode
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ChangeTimeScale
@@ -90,18 +73,6 @@ MonoBehaviour:
   OnTutorialComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: SetTutorialMode
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ChangeTimeScale
@@ -126,11 +97,7 @@ MonoBehaviour:
           m_StringArgument: MainMenu
           m_BoolArgument: 1
         m_CallState: 2
-  OnPlayerRespawn:
-    m_PersistentCalls:
-      m_Calls: []
   isTutorialActive: 0
-  attackDetected: 0
 --- !u!114 &4646561010968718609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messageText: {fileID: 0}
   typingSpeed: 0.05
+  _panel: {fileID: 0}
   OnTypingComplete:
     m_PersistentCalls:
       m_Calls:

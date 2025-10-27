@@ -6,6 +6,9 @@ public class TranslateText : MonoBehaviour
     [SerializeField]
     private string _text;
 
+    [SerializeField]
+    private TMP_Dropdown _dropdown;
+
     [SerializeField] TextMeshProUGUI _textMesh;
 
     void OnEnable()
@@ -26,6 +29,11 @@ public class TranslateText : MonoBehaviour
 
     public void ChangeText()
     {
+        if (_dropdown != null)
+        {
+            _textMesh.text = _dropdown.options[_dropdown.value].text;
+            Debug.Log(_textMesh.text);
+        }
         _textMesh.text = TranslateManager.Instance.GetText(_text);
     }
 }

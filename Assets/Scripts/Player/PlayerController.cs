@@ -79,9 +79,6 @@ public class PlayerController : MonoBehaviour
 
     public LifePlayer lifePlayer;
 
-    [Header("Respawn")]
-    public Vector3 respawnPosition;
-
     public bool isRespawning = false;
 
     [Header("Tutorial")]
@@ -151,18 +148,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
         {
             ToggleAutoMove();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            SetAutoMove(true);
-            Debug.Log("Movimiento automático ACTIVADO");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha0))
-        {
-            SetAutoMove(false);
-            Debug.Log("Movimiento automático DESACTIVADO");
         }
 #endif
     }
@@ -293,8 +278,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        // === MODO AUTOMÁTICO ===
-
         // Aceleración hacia la velocidad máxima
         if (Mathf.Abs(_rb2d.linearVelocityX - maxSpeed) > 0.1f)
         {
@@ -340,57 +323,6 @@ public class PlayerController : MonoBehaviour
         //If the player falls below the indicated height.
         if (transform.position.y < deadLimit) Dead();
     }
-
-    public void Respawn(Vector3 position)
-    {
-        if (isRespawning) return;
-
-        isRespawning = true;
-        isDead = false;
-
-        // Detener movimiento
-        isAutoMove = false;
-        _rb2d.linearVelocity = Vector3.zero;
-        _rb2d.angularVelocity = 0f;
-
-        // Reposicionar
-        transform.position = position;
-        // Resetear animaciones
-        _animator.SetBool("dead", false);
-        _animator.Play("Idle", 0, 0f);
-        // Reactivar controles después de un breve delay
-        StartCoroutine(EnableAfterRespawn());
-    }
-
-    private IEnumerator EnableAfterRespawn()
-    {
-        // Esperar a que las secciones se estabilicen
-        yield return new WaitForSeconds(0.3f);
-
-        // ✅ Esperar a que la primera sección esté en posición correcta
-        if (IsPlayingTuto)
-        {
-            yield return new WaitUntil(() =>
-            {
-                if (SectionManager.Instance != null && SectionManager.Instance.currentSection != null)
-                {
-                    float distance = Vector3.Distance(transform.position,
-                        SectionManager.Instance.currentSection.transform.position);
-                    return distance < 10f; // Ajusta este valor según necesites
-                }
-                return true;
-            });
-        }
-
-        isAutoMove = true;
-        isRespawning = false;
-
-        Debug.Log("Respawn completado - Player listo");
-    }
-
-    /// <summary>
-    /// Execute the player's death actions.
-    /// </summary>
     private void Dead()
     {
         if (IsPlayingTuto)
