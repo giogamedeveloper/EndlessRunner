@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Section.cs" />
     <Compile Include="Assets\Scripts\MoveTowards.cs" />
     <Compile Include="Assets\Scripts\Player\TargetingItem.cs" />
+    <Compile Include="Assets\Scripts\Enemies\PlayerDetector.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsManager.cs" />
     <Compile Include="Assets\Scripts\UI\HoverDescription.cs" />
     <Compile Include="Assets\Scripts\CameraTracker.cs" />

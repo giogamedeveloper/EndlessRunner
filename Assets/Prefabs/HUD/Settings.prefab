@@ -6892,6 +6892,7 @@ GameObject:
   - component: {fileID: 3712429203832035828}
   - component: {fileID: 2991116967143763217}
   - component: {fileID: 3365826771668259782}
+  - component: {fileID: 8542617321860823183}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -7090,6 +7091,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &8542617321860823183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994887108384996251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9e415ce0b4fc3438e3a1f5bb32ae96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: button_Back
+  _dropdown: {fileID: 0}
+  _textMesh: {fileID: 1482411754100086286}
 --- !u!1 &7016446344420172028
 GameObject:
   m_ObjectHideFlags: 0

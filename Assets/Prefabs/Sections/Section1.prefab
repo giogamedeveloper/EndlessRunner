@@ -1338,7 +1338,7 @@ Transform:
   m_GameObject: {fileID: 3438211521831398830}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.5269, y: -1.627608, z: 0.11428422}
+  m_LocalPosition: {x: 2.73, y: -4.94, z: 0.11428422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1440,10 +1440,11 @@ Transform:
   m_GameObject: {fileID: 4145583431517666586}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.73, y: -3.72, z: -0.11428422}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5997438, y: 0.6312459, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6767994706269595538}
   m_Father: {fileID: 8846693098196749081}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1939902872315524872
@@ -2169,7 +2170,6 @@ Transform:
   - {fileID: 1019409976829253481}
   - {fileID: 3748662055891406427}
   - {fileID: 5022226415253071523}
-  - {fileID: 6767994706269595538}
   - {fileID: 100923461747160878}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2205,7 +2205,7 @@ GameObject:
   m_Layer: 0
   m_Name: RandomSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 2800000, guid: e0a129ec7b516d94aba4d29f1640b218, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2265,11 +2265,11 @@ Transform:
   m_GameObject: {fileID: 6766413550759775604}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.68, y: -5.37, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6251001, y: 1, z: 1.5841687}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5058930437150982717}
+  m_Father: {fileID: 5198699268668107883}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &6855560355876653136
 ParticleSystem:
@@ -7105,7 +7105,7 @@ GameObject:
   m_Layer: 0
   m_Name: RandomSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 2800000, guid: 8f0dc20d9e7ace0478fa09a821b8b958, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

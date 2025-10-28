@@ -1,11 +1,12 @@
 using System.Threading.Tasks;
-using NUnit.Framework;
 using UnityEngine;
 
 public class EnemyDead : MonoBehaviour, ISDamageable
 {
     [SerializeField]
     private Collider2D coll2D;
+
+    
 
     [SerializeField]
     private SpriteRenderer spriteRenderer;
@@ -27,19 +28,22 @@ public class EnemyDead : MonoBehaviour, ISDamageable
     //After the enemy's death animation event is over, this method is invoked.
     public async void Disappears()
     {
-        
+
         coll2D.enabled = false;
         await Task.Delay(200);
         KillEnemy();
 
     }
 
+
+
     /// <summary>
     /// This method is called from the player's controller to indicate that an enemy has been eliminated.
     /// </summary>
-    public void KillEnemy()
+    public async void KillEnemy()
     {
         _animator.SetBool("isDead", true);
+        await Task.Delay(200);
         spriteRenderer.enabled = false;
 
     }

@@ -45,12 +45,10 @@ public class Shop : MonoBehaviour
         for (int i = 0; i < shopItemsList.Count; i++)
         {
             g = Instantiate(itemTemplate, shopScrollView);
-            // Debug.Log(g.transform.GetChild(0).GetChild(0).name);
             g.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = shopItemsList[i]._cover;
             g.transform.GetChild(0).GetChild(1).GetComponent<Image>().sprite = shopItemsList[i].image;
             g.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = shopItemsList[i].price.ToString();
             g.transform.GetChild(2).GetComponent<Button>().interactable = !shopItemsList[i].isPurchased;
-            Debug.Log(shopItemsList[i].description);
             g.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text =
                 TranslateManager.Instance.GetText(shopItemsList[i].description);
             buyButton = g.transform.GetChild(2).GetComponent<Button>();

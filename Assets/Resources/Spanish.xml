@@ -34,6 +34,7 @@
         <string key="button_BackMM">Regresar al Menú principal</string>
         <string key="button_Reanude">Reanudar juego</string>
         <string key="button_Restar">Reinciar juego</string>
+        <string key="resetData">Resetar datos</string>
         <!--Canvas-->
         <string key="gameOver">Has perdido!!</string>
         <string key="menuPause">Menú de pausa</string>
@@ -51,7 +52,17 @@
         <string key="waterPurify">Agua purificadora, elimina a todos los enemigos</string>
         <string key="evadBull">Restaura un corazón de salud</string>
         <string key="bible">Añade un corazón a la salud máxima</string>
-        <string key="redFlame">Flama que te otorga inmoratlidad (Ratio 20%)</string>
+        <string key="redFlame">Flama que te otorga inmortalidad (Ratio 20%)</string>
+        <!--End-Game-->
+        <string key="actualRecord">Record actual</string>
+        <string key="maxStepsScore">Record de pasos</string>
+        <string key="finalStepsScore">Total de pasos</string>
+        <string key="enemiesKilled">Enemigos asesinados</string>
+        <string key="collectables_PickUp">Colectables obtenidos</string>
+        <string key="maxScore">Máxima puntuación</string>
+        <string key="coinsObtainde">Monedas obtenidas</string>
+        <string key="newStepRecord">Nuevo record de pasos</string>
+        <string key="newScoreRecord">Nuevo record de puntos</string>
         <!--Cheats-->
         <string key="cheats">Trucos</string>
         <string key="activatePowerUp">Activar Habilidad</string>

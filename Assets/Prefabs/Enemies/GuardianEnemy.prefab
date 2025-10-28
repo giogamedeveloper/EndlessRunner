@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 1606077116130274979}
   - component: {fileID: 8196898703935201010}
   - component: {fileID: 633916885787275119}
+  - component: {fileID: 3599743226049910574}
   m_Layer: 0
   m_Name: GuardianEnemy
   m_TagString: Enemies
@@ -268,3 +269,24 @@ MonoBehaviour:
   coll2D: {fileID: 1606077116130274979}
   spriteRenderer: {fileID: 6898400983190621237}
   _animator: {fileID: 7941032756656550518}
+--- !u!114 &3599743226049910574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509347233059948809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f54273f293c4a4e9d810acb0ab041c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionDistance: 5
+  _enemyDead: {fileID: 633916885787275119}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  rayDirection: {x: -1, y: 0}
+  enemyTransform: {fileID: 3609427289541214594}
+  spriteRenderer: {fileID: 6898400983190621237}
+  autoSize: 0.01

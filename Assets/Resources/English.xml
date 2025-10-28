@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <main>
     <lang>
-        <string key="button_Title">Run to Hell</string>
+        <string key="button_Title">Road to Hell</string>
         <string key="button_Start">Start Game</string>
         <string key="button_tutorial">Tutorial</string>
         <string key="button_Settings">Settings</string>
@@ -14,9 +14,9 @@
         <string key="button_GeneralMusic">Master Volume</string>
         <string key="button_Musica">Music Volume</string>
         <string key="button_SFX">Sound Effects Volume</string>
-        <string key="text_GeneralMusic">Adjusts the game's overall volume.</string>
-        <string key="text_Musica">Adjusts the overall volume of the music.</string>
-        <string key="text_SFX">Adjusts the volume of the sound effects.</string>
+        <string key="text_GeneralMusic">Adjusts the overall game volume.</string>
+        <string key="text_Musica">Adjusts the overall music volume.</string>
+        <string key="text_SFX">Adjusts the sound effects volume.</string>
         <!--Settings/Graphics and Language-->
         <string key="button_Idioma">Language</string>
         <string key="option_IdiomaI">Spanish</string>
@@ -27,13 +27,14 @@
         <string key="option_GraficosIII">Low</string>
         <string key="button_Resolucion">Resolution</string>
         <string key="text_Idioma">You can choose between Spanish or English to play in your preferred language.</string>
-        <string key="textGraficosDescription">Adjust the graphics to a level you feel most comfortable playing with.</string>
-        <string key="text_Resolucion">Adjust the resolution to one you feel most comfortable playing with.</string>
+        <string key="textGraficosDescription">Adjust the graphics to what you feel most comfortable playing with.</string>
+        <string key="text_Resolucion">Adjust the resolution to what you feel most comfortable playing with.</string>
         <!--Pause Menu-->
         <string key="button_Back">Back</string>
         <string key="button_BackMM">Return to Main Menu</string>
         <string key="button_Reanude">Resume Game</string>
         <string key="button_Restar">Restart Game</string>
+        <string key="resetData">Reset Data</string>
         <!--Canvas-->
         <string key="gameOver">Game Over!!</string>
         <string key="menuPause">Pause Menu</string>
@@ -41,17 +42,27 @@
         <!--Tutorial-->
         <string key="welcome">Welcome to the tutorial!
             Movement will be automatic.</string>
-        <string key="jump">Press SPACE to jump over obstacles and get points.</string>
+        <string key="jump">Press SPACE to jump over obstacles and earn points.</string>
         <string key="doubleJump">Perform a double jump to get the collectible.</string>
-        <string key="attack">Get close to an enemy and press Left Control to defeat it.</string>
+        <string key="attack">Approach an enemy and press Left Control to defeat it.</string>
         <string key="finishTuto">Tutorial Completed!
             Returning to main menu...</string>
         <!--Abilities/Power-ups-->
-        <string key="blueFlame">Blue Flame, which provides you with a shield.</string>
+        <string key="blueFlame">Blue Flame, provides you with a shield.</string>
         <string key="waterPurify">Purifying Water, eliminates all enemies.</string>
         <string key="evadBull">Restores one health heart.</string>
         <string key="bible">Adds one heart to maximum health.</string>
-        <string key="redFlame">Flame that grants you immortality (20% Chance)</string>
+        <string key="redFlame">Flame that grants immortality (20% Chance)</string>
+        <!--End-Game-->
+        <string key="actualRecord">Current Record</string>
+        <string key="maxStepsScore">Steps Record</string>
+        <string key="finalStepsScore">Total Steps</string>
+        <string key="enemiesKilled">Enemies Killed</string>
+        <string key="collectables_PickUp">Collectables Obtained</string>
+        <string key="maxScore">High Score</string>
+        <string key="coinsObtainde">Coins Obtained</string>
+        <string key="newStepRecord">New Steps Record</string>
+        <string key="newScoreRecord">New Score Record</string>
         <!--Cheats-->
         <string key="cheats">Cheats</string>
         <string key="activatePowerUp">Activate Power-Up</string>

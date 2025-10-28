@@ -145,7 +145,7 @@ public class PlayerController : MonoBehaviour
         CheckLimitDead();
 
 #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             ToggleAutoMove();
         }
@@ -323,6 +323,7 @@ public class PlayerController : MonoBehaviour
         //If the player falls below the indicated height.
         if (transform.position.y < deadLimit) Dead();
     }
+
     private void Dead()
     {
         if (IsPlayingTuto)
