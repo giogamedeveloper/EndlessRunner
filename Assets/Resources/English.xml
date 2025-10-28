@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <main>
     <lang>
-        <string key="button_Title">Road to Hell</string>
+        <string key="button_Title">Run to Hell</string>
         <string key="button_Start">Start Game</string>
         <string key="button_tutorial">Tutorial</string>
         <string key="button_Settings">Settings</string>

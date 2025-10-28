@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <main>
     <lang>
-        <string key="button_Title">Camino al Infierno</string>
+        <string key="button_Title">Corre al Infierno</string>
         <string key="button_Start">Iniciar Partida</string>
         <string key="button_tutorial">Tutorial</string>
         <string key="button_Settings">Opciones</string>
