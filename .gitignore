@@ -63,10 +63,18 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-
 *.apk
 *.aab
 *.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# =====================
+# IDE CONFIGURATIONS
+# =====================
+# JetBrains Rider IDE
+.idea/
+
+# Visual Studio Code IDE
+.vscode/
