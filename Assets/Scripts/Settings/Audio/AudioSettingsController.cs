@@ -18,6 +18,18 @@ public class AudioSettingsController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI descriptionGeneral;
 
+    void Start()
+    {
+        // Establecer valores iniciales
+        musicVolumeSlider.value = AudioController.Instance.GetMusicVolume();
+        masterVolumeSlider.value = AudioController.Instance.GetGeneralVolume();
+        sfxVolumeSlider.value = AudioController.Instance.GetEffectVolume();
+    
+        // Asignar listeners
+        musicVolumeSlider.onValueChanged.AddListener(AudioController.Instance.SetMusicVolume);
+        masterVolumeSlider.onValueChanged.AddListener(AudioController.Instance.SetGeneralVolume);
+        sfxVolumeSlider.onValueChanged.AddListener(AudioController.Instance.SetEffectVolume);
+    }
     public void TextDescriptionMusic()
     {
         descriptionSFX.gameObject.SetActive(true);

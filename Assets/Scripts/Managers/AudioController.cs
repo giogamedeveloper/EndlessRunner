@@ -15,7 +15,7 @@ public class AudioController : MonoBehaviour
         public float volume;
     }
 
-    public AudioMixer audioMixer;
+    // public AudioMixer audioMixer;
     [SerializeField] AudioClip _menuMusic;
     [SerializeField] AudioClip _gameMusic;
 
@@ -28,8 +28,6 @@ public class AudioController : MonoBehaviour
     private static AudioController _instance;
     public static AudioController Instance => _instance;
 
-    [SerializeField]
-    private float volume;
 
     [SerializeField]
     private float generalVolume;
@@ -60,25 +58,24 @@ public class AudioController : MonoBehaviour
             musicVolume = PlayerPrefs.GetFloat("Music", 1f);
             sfxVolume = PlayerPrefs.GetFloat("SFX", 1f);
 
-            SetAudioMixerVolumes();
+            ApplyAllVolumes(); // ✅ Nuevo método para aplicar todos los volúmenes
+            // DontDestroyOnLoad(gameObject); // ✅ Importante para persistir entre escenas
         }
         else
         {
             Destroy(gameObject);
+
         }
         SetMusicForScene(SceneManager.GetActiveScene().name);
-        musicAudioSource.Play();
+        if (!musicAudioSource.isPlaying)
+            musicAudioSource.Play();
     }
 
-    private void SetAudioMixerVolumes()
+    private void ApplyAllVolumes()
     {
-        float gVolume = Mathf.Max(generalVolume, 0.0001f);
-        float mVolume = Mathf.Max(musicVolume, 0.0001f);
-        float sVolume = Mathf.Max(sfxVolume, 0.0001f);
-
-        audioMixer.SetFloat("GeneralMusic", Mathf.Log10(gVolume) * 20);
-        audioMixer.SetFloat("Music", Mathf.Log10(mVolume) * 20);
-        audioMixer.SetFloat("SFX", Mathf.Log10(sVolume) * 20);
+        // Aplicar volúmenes según tu enfoque elegido
+        musicAudioSource.volume = musicVolume * generalVolume;
+        soundsAudioSource.volume = sfxVolume * generalVolume;
     }
 
     public void PlaySound(string name)
@@ -122,14 +119,12 @@ public class AudioController : MonoBehaviour
             if (musicAudioSource.clip == _menuMusic) return;
             if (fadeCorutine != null) StopCoroutine(fadeCorutine);
             fadeCorutine = StartCoroutine(FadeAndChangeClip(_menuMusic));
-            // musicAudioSource.clip = _menuMusic;
         }
         else if (sceneName == "Game")
         {
             if (musicAudioSource.clip == _gameMusic) return;
             if (fadeCorutine != null) StopCoroutine(fadeCorutine);
             fadeCorutine = StartCoroutine(FadeAndChangeClip(_gameMusic));
-            // musicAudioSource.clip = _gameMusic;
         }
 
         if (!musicAudioSource.isPlaying)
@@ -138,27 +133,30 @@ public class AudioController : MonoBehaviour
         }
     }
 
-    public void SetMusicVolume(float _volume)
+    public void SetGeneralVolume(float _volume)
     {
-        volume = Mathf.Log10(_volume) * 20;
-        PlayerPrefs.SetFloat("Music", _volume);
-        audioMixer.SetFloat("Music", volume);
+        generalVolume = _volume;
+        PlayerPrefs.SetFloat("GeneralMusic", _volume);
+        ApplyAllVolumes();
+        musicAudioSource.volume = musicVolume * generalVolume;
+        soundsAudioSource.volume = sfxVolume * generalVolume;
         PlayerPrefs.Save();
     }
 
-    public void SetGeneralVolume(float _volume)
+    public void SetMusicVolume(float _volume)
     {
-        volume = Mathf.Log10(_volume) * 20;
-        PlayerPrefs.SetFloat("GeneralMusic", _volume);
-        audioMixer.SetFloat("GeneralMusic", volume);
+        musicVolume = _volume;
+        PlayerPrefs.SetFloat("Music", _volume);
+        musicAudioSource.volume = _volume;
         PlayerPrefs.Save();
     }
+
 
     public void SetEffectVolume(float _volume)
     {
-        volume = Mathf.Log10(_volume) * 20;
+        sfxVolume = _volume;
         PlayerPrefs.SetFloat("SFX", _volume);
-        audioMixer.SetFloat("SFX", volume);
+        soundsAudioSource.volume = _volume * generalVolume;
         PlayerPrefs.Save();
     }
 
@@ -225,5 +223,19 @@ public class AudioController : MonoBehaviour
             yield return null;
         }
         musicAudioSource.pitch = target;
+    }
+    public float GetMusicVolume() 
+    {
+        return musicVolume;
+    }
+
+    public float GetGeneralVolume() 
+    {
+        return generalVolume;
+    }
+
+    public float GetEffectVolume() 
+    {
+        return sfxVolume;
     }
 }
