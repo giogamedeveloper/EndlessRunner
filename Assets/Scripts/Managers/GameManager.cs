@@ -44,38 +44,6 @@ public class GameManager : MonoBehaviour
     public Transform inventoryContent;
     public List<GameObject> ItemsObject;
 
-    [SerializeField]
-    private CanvasGroup hud;
-
-    [Header("UI")]
-    [Header("End Game Menu")]
-    [SerializeField]
-    private CanvasGroup endGameMenu;
-
-    [SerializeField]
-    private TextMeshProUGUI maxStepsScoreText;
-
-    [SerializeField]
-    private TextMeshProUGUI finalStepsScoreText;
-
-    [SerializeField]
-    private TextMeshProUGUI enemiesKilledText;
-
-    [SerializeField]
-    private TextMeshProUGUI totalPickUpText;
-
-    [SerializeField]
-    private TextMeshProUGUI maxScoreText;
-
-    [SerializeField]
-    private TextMeshProUGUI coinsText;
-
-    [SerializeField]
-    private TextMeshProUGUI newStepsRecordText;
-
-    [SerializeField]
-    private TextMeshProUGUI newFinalRecordText;
-
     [Header("Pause Menu")]
     [SerializeField]
     private CanvasGroup pauseMenu;
@@ -121,14 +89,9 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        if (maxScoreText != null)
-            maxScoreText.text = DataManager.Instance.maxScore.ToString();
-        if (maxStepsScoreText != null)
-            maxStepsScoreText.text = DataManager.Instance.maxStepsScore.ToString();
+        HuDManager.Instance.ShowMaxScores();
         //Initialize the interface.
-        hud.Active(true);
-        if (endGameMenu != null)
-            endGameMenu.Active(false);
+        HuDManager.Instance.ShowHUD(true);
         pauseMenu.Active(false);
         ToggleInputs(true);
         AddItemToInventory();
@@ -300,7 +263,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateCollectableText()
     {
-        collectableText.text = ScoreSystem.Instance.CollectableCount.ToString("00");
+        HuDManager.Instance.UpdateCollectableText(ScoreSystem.Instance.CollectableCount);
     }
 
     public void UpdateStepsText()
@@ -317,7 +280,7 @@ public class GameManager : MonoBehaviour
             player.maxSpeed = 8f;
         }
 
-        stepsText.text = ScoreSystem.Instance.StepsCount.ToString("00");
+        HuDManager.Instance.UpdateStepsText(ScoreSystem.Instance.StepsCount);
     }
 
     public void PickUpCollectable(int value)
@@ -331,19 +294,13 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         ScoreSystem.Instance.SetEnemiesDefeated(player.EnemyCount);
-
-        newFinalRecordText.enabled = ScoreSystem.Instance.IsNewScoreRecord();
-        newStepsRecordText.enabled = ScoreSystem.Instance.IsNewStepsRecord();
-        finalStepsScoreText.text = ScoreSystem.Instance.StepsCount.ToString("00");
-        totalPickUpText.text = ScoreSystem.Instance.CollectableCount.ToString("00");
-        enemiesKilledText.text = ScoreSystem.Instance.EnemiesDefeated.ToString("00");
-        coinsText.text = ScoreSystem.Instance.Coins.ToString("00");
+        HuDManager.Instance.ShowEndGame(ScoreSystem.Instance.IsNewScoreRecord(), ScoreSystem.Instance.IsNewStepsRecord(),
+            ScoreSystem.Instance.StepsCount, ScoreSystem.Instance.CollectableCount, ScoreSystem.Instance.EnemiesDefeated,
+            ScoreSystem.Instance.Coins);
 
         ScoreSystem.Instance.SaveRecords();
         //We deactivate the HUD.
-        hud.Active(false);
-        //We activate the end of game menu.
-        endGameMenu.Active(true);
+        HuDManager.Instance.ShowHUD(false);
         ToggleInputs(false);
         // MusicManager.Instance.PitchSlow();
     }

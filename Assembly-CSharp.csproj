@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\RandomObjectSpawnPoint.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerFeedback.cs" />
     <Compile Include="Assets\Scripts\SpriteFlash.cs" />
+    <Compile Include="Assets\Scripts\Managers\HuDManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ParticleManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\MenuStore\Game.cs" />
