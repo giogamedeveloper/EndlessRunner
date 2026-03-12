@@ -324,7 +324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22c3a5e2fc8662408d35b51138ad467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 189440259}
   player: {fileID: 4526787245840691700}
   section: {fileID: 1072552462}
 --- !u!222 &26892181
@@ -10128,6 +10127,19 @@ MonoBehaviour:
   newFinalRecordText: {fileID: 837183651}
   maxStepsScoreText: {fileID: 1662079833}
   maxScoreText: {fileID: 196988266}
+  currentIndex: 0
+  quantityItems: 0
+  itemsIco: []
+  itemsImage: []
+  quantityText:
+  - {fileID: 6493110668339067177, guid: 9ecf452f86fb68a43853362ab7e117a9, type: 3}
+  inventoryContent: {fileID: 26892175}
+  ItemsObject:
+  - {fileID: 1662990678566168523, guid: 979e24442085e5e478e4a31d196a1833, type: 3}
+  - {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+  - {fileID: 1662990678566168523, guid: 86ee087c49762584d9dd293c37466f3c, type: 3}
+  - {fileID: 1662990678566168523, guid: 7d631fbe2bd5dc1498cd7f66c6942575, type: 3}
+  - {fileID: 1662990678566168523, guid: eeede18dfef81d549a79019ec2d8783f, type: 3}
 --- !u!1 &1045600019
 GameObject:
   m_ObjectHideFlags: 0

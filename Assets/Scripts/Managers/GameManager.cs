@@ -10,13 +10,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     #region Variables
-
-    public struct ItemInventory
-    {
-        public Sprite Image;
-        public int Quantity;
-    }
-
     [Header("Tutorial")]
     public TutorialController tutorialController;
 
@@ -25,18 +18,7 @@ public class GameManager : MonoBehaviour
     [Header("Game parameters")]
     public InputActionAsset actionAssets;
 
-    [Header("HUD")]
-    public int currentIndex;
-
-    public int quantityItems;
-    public List<Image> itemsIco;
-    public List<Image> itemsImage;
-
-    public List<TextMeshProUGUI> quantityText;
-    public ItemInventory[] itemInventory = new ItemInventory[5];
-    public Transform inventoryContent;
-    public List<GameObject> ItemsObject;
-
+    
     [Header("Pause Menu")]
     [SerializeField]
     private CanvasGroup pauseMenu;
@@ -68,7 +50,7 @@ public class GameManager : MonoBehaviour
 
         }
         Instance = this;
-        player.changeItems.AddListener(changeItems);
+        player.changeItems.AddListener(HuDManager.Instance.ChangeItems);
 
     }
 
@@ -85,8 +67,8 @@ public class GameManager : MonoBehaviour
         HuDManager.Instance.ShowHUD(true);
         pauseMenu.Active(false);
         ToggleInputs(true);
-        AddItemToInventory();
-        AddItemsToHUD();
+        HuDManager.Instance.AddItemToInventory();
+        HuDManager.Instance.AddItemsToHUD();
         if (player != null && player.IsPlayingTuto && !skipTutorial)
         {
             InitializeTutorial();
@@ -156,81 +138,7 @@ public class GameManager : MonoBehaviour
         ChangeTimeScale(1f);
     }
 
-    private void AddItemsToHUD()
-    {
-        if (quantityItems > 0) createSlotsItems(quantityItems);
-        else changeItems(quantityItems);
-    }
-
-    private void createSlotsItems(int quantityItems)
-    {
-        for (int i = 0; i < quantityItems; i++)
-        {
-            if (inventoryContent == null) return;
-            if (ItemsObject[i] == null) continue;
-
-            GameObject itemObject = Instantiate(ItemsObject[i], inventoryContent);
-
-            // El objeto instanciado es el MARCO
-
-            // Los hijos son Text e Image
-            Image marcoImage = itemObject.transform.GetChild(0).GetComponent<Image>();
-            Image iconoImage = itemObject.transform.GetChild(1).GetComponent<Image>();
-            TextMeshProUGUI textComponent = itemObject.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
-            Debug.Log(textComponent);
-            // Añadir a las listas
-            itemsIco.Add(marcoImage); // MARCO
-            itemsImage.Add(iconoImage); // ICONO
-            quantityText.Add(textComponent); // TEXTO
-
-            // Configurar
-            if (itemInventory[i].Quantity == 0)
-            {
-                marcoImage.enabled = false;
-                textComponent.enabled = false;
-                iconoImage.enabled = false;
-            }
-            else
-            {
-                textComponent.text = itemInventory[i].Quantity.ToString();
-            }
-        }
-        currentIndex = quantityItems;
-    }
-
-    private void changeItems(int quantityItems)
-    {
-        if (quantityItems < currentIndex) QuitItem(quantityItems);
-        else AddItem(quantityItems);
-    }
-
-    public void QuitItem(int quantityItems)
-    {
-        for (int i = 0; i < quantityItems; i--)
-        {
-            currentIndex = i;
-            itemsIco[currentIndex].sprite = itemsImage[currentIndex].sprite;
-            quantityText[currentIndex].text = itemInventory[currentIndex].Quantity.ToString();
-        }
-    }
-
-    public void UpdateItems(int index)
-    {
-        itemsIco[index].enabled = false;
-        quantityText[index].enabled = false;
-    }
-
-    private void AddItem(int quantity)
-    {
-        if (itemsIco.Count < 1) return;
-        for (int i = 0; i <= quantity; i++)
-        {
-            currentIndex = i;
-            itemsIco[currentIndex].sprite = itemsImage[currentIndex].sprite;
-            quantityText[currentIndex].text = itemInventory[currentIndex].Quantity.ToString();
-        }
-    }
-
+    
     public void OnPause(InputAction.CallbackContext context)
     {
         if (context.started && !player.IsDead) PauseMenu(!isPaused);
@@ -330,16 +238,6 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = scale;
     }
-
-    public void AddItemToInventory()
-    {
-        DataManager.Instance.LoadItems();
-        for (int i = 0; i < itemInventory.Length; i++)
-        {
-            itemInventory[i].Quantity = DataManager.Instance.itemInventory[i].Quantity;
-            if (itemInventory[i].Quantity > 0) quantityItems++;
-        }
-    }
-
+   
     #endregion
 }
