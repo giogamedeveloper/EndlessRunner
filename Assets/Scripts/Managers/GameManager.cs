@@ -31,9 +31,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI stepsText;
 
-    private int collectableCount = 0;
-    private float stepsCount = 1f;
-    private int enemiesDefeatCount = 0;
 
     [Header("HUD")]
     public int currentIndex;
@@ -70,8 +67,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI maxScoreText;
 
-    private float coins;
-
     [SerializeField]
     private TextMeshProUGUI coinsText;
 
@@ -86,7 +81,7 @@ public class GameManager : MonoBehaviour
     private CanvasGroup pauseMenu;
 
     private static GameManager _instance;
-    public static GameManager Instance => _instance;
+    public static GameManager Instance { get; private set; }
 
     [Header("References")]
     [SerializeField]
@@ -106,8 +101,14 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Awake()
     {
-        if (_instance == null) _instance = this;
-        else Destroy(this);
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
         player.changeItems.AddListener(changeItems);
 
     }
@@ -120,8 +121,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        player = GetComponent<PlayerController>();
-        //We update the current record.
         if (maxScoreText != null)
             maxScoreText.text = DataManager.Instance.maxScore.ToString();
         if (maxStepsScoreText != null)
@@ -301,30 +300,29 @@ public class GameManager : MonoBehaviour
 
     private void UpdateCollectableText()
     {
-        collectableText.text = collectableCount.ToString("00");
+        collectableText.text = ScoreSystem.Instance.CollectableCount.ToString("00");
     }
 
     public void UpdateStepsText()
     {
-        player = FindFirstObjectByType<PlayerController>();
-        stepsCount = MathF.Round(player.transform.position.x + 3);
-        if (stepsCount > 500f)
-        {
-            player.acceleration = 10f;
-            player.maxSpeed = 8f;
-        }
-        else if (stepsCount > 1000f)
+        ScoreSystem.Instance.UpdateSteps(player.transform.position.x);
+        if (ScoreSystem.Instance.StepsCount > 1000f)
         {
             player.acceleration = 12f;
             player.maxSpeed = 10f;
         }
-        stepsText.text = stepsCount.ToString("00");
+        else if (ScoreSystem.Instance.StepsCount > 500f)
+        {
+            player.acceleration = 10f;
+            player.maxSpeed = 8f;
+        }
+
+        stepsText.text = ScoreSystem.Instance.StepsCount.ToString("00");
     }
 
     public void PickUpCollectable(int value)
     {
-        collectableCount += value;
-        UpdateCollectableText();
+        ScoreSystem.Instance.AddCollectable(value);
     }
 
     /// <summary>
@@ -332,28 +330,16 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void EndGame()
     {
-        enemiesDefeatCount = player.EnemyCount;
-        //If we have surpassed the current record we show the new record text and store the new maximum score.
-        if (((int)MathF.Round(stepsCount) + collectableCount + enemiesDefeatCount) > DataManager.Instance.maxScore)
-        {
-            newFinalRecordText.enabled = true;
-            // imageGoals.SetActive(true);
-            DataManager.Instance.maxScore = (int)MathF.Round(stepsCount) + collectableCount + enemiesDefeatCount;
-            DataManager.Instance.Save();
-        }
-        if (stepsCount > DataManager.Instance.maxStepsScore)
-        {
-            newStepsRecordText.enabled = true;
-            DataManager.Instance.maxStepsScore = stepsCount;
-            DataManager.Instance.Save();
-        }
-        //We updated the final score of the menu.
-        coins = ((int)MathF.Round(stepsCount) + collectableCount + enemiesDefeatCount) / 3;
-        finalStepsScoreText.text = MathF.Round(stepsCount).ToString();
-        totalPickUpText.text = collectableCount.ToString();
-        enemiesKilledText.text = enemiesDefeatCount.ToString();
-        coinsText.text = coins.ToString();
-        DataManager.Instance.SaveCoins((int)coins);
+        ScoreSystem.Instance.SetEnemiesDefeated(player.EnemyCount);
+
+        newFinalRecordText.enabled = ScoreSystem.Instance.IsNewScoreRecord();
+        newStepsRecordText.enabled = ScoreSystem.Instance.IsNewStepsRecord();
+        finalStepsScoreText.text = ScoreSystem.Instance.StepsCount.ToString("00");
+        totalPickUpText.text = ScoreSystem.Instance.CollectableCount.ToString("00");
+        enemiesKilledText.text = ScoreSystem.Instance.EnemiesDefeated.ToString("00");
+        coinsText.text = ScoreSystem.Instance.Coins.ToString("00");
+
+        ScoreSystem.Instance.SaveRecords();
         //We deactivate the HUD.
         hud.Active(false);
         //We activate the end of game menu.

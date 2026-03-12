@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\Managers\ParticleManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\MenuStore\Game.cs" />
+    <Compile Include="Assets\Scripts\Managers\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\ButtonHoverText.cs" />
     <Compile Include="Assets\Scripts\MenuStore\TagetingItemsShop.cs" />
     <Compile Include="Assets\Scripts\Settings\Graphics\Settings.cs" />

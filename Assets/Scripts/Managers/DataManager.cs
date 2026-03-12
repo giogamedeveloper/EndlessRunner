@@ -19,30 +19,29 @@ public class DataManager : MonoBehaviour
     public float volume;
     public float maxStepsScore = 0f;
 
-    private static DataManager _intance;
-    public static DataManager Instance => _intance;
+
+    public static DataManager Instance { get; private set; }
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake()
     {
-        if (_intance == null)
+        if (Instance != null && Instance != this)
         {
-            _intance = this;
-            LoadScore();
-            LoadSTeps();
-            LoadEnemies();
-            LoadCoins();
-            LoadItems();
-            LoadMusic();
-            LoadHp();
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
-        }
-        else
-        {
-            Destroy(this);
-        }
+        LoadScore();
+        LoadSTeps();
+        LoadEnemies();
+        LoadCoins();
+        LoadItems();
+        LoadMusic();
+        LoadHp();
     }
 
     /// <summary>
