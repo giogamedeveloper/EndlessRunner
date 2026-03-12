@@ -25,13 +25,6 @@ public class GameManager : MonoBehaviour
     [Header("Game parameters")]
     public InputActionAsset actionAssets;
 
-    [SerializeField]
-    private TextMeshProUGUI collectableText;
-
-    [SerializeField]
-    private TextMeshProUGUI stepsText;
-
-
     [Header("HUD")]
     public int currentIndex;
 
@@ -48,7 +41,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private CanvasGroup pauseMenu;
 
-    private static GameManager _instance;
     public static GameManager Instance { get; private set; }
 
     [Header("References")]
@@ -76,7 +68,6 @@ public class GameManager : MonoBehaviour
 
         }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
         player.changeItems.AddListener(changeItems);
 
     }
