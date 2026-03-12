@@ -112,7 +112,7 @@ public class DataManager : MonoBehaviour
     public void SaveCoins(int _coins)
     {
         coins += _coins;
-        PlayerPrefs.SetInt("coins", _coins);
+        PlayerPrefs.SetInt("coins", coins);
     }
 
     /// <summary>
