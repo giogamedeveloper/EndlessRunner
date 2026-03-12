@@ -1386,7 +1386,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
   m_PrefabInstance: {fileID: 385154460220031033}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385154460220031034}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b073074e278ab42468c90a9b76005278, type: 3}
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9118187178347103728, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
   m_PrefabInstance: {fileID: 385154460220031033}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385154460220031034}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f3e6482b36233a4e9aa57f2cc1b6b61, type: 3}
@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3934538218522506526, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
   m_PrefabInstance: {fileID: 385154460220031033}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034901282}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f54e3414f58a5354f8cf933f82255cbe, type: 3}
@@ -10098,48 +10098,6 @@ MonoBehaviour:
   _text: collectables_PickUp
   _dropdown: {fileID: 0}
   _textMesh: {fileID: 1015237290}
---- !u!1 &1034901282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 505041345608954671, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-  m_PrefabInstance: {fileID: 385154460220031033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1034901285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034901282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7210bf970afcb34b886721cb697284e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hud: {fileID: 1270304603}
-  collectableText: {fileID: 38551511}
-  stepsText: {fileID: 1661643493}
-  endGameMenu: {fileID: 2037374245}
-  finalStepsScoreText: {fileID: 1486655568}
-  totalPickUpText: {fileID: 450272997}
-  enemiesKilledText: {fileID: 2087530967}
-  coinsText: {fileID: 72477367}
-  newStepsRecordText: {fileID: 80309444}
-  newFinalRecordText: {fileID: 837183651}
-  maxStepsScoreText: {fileID: 1662079833}
-  maxScoreText: {fileID: 196988266}
-  currentIndex: 0
-  quantityItems: 0
-  itemsIco: []
-  itemsImage: []
-  quantityText:
-  - {fileID: 6493110668339067177, guid: 9ecf452f86fb68a43853362ab7e117a9, type: 3}
-  inventoryContent: {fileID: 26892175}
-  ItemsObject:
-  - {fileID: 1662990678566168523, guid: 979e24442085e5e478e4a31d196a1833, type: 3}
-  - {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
-  - {fileID: 1662990678566168523, guid: 86ee087c49762584d9dd293c37466f3c, type: 3}
-  - {fileID: 1662990678566168523, guid: 7d631fbe2bd5dc1498cd7f66c6942575, type: 3}
-  - {fileID: 1662990678566168523, guid: eeede18dfef81d549a79019ec2d8783f, type: 3}
 --- !u!1 &1045600019
 GameObject:
   m_ObjectHideFlags: 0
@@ -14597,6 +14555,58 @@ PrefabInstance:
       propertyPath: sectionContainer
       value: 
       objectReference: {fileID: 425805477}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: hud
+      value: 
+      objectReference: {fileID: 1270304603}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: coinsText
+      value: 
+      objectReference: {fileID: 72477367}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: stepsText
+      value: 
+      objectReference: {fileID: 1661643493}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: endGameMenu
+      value: 
+      objectReference: {fileID: 2037374245}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: maxScoreText
+      value: 
+      objectReference: {fileID: 196988266}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: collectableText
+      value: 
+      objectReference: {fileID: 38551511}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: totalPickUpText
+      value: 
+      objectReference: {fileID: 450272997}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: inventoryContent
+      value: 
+      objectReference: {fileID: 26892175}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: enemiesKilledText
+      value: 
+      objectReference: {fileID: 2087530967}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: maxStepsScoreText
+      value: 
+      objectReference: {fileID: 1662079833}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: newFinalRecordText
+      value: 
+      objectReference: {fileID: 837183651}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: newStepsRecordText
+      value: 
+      objectReference: {fileID: 80309444}
+    - target: {fileID: 3298554396096418420, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
+      propertyPath: finalStepsScoreText
+      value: 
+      objectReference: {fileID: 1486655568}
     - target: {fileID: 3934538218522506526, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: scene
       value: 
@@ -14610,65 +14620,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1852325596}
     - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: hud
-      value: 
-      objectReference: {fileID: 1270304603}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 4526787245840691700}
     - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: coinsText
-      value: 
-      objectReference: {fileID: 72477367}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1218497531}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: stepsText
-      value: 
-      objectReference: {fileID: 1661643493}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: endGameMenu
-      value: 
-      objectReference: {fileID: 2037374245}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: maxScoreText
-      value: 
-      objectReference: {fileID: 196988266}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: collectableText
-      value: 
-      objectReference: {fileID: 38551511}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: totalPickUpText
-      value: 
-      objectReference: {fileID: 450272997}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: inventoryContent
-      value: 
-      objectReference: {fileID: 26892175}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: enemiesKilledText
-      value: 
-      objectReference: {fileID: 2087530967}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: maxStepsScoreText
-      value: 
-      objectReference: {fileID: 1662079833}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: newFinalRecordText
-      value: 
-      objectReference: {fileID: 837183651}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: newStepsRecordText
-      value: 
-      objectReference: {fileID: 80309444}
-    - target: {fileID: 6061530271548894493, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      propertyPath: finalStepsScoreText
-      value: 
-      objectReference: {fileID: 1486655568}
     - target: {fileID: 6217238207653630093, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -14712,31 +14670,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 505041345608954671, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1034901285}
-    - targetCorrespondingSourceObject: {fileID: 3527016771294820396, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 385154460220031035}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
---- !u!1 &385154460220031034 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3527016771294820396, guid: 9fb91a673b9a2ab409816845dd03fb88, type: 3}
-  m_PrefabInstance: {fileID: 385154460220031033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &385154460220031035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385154460220031034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f329d371a3b62d543a2bb9081ddbf8dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &442935448922045697
 RectTransform:
   m_ObjectHideFlags: 0

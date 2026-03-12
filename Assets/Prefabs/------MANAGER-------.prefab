@@ -36,6 +36,7 @@ Transform:
   - {fileID: 1021317734679559713}
   - {fileID: 8259328021726167614}
   - {fileID: 8146918144361515076}
+  - {fileID: 2407463651703562126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3934538218522506526
@@ -174,6 +175,7 @@ GameObject:
   - component: {fileID: 1610563779665802922}
   - component: {fileID: 6061530271548894493}
   - component: {fileID: 9118187178347103728}
+  - component: {fileID: 1152309806442192527}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -211,30 +213,6 @@ MonoBehaviour:
   tutorialController: {fileID: 0}
   skipTutorial: 0
   actionAssets: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  collectableText: {fileID: 0}
-  stepsText: {fileID: 0}
-  currentIndex: 1
-  quantityItems: 0
-  itemsIco: []
-  itemsImage: []
-  quantityText: []
-  inventoryContent: {fileID: 0}
-  ItemsObject:
-  - {fileID: 1662990678566168523, guid: 86ee087c49762584d9dd293c37466f3c, type: 3}
-  - {fileID: 1662990678566168523, guid: eeede18dfef81d549a79019ec2d8783f, type: 3}
-  - {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
-  - {fileID: 1662990678566168523, guid: 979e24442085e5e478e4a31d196a1833, type: 3}
-  - {fileID: 1662990678566168523, guid: 7d631fbe2bd5dc1498cd7f66c6942575, type: 3}
-  hud: {fileID: 0}
-  endGameMenu: {fileID: 0}
-  maxStepsScoreText: {fileID: 0}
-  finalStepsScoreText: {fileID: 0}
-  enemiesKilledText: {fileID: 0}
-  totalPickUpText: {fileID: 0}
-  maxScoreText: {fileID: 0}
-  coinsText: {fileID: 0}
-  newStepsRecordText: {fileID: 0}
-  newFinalRecordText: {fileID: 0}
   pauseMenu: {fileID: 0}
   audioControl: {fileID: 24100000, guid: dc8858839847c2b4599110079a471bef, type: 2}
   player: {fileID: 0}
@@ -249,6 +227,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f3e6482b36233a4e9aa57f2cc1b6b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1152309806442192527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527016771294820396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f329d371a3b62d543a2bb9081ddbf8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4982194393601167704
@@ -375,3 +365,68 @@ MonoBehaviour:
     particlePrefab: {fileID: 4049984985741475237, guid: 4b2197ba2a8296446a8a7534d476d2ff, type: 3}
     poolSize: 3
     pool: []
+--- !u!1 &8311669932825335556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2407463651703562126}
+  - component: {fileID: 3298554396096418420}
+  m_Layer: 0
+  m_Name: HuDManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2407463651703562126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8311669932825335556}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6217238207653630093}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3298554396096418420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8311669932825335556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7210bf970afcb34b886721cb697284e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 0}
+  collectableText: {fileID: 0}
+  stepsText: {fileID: 0}
+  endGameMenu: {fileID: 0}
+  finalStepsScoreText: {fileID: 0}
+  totalPickUpText: {fileID: 0}
+  enemiesKilledText: {fileID: 0}
+  coinsText: {fileID: 0}
+  newStepsRecordText: {fileID: 0}
+  newFinalRecordText: {fileID: 0}
+  maxStepsScoreText: {fileID: 0}
+  maxScoreText: {fileID: 0}
+  quantityText:
+  - {fileID: 6493110668339067177, guid: 9ecf452f86fb68a43853362ab7e117a9, type: 3}
+  inventoryContent: {fileID: 0}
+  ItemsObject:
+  - {fileID: 1662990678566168523, guid: 979e24442085e5e478e4a31d196a1833, type: 3}
+  - {fileID: 1662990678566168523, guid: e507164beb2e8814aa7f35b6df986a70, type: 3}
+  - {fileID: 1662990678566168523, guid: 86ee087c49762584d9dd293c37466f3c, type: 3}
+  - {fileID: 1662990678566168523, guid: 7d631fbe2bd5dc1498cd7f66c6942575, type: 3}
+  - {fileID: 1662990678566168523, guid: eeede18dfef81d549a79019ec2d8783f, type: 3}

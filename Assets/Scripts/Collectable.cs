@@ -98,7 +98,8 @@ public class Collectable : MonoBehaviour, ISpawneable
         {
             case CollectableType.Collectable:
                 //We tell the Game Manager that the counter value is to be increased.
-                GameManager.Instance.PickUpCollectable(collectableValue);
+                if (GameManager.Instance != null)
+                    GameManager.Instance.PickUpCollectable(collectableValue);
                 break;
             case CollectableType.PowerUpShield:
                 if (player != null && player.TryGetComponent(out PlayerController playerControllerShield))

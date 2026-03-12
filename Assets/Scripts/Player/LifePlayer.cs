@@ -20,7 +20,6 @@ public class LifePlayer : MonoBehaviour
     public int TakeDamage(int damage)
     {
         if (_tutorialController != null && _tutorialController.isTutorialActive) return currentLife;
-        Debug.Log(currentLife);
         currentLife -= damage;
         changeLife.Invoke(currentLife, maxLife);
         return currentLife;

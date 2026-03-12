@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     #region Variables
+
     [Header("Tutorial")]
     public TutorialController tutorialController;
 
@@ -18,7 +19,7 @@ public class GameManager : MonoBehaviour
     [Header("Game parameters")]
     public InputActionAsset actionAssets;
 
-    
+
     [Header("Pause Menu")]
     [SerializeField]
     private CanvasGroup pauseMenu;
@@ -50,7 +51,6 @@ public class GameManager : MonoBehaviour
 
         }
         Instance = this;
-        player.changeItems.AddListener(HuDManager.Instance.ChangeItems);
 
     }
 
@@ -62,13 +62,17 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        HuDManager.Instance.ShowMaxScores();
-        //Initialize the interface.
-        HuDManager.Instance.ShowHUD(true);
+        player.changeItems.AddListener(HuDManager.Instance.ChangeItems);
+        if (HuDManager.Instance != null)
+        {
+            //Initialize the interface.
+            HuDManager.Instance.ShowMaxScores();
+            HuDManager.Instance.ShowHUD(true);
+            HuDManager.Instance.AddItemToInventory();
+            HuDManager.Instance.AddItemsToHUD();
+        }
         pauseMenu.Active(false);
         ToggleInputs(true);
-        HuDManager.Instance.AddItemToInventory();
-        HuDManager.Instance.AddItemsToHUD();
         if (player != null && player.IsPlayingTuto && !skipTutorial)
         {
             InitializeTutorial();
@@ -138,7 +142,7 @@ public class GameManager : MonoBehaviour
         ChangeTimeScale(1f);
     }
 
-    
+
     public void OnPause(InputAction.CallbackContext context)
     {
         if (context.started && !player.IsDead) PauseMenu(!isPaused);
@@ -238,6 +242,6 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = scale;
     }
-   
+
     #endregion
 }

@@ -47,8 +47,6 @@ public class TutorialController : MonoBehaviour
     [Header("Configuración")]
     public float messageDelay = 1f;
 
-    // Variable estática para mantener el estado entre recargas
-    private static bool tutorialWasActive = false;
 
     [Header("Eventos")]
     public UnityEvent OnTutorialStart;
@@ -66,16 +64,16 @@ public class TutorialController : MonoBehaviour
     {
         playerFailed = false;
         attackDetected = false;
-        // Inicio normal
+        OnTutorialComplete.AddListener(() =>
+            Time.timeScale = 1f); // Asegurar que el tiempo se normalice al completar tutorial
         StartCoroutine(InitializeWithDelay());
     }
 
     private void Update()
     {
-        if (playerController.enemyCount > 0)
-        {
+        if (playerController == null) return;
+        if (!attackDetected && playerController.enemyCount > 0)
             attackDetected = true;
-        }
         IsPlayerDeadOrFallen();
     }
 
@@ -137,144 +135,72 @@ public class TutorialController : MonoBehaviour
     private IEnumerator WelcomePhase()
     {
         currentState = TutorialState.MoveIntro;
-
-        // Configurar player para tutorial
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(true);
-            playerController.SetTutorialReady(false);
-        }
-
-        // Mostrar mensaje de bienvenida
-        if (typewriter != null)
-        {
-            typewriter.StartTyping(TranslateManager.Instance.GetText(welcomeMessage));
-        }
-        yield return new WaitForSeconds(3f);
+        SetPlayerState(tutorialMode: true, tutorialReady: false);
+        yield return StartCoroutine(ShowMessage(welcomeMessage));
+        yield return new WaitForSecondsRealtime(2f);
         if (playerController != null)
         {
             playerController.SetTutorialReady(true);
         }
     }
 
-    // Al destruirse, guardar estado si está activo
-    private void OnDestroy()
-    {
-        if (isTutorialActive && currentState != TutorialState.Completed)
-        {
-            tutorialWasActive = true;
-        }
-    }
 
     private IEnumerator TeachJump()
     {
-        Debug.Log("Fase 3 - Salto");
         currentState = TutorialState.JumpIntro;
         playerFailed = false;
-
-        // Activar movimiento automático
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(true);
-            playerController.SetTutorialReady(true);
-        }
-
-        // Mostrar mensaje de salto
-        if (typewriter != null)
-        {
-            typewriter.StartTyping(TranslateManager.Instance.GetText(jumpMessage));
-            yield return new WaitUntil(() => typewriter.IsTypingComplete());
-            yield return new WaitForSecondsRealtime(messageDelay);
-        }
-
-        // Práctica
+        SetPlayerState(tutorialMode: true, tutorialReady: true);
+        yield return StartCoroutine(ShowMessage(jumpMessage));
         currentState = TutorialState.JumpPractice;
-        Debug.Log("¡Salta con SPACE!");
-
-        // Bucle hasta salto exitoso
         bool jumpSuccessful = false;
-
-        while (!jumpSuccessful && !playerFailed)
+        while (!playerFailed)
         {
-            jumpSuccessful = true;
+            if (playerController != null && !playerController.isGrounded)
+                break;
             yield return null;
         }
     }
 
     private IEnumerator TeachDoubleJump()
     {
-        Debug.Log("Fase 4 - Doble salto");
+
         currentState = TutorialState.DoubleJumpIntro;
         playerFailed = false;
-
-        // Reposicionar player
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(true);
-            playerController.SetTutorialReady(true);
-        }
-
-        // Mostrar mensaje de doble salto
-        if (typewriter != null)
-        {
-            typewriter.StartTyping(TranslateManager.Instance.GetText(doubleJumpMessage));
-            yield return new WaitUntil(() => typewriter.IsTypingComplete());
-            yield return new WaitForSecondsRealtime(messageDelay);
-        }
+        SetPlayerState(tutorialMode: true, tutorialReady: true);
+        yield return StartCoroutine(ShowMessage(doubleJumpMessage));
         currentState = TutorialState.DoubleJumpPractice;
         // Esperar doble salto con verificación de muerte
         float timer = 0f;
-        bool doubleJumpDetected = false;
-        while (timer < 15f && !doubleJumpDetected && !playerFailed)
+        while (timer < 15f && !playerFailed)
         {
             // Detectar doble salto
             if (playerController != null && !playerController.isGrounded && playerController.jumpInAirCounter >= 1)
-            {
-                doubleJumpDetected = true;
-            }
+                break;
             timer += Time.deltaTime;
             yield return null;
         }
     }
 
-    public IEnumerator TeachAttack()
+    private IEnumerator TeachAttack()
     {
         currentState = TutorialState.AttackIntro;
         playerFailed = false;
         attackDetected = false;
+        yield return StartCoroutine(ShowMessage(attackMessage));
+
         if (typewriter != null)
         {
-            typewriter.StartTyping(TranslateManager.Instance.GetText(attackMessage));
-            yield return new WaitUntil(() => typewriter.IsTypingComplete());
-            yield return new WaitForSecondsRealtime(messageDelay);
-            if (typewriter.IsTypingComplete())
-            {
-                typewriter.messageText.enabled = false;
-                typewriter._panel.alpha = 0;
-            }
+            typewriter.messageText.enabled = false;
+            typewriter._panel.alpha = 0;
         }
-        if (playerController != null)
-        {
-            playerController.SetTutorialMode(false);
-            playerController.SetTutorialReady(true);
-            playerController.SetAutoMove(true);
-            Debug.Log("👤 Player configurado para ataque");
-        }
-        else
-        {
-            Debug.LogError("❌❌❌ PlayerController es NULL!");
-        }
-
-        // Mostrar mensaje de ataque
+        SetPlayerState(tutorialMode: true, tutorialReady: true);
+        playerController.SetAutoMove(true);
         currentState = TutorialState.AttackPractice;
-
-        float timeout = 30f;
         float timer = 0f;
 
-        while (!attackDetected && !playerFailed && timer < timeout)
+        while (!attackDetected && !playerFailed && timer < 30f)
         {
             timer += Time.deltaTime;
-
             yield return null;
         }
         if (attackDetected)
@@ -345,5 +271,20 @@ public class TutorialController : MonoBehaviour
             typewriter.StopTyping();
 
         OnTutorialComplete?.Invoke();
+    }
+
+    private void SetPlayerState(bool tutorialMode, bool tutorialReady)
+    {
+        if (playerController == null) return;
+        playerController.SetTutorialMode(tutorialMode);
+        playerController.SetTutorialReady(tutorialReady);
+    }
+
+    private IEnumerator ShowMessage(string message)
+    {
+        if (typewriter == null) yield break;
+        typewriter.StartTyping(TranslateManager.Instance.GetText(message));
+        yield return new WaitUntil(() => typewriter.IsTypingComplete());
+        yield return new WaitForSecondsRealtime(messageDelay);
     }
 }

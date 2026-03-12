@@ -41,9 +41,9 @@
        
         <!--Tutorial-->
         <string key="welcome">¡Bienvenido al tutorial! 
-            El movimineto será automático</string>
+            El movimiento será automático</string>
         <string key="jump">Pulsa SPACE para saltar obstáculos y obtener puntos.</string>
-        <string key="doubleJump">Haz un doble salto para obtener el coleccionable.</string>
+        <string key="doubleJump">Haz un doble salto para mayor alcance.</string>
         <string key="attack">Acércate a un enemigo y pulsa Control Izq para derrotarlo.</string>
         <string key="finishTuto">¡Tutorial Finalizado!
             Regresando al menú principal...</string>
