@@ -152,7 +152,6 @@ public class TutorialController : MonoBehaviour
         SetPlayerState(tutorialMode: true, tutorialReady: true);
         yield return StartCoroutine(ShowMessage(jumpMessage));
         currentState = TutorialState.JumpPractice;
-        bool jumpSuccessful = false;
         while (!playerFailed)
         {
             if (playerController != null && !playerController.isGrounded)
@@ -210,14 +209,6 @@ public class TutorialController : MonoBehaviour
             isTutorialActive = false;
             OnTutorialComplete?.Invoke();
         }
-        else if (playerFailed)
-        {
-            Debug.Log("❌ Jugador falló durante ataque");
-        }
-        else
-        {
-            Debug.LogWarning("⏰ Timeout en espera de ataque");
-        }
     }
 
     private IEnumerator CompleteTutorial()
@@ -250,11 +241,7 @@ public class TutorialController : MonoBehaviour
         bool isDeadOrFallen = playerController.IsDead || playerController.transform.position.y < -10f;
 
         if (isDeadOrFallen)
-        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            Debug.Log("Player detectado como muerto/caído");
-        }
-
         return isDeadOrFallen;
     }
 

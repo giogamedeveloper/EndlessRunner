@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
@@ -10,11 +7,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     #region Variables
-
-    [Header("Tutorial")]
-    public TutorialController tutorialController;
-
-    public bool skipTutorial = false;
 
     [Header("Game parameters")]
     public InputActionAsset actionAssets;
@@ -62,21 +54,18 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        player.changeItems.AddListener(HuDManager.Instance.ChangeItems);
         if (HuDManager.Instance != null)
         {
+            player.changeItems.AddListener(HuDManager.Instance.ChangeItems);
             //Initialize the interface.
             HuDManager.Instance.ShowMaxScores();
             HuDManager.Instance.ShowHUD(true);
             HuDManager.Instance.AddItemToInventory();
             HuDManager.Instance.AddItemsToHUD();
         }
+        if (pauseMenu != null) pauseMenu.Active(false);
         pauseMenu.Active(false);
         ToggleInputs(true);
-        if (player != null && player.IsPlayingTuto && !skipTutorial)
-        {
-            InitializeTutorial();
-        }
     }
 
     /// <summary>
@@ -87,61 +76,6 @@ public class GameManager : MonoBehaviour
         UpdateCollectableText();
         UpdateStepsText();
     }
-
-    private void InitializeTutorial()
-    {
-        if (tutorialController == null)
-            tutorialController = FindObjectOfType<TutorialController>();
-
-        if (tutorialController != null)
-        {
-            tutorialController.OnTutorialComplete.AddListener(OnTutorialComplete);
-            // Pausar el juego durante tutorial
-            ChangeTimeScale(0.5f); // Slow motion para tutorial
-        }
-    }
-
-    private void OnTutorialComplete()
-    {
-        // Reanudar juego normal
-        ChangeTimeScale(1f);
-
-        if (player != null)
-        {
-            player.SetTutorialMode(false);
-            player.isAutoMove = true;
-        }
-
-        Debug.Log("Tutorial completado - Juego normal iniciado");
-    }
-
-// Agrega método para skipear tutorial desde UI
-    public void SkipTutorial()
-    {
-        if (tutorialController != null)
-            tutorialController.SkipTutorial();
-
-        OnTutorialComplete();
-    }
-
-    public void EnablePlayerControls(bool enable)
-    {
-        if (player != null)
-            player.EnableControls(enable);
-    }
-
-    public void SetPlayerTutorialMode(bool tutorialMode)
-    {
-        if (player != null)
-            player.SetTutorialMode(tutorialMode);
-    }
-
-    public void ResumeAfterTutorialMessage()
-    {
-        // Método que puedes llamar desde OnTypingComplete
-        ChangeTimeScale(1f);
-    }
-
 
     public void OnPause(InputAction.CallbackContext context)
     {

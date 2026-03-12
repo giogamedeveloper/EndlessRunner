@@ -31,6 +31,8 @@
         <string key="text_Resolucion">Ajusta la resolución con el que te sientas más cómodo al jugar.</string>
         <!--Menú de pausa-->
         <string key="button_Back">Regresar</string>
+        <string key="_Skip">Saltar Tutorial</string>
+        
         <string key="button_BackMM">Regresar al Menú principal</string>
         <string key="button_Reanude">Reanudar juego</string>
         <string key="button_Restar">Reinciar juego</string>

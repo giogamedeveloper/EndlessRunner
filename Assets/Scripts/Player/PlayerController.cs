@@ -14,20 +14,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private PlayerFeedback _playerFeedback;
 
-    [SerializeField]
-    private TutorialController _tutorialController;
-
     [Header("Jump Settings")]
     public float gravityMultiplier = 3f;
-
-    public bool isJump = false;
 
     [SerializeField]
     private DataManager data;
 
     public float jumpForce = 5f;
-
     public int maxHp;
+
     public int currentLife;
 
     //variables para controlar la cantidad de saltos que se puede dar
@@ -43,7 +38,6 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask groundLayerMask;
     public Vector2 groundCheckSize = new Vector2(.75f, .1f);
-
     public bool isGrounded = false;
 
     [Header("States")]
@@ -72,14 +66,8 @@ public class PlayerController : MonoBehaviour
     public Animator _animator;
     private bool isDead = false;
     public bool IsPlayingTuto;
-    private Shop shop;
-
-    [Header("Items")]
-    public int maxItems = 5;
 
     public LifePlayer lifePlayer;
-
-    public bool isRespawning = false;
 
     [Header("Tutorial")]
     public bool tutorialReady = false;
@@ -118,8 +106,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2) IsPlayingTuto = true;
-        else IsPlayingTuto = false;
+        IsPlayingTuto = SceneManager.GetActiveScene().name == "Tutorial";
         _rb2d.gravityScale = gravityMultiplier;
         if (!IsPlayingTuto)
         {
@@ -143,13 +130,6 @@ public class PlayerController : MonoBehaviour
         GroundCheck();
         UpdateAnimator();
         CheckLimitDead();
-
-#if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            ToggleAutoMove();
-        }
-#endif
     }
 
     /// <summary>
@@ -327,25 +307,13 @@ public class PlayerController : MonoBehaviour
 
     private void Dead()
     {
-        if (IsPlayingTuto)
-        {
-            // En tutorial, no llamar EndGame, solo notificar
-            isDead = true;
-            isAutoMove = false;
-            _rb2d.linearVelocity = Vector3.zero;
-            _animator.SetBool("dead", true);
 
-            Debug.Log("Player murió en tutorial - Esperando respawn");
-        }
-        else
-        {
-            // Comportamiento normal para juego
-            isDead = true;
-            isAutoMove = false;
-            _rb2d.linearVelocity = Vector3.zero;
-            _animator.SetBool("dead", true);
+        isDead = true;
+        isAutoMove = false;
+        _rb2d.linearVelocity = Vector3.zero;
+        _animator.SetBool("dead", true);
+        if (!IsPlayingTuto)
             Invoke("EndGame", 1f);
-        }
 
     }
 
@@ -370,7 +338,7 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// Coroutine that manages the passage of time.
+    /// Activates the shield power up effect.
     /// </summary>
     /// <returns></returns>
     public void ActivePowerUpShield()
@@ -398,30 +366,16 @@ public class PlayerController : MonoBehaviour
     /// <returns></returns>
     private IEnumerator PowerUpEffect(int value)
     {
-        switch (value)
+        powerUpCounter = powerUpDuration;
+        while (powerUpCounter > 0)
         {
-
-            case 1:
-                powerUpCounter = powerUpDuration;
-                while (powerUpCounter > 0)
-                {
-                    isPowerUp = true;
-                    powerUpCounter -= Time.deltaTime;
-                    yield return null;
-                }
-                isPowerUp = false;
-                break;
-            case 2:
-                powerUpCounter = powerUpDuration;
-                while (powerUpCounter > 0)
-                {
-                    isPowerUpShield = true;
-                    powerUpCounter -= Time.deltaTime;
-                    yield return null;
-                }
-                isPowerUpShield = false;
-                break;
+            isPowerUp = value == 1;
+            isPowerUpShield = value == 2;
+            powerUpCounter -= Time.deltaTime;
+            yield return null;
         }
+        isPowerUp = false;
+        isPowerUpShield = false;
     }
 
     #endregion
@@ -461,15 +415,12 @@ public class PlayerController : MonoBehaviour
             isAutoMove = false;
             _rb2d.linearVelocityX = 0f; // Detener movimiento
         }
-
-        Debug.Log($"Controles {(enable ? "activados" : "desactivados")}");
     }
 
 // En la región Tutorial o Methods, agrega:
     public void ToggleAutoMove()
     {
         isAutoMove = !isAutoMove;
-        Debug.Log($"AutoMove toggled: {isAutoMove}");
     }
 
     public void SetAutoMove(bool autoMove)

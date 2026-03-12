@@ -29,14 +29,15 @@ public class HuDManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI maxScoreText;
 
     [Header("Inventario")]
-    
     private int currentIndex;
 
     private int quantityItems;
     private List<Image> itemsIco;
     private List<Image> itemsImage;
+
     [HideInInspector]
     public List<TextMeshProUGUI> quantityText;
+
     public ItemInventory[] itemInventory = new ItemInventory[5];
     public Transform inventoryContent;
     public List<GameObject> ItemsObject;
@@ -55,6 +56,10 @@ public class HuDManager : MonoBehaviour
             return;
         }
         Instance = this;
+        // Inicializar listas
+        itemsIco = new List<Image>();
+        itemsImage = new List<Image>();
+        quantityText = new List<TextMeshProUGUI>();
     }
 
     void Start()
@@ -119,7 +124,6 @@ public class HuDManager : MonoBehaviour
             Image marcoImage = itemObject.transform.GetChild(0).GetComponent<Image>();
             Image iconoImage = itemObject.transform.GetChild(1).GetComponent<Image>();
             TextMeshProUGUI textComponent = itemObject.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
-
             itemsIco.Add(marcoImage);
             itemsImage.Add(iconoImage);
             quantityText.Add(textComponent);
