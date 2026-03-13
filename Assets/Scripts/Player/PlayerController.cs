@@ -429,4 +429,26 @@ public class PlayerController : MonoBehaviour
     }
 
     #endregion
+
+    [SerializeField] private TargetingItemShop itemShop;
+
+    public void OnUseItem1(InputAction.CallbackContext context)
+    {
+        if (context.started) itemShop.UseItem(0);
+    }
+
+    public void OnUseItem2(InputAction.CallbackContext context)
+    {
+        if (context.started) itemShop.UseItem(1);
+    }
+
+    public void OnUseItem3(InputAction.CallbackContext context)
+    {
+        if (context.started) itemShop.UseItem(2);
+    }
+
+    public void OnUseItem4(InputAction.CallbackContext context)
+    {
+        if (context.started) itemShop.UseItem(3);
+    }
 }

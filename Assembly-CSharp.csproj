@@ -73,7 +73,6 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Managers\ColorManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Managers\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Settings\Graphics\GraphicsController.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioController.cs" />
     <Compile Include="Assets\Scripts\Settings\Audio\AudioSettingsController.cs" />
@@ -885,6 +884,9 @@
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor">
+      <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
@@ -923,6 +925,9 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.MemoryProfiler.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
@@ -987,11 +992,17 @@
     <Reference Include="Unity.Multiplayer.Center.Common">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
@@ -1016,6 +1027,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+      <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>F:\Master\Proyectos\1erPoyecto\EndlessRunner\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>

@@ -24,7 +24,6 @@ public class TutorialController : MonoBehaviour
     public PlayerController playerController;
 
     public TypewriterEffect typewriter;
-    public SceneController sceneController;
 
     [Header("Mensajes del tutorial")]
     [TextArea(2, 6)]
@@ -229,7 +228,7 @@ public class TutorialController : MonoBehaviour
         // Esperar un momento para que el jugador lea el mensaje
         yield return new WaitForSeconds(completionDelay);
 
-        sceneController.ChangeScene("MainMenu");
+        SceneController.Instance.ChangeScene("MainMenu");
         OnTutorialComplete?.Invoke();
     }
 
@@ -257,7 +256,7 @@ public class TutorialController : MonoBehaviour
         if (typewriter != null)
             typewriter.StopTyping();
 
-        OnTutorialComplete?.Invoke();
+        SceneController.Instance.ChangeScene("MainMenu");
     }
 
     private void SetPlayerState(bool tutorialMode, bool tutorialReady)

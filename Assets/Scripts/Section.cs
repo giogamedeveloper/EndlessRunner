@@ -1,33 +1,28 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Section : MonoBehaviour
 {
     [Range(0, 100)]
     public int columns;
+
     [Range(0, 100)]
     public int row;
 
     public Grid grid;
+
     [SerializeField]
     private RandomObjectSpawnPoint[] powerUp;
-    [SerializeField]
 
+    [SerializeField]
     private RandomObjectSpawnPoint[] enemies;
 
-
+    private Camera _mainCamera;
     public Transform cameraTransform;
     // Read-only property that will give us half the number of columns multiplied by the grid size to determine the size occupied by the half section in units.
 
     public float halfWidth
     {
-        get
-        {
-            return ((columns / 2) * grid.cellSize.x);
-        }
+        get { return ((columns / 2) * grid.cellSize.x); }
     }
 
     /// <summary>
@@ -45,7 +40,9 @@ public class Section : MonoBehaviour
         }
         //If the values ​​are even, we draw green, otherwise we draw red.
         if (columns % 2 == 0 && row % 2 == 0)
-        { Gizmos.color = Color.green; }
+        {
+            Gizmos.color = Color.green;
+        }
         else
         {
             Gizmos.color = Color.red;
@@ -56,6 +53,7 @@ public class Section : MonoBehaviour
     void Start()
     {
         cameraTransform = Camera.main.transform;
+        _mainCamera = Camera.main;
     }
 
     void Update()
@@ -65,7 +63,7 @@ public class Section : MonoBehaviour
         //3- Screen.width is the width of the screen in pixels.
         //4- Screen.height is the height of the screen in pixels.
 
-        float leftSideOfScreen = cameraTransform.position.x - Camera.main.orthographicSize * Screen.width / Screen.height;
+        float leftSideOfScreen = cameraTransform.position.x - _mainCamera.orthographicSize * Screen.width / Screen.height;
         //If the current position in X is displayed on the left side of the screen.
         if (transform.position.x < (leftSideOfScreen - halfWidth))
         {
@@ -73,6 +71,7 @@ public class Section : MonoBehaviour
             DestroySection();
         }
     }
+
     /// <summary>
     /// Manages the section destruction process.
     /// </summary>

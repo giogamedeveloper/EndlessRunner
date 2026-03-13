@@ -6,32 +6,37 @@ public class SectionManager : MonoBehaviour
 {
     //List of sections available to generate.
     public Section[] sectionPrefabs;
+
     //Transform that will contain the generated sections.
     public Transform sectionContainer;
+
     //Last section generated.
     public Section currentSection;
+
     //Platforms that are initially generated.
     public int initialLoad = 4;
     private List<Section> sectionPool;
+
     [Header("Tutorial Support")]
     private Vector3 initialSectionPosition;
+
     private Section initialSection;
-    private static SectionManager _instance;
-    public static SectionManager Instance => _instance;
+    public static SectionManager Instance { get; private set; }
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     private void Awake()
     {
-        if (_instance == null)
+        if (Instance == null)
         {
             sectionPool = new List<Section>();
-            _instance = this;
+            Instance = this;
         }
-        else Destroy(this);
+        else Destroy(gameObject);
 
     }
+
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
     /// any of the Update methods is called the first time.
@@ -52,6 +57,7 @@ public class SectionManager : MonoBehaviour
             initialSection = currentSection;
         }
     }
+
     /// <summary>
     ///Method that initializes the pool with the number of Prefabs sections added.
     /// </summary>
@@ -63,6 +69,7 @@ public class SectionManager : MonoBehaviour
             AddSectionToPool(tmpSection);
         }
     }
+
     /// <summary>
     ///Adds a section to the Pool.
     /// </summary>
@@ -73,6 +80,7 @@ public class SectionManager : MonoBehaviour
         section.transform.SetParent(transform);
         sectionPool.Add(section);
     }
+
     /// <summary>
     /// GetSectionFromPool -> They get a random selection within the pool generated previously.
     /// </summary>
@@ -110,9 +118,9 @@ public class SectionManager : MonoBehaviour
             sectionPrefabs[i].ActivePowerUp();
         }
     }
+
     public void CheckEnemies()
     {
         currentSection.DestroyEnemies();
     }
-    
 }

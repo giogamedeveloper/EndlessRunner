@@ -150,7 +150,7 @@ public class HuDManager : MonoBehaviour
 
     public void QuitItem(int quantityItems)
     {
-        for (int i = 0; i < quantityItems; i--)
+        for (int i = 0; i < quantityItems; i++)
         {
             currentIndex = i;
             itemsIco[currentIndex].sprite = itemsImage[currentIndex].sprite;
@@ -161,6 +161,7 @@ public class HuDManager : MonoBehaviour
     public void UpdateItems(int index)
     {
         itemsIco[index].enabled = false;
+        itemsImage[index].enabled = false;
         quantityText[index].enabled = false;
     }
 
