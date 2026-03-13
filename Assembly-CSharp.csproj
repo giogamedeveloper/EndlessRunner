@@ -57,7 +57,6 @@
     <Compile Include="Assets\Scripts\MenuStore\Game.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\ButtonHoverText.cs" />
-    <Compile Include="Assets\Scripts\MenuStore\TagetingItemsShop.cs" />
     <Compile Include="Assets\Scripts\Settings\Graphics\Settings.cs" />
     <Compile Include="Assets\Scripts\Player\LifePlayer.cs" />
     <Compile Include="Assets\Scripts\MenuStore\Shop.cs" />

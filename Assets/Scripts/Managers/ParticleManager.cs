@@ -32,15 +32,13 @@ public class ParticleManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            InitializePools();
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+        Instance = this;
+        InitializePools();
     }
 
     void InitializePools()
@@ -61,7 +59,7 @@ public class ParticleManager : MonoBehaviour
         ParticleEffect effect = System.Array.Find(effects, e => e.effectName == effectName);
         if (effect == null) return;
 
-        ParticleSystem availablePS = effect.pool.Find(ps => !ps.isPlaying);
+        ParticleSystem availablePS = effect.pool.Find(ps => ps != null && !ps.isPlaying);
         if (availablePS == null)
         {
             availablePS = Instantiate(effect.particlePrefab, transform);

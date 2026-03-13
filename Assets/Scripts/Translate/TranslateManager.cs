@@ -15,38 +15,36 @@ public class TranslateManager : MonoBehaviour
 
     public Dictionary<string, string> texts;
 
-    private static TranslateManager _instance;
-    public static TranslateManager Instance => _instance;
+    public static TranslateManager Instance { get; private set; }
 
     public static Action OnLanguageChanged;
 
     void Awake()
     {
-        if (_instance == null)
+        if (Instance != null && Instance != this)
         {
-            _instance = this;
-            LoadLenguage();
+            Destroy(gameObject);
+            return;
         }
-        else
-        {
-            Destroy(this);
-        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+        LoadLenguage();
+        
     }
 
     private void LoadLenguage()
     {
-        string systemLanguage = Application.systemLanguage.ToString();
+        string savedLanguage = PlayerPrefs.GetString("language", "");
+        string systemLanguage = string.IsNullOrEmpty(savedLanguage)
+            ? Application.systemLanguage.ToString()
+            : savedLanguage;
+
         TextAsset textAsset = Resources.Load<TextAsset>(systemLanguage);
         if (textAsset == null)
-        {
             textAsset = Resources.Load<TextAsset>(defaultLanguage);
-        }
 
-        //Creamos una variable de tipo XmlDocument para gestionar la lectura del XML
         XmlDocument xmlDoc = new XmlDocument();
-        //Cargamos el XML desde el fichero de texto
         xmlDoc.LoadXml(textAsset.text);
-        //Llamamos al método que carga los textos y sus "Keys" para el idioma
         LoadTexts(xmlDoc);
     }
 
@@ -115,24 +113,18 @@ public class TranslateManager : MonoBehaviour
 
     public void ChangeLanguage(string targetLanguage)
     {
-        // 1. Intenta cargar el idioma solicitado
         TextAsset textAsset = Resources.Load<TextAsset>(targetLanguage);
-
-        // 2. Si no existe, carga el idioma por defecto
         if (textAsset == null)
         {
             Debug.LogWarning($"Language file '{targetLanguage}' not found. Loading default '{defaultLanguage}'.");
             textAsset = Resources.Load<TextAsset>(defaultLanguage);
-
-            // 3. Si por algún motivo el default tampoco existe, lanza un error y aborta.
             if (textAsset == null)
             {
-                Debug.LogError($"Default language file '{defaultLanguage}' not found! Translation failed.");
+                Debug.LogError($"Default language file '{defaultLanguage}' not found!");
                 return;
             }
         }
-
-        // 4. Procede a cargar el XML
+        PlayerPrefs.SetString("language", targetLanguage); // ← guarda la elección
         XmlDocument xmlDoc = new XmlDocument();
         xmlDoc.LoadXml(textAsset.text);
         LoadTexts(xmlDoc);

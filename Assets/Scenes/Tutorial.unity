@@ -360,7 +360,6 @@ GameObject:
   m_Component:
   - component: {fileID: 290322401}
   - component: {fileID: 290322402}
-  - component: {fileID: 290322403}
   m_Layer: 0
   m_Name: ------MANAGER-------
   m_TagString: Untagged
@@ -380,9 +379,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1224301097}
-  - {fileID: 1918392736}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &290322402
@@ -403,19 +400,6 @@ MonoBehaviour:
   scene: {fileID: 197698473}
   _changeLenguage: 0
   _isActive: 0
---- !u!114 &290322403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290322400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd77cccacb8ef4e44980e04162651bf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultLanguage: Spanish
 --- !u!1 &425805476
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emptyHeart: {fileID: 1517531988}
   fillHeart: {fileID: 1517531988}
-  data: {fileID: 580467687}
+  data: {fileID: 0}
   size: 75
   lifePlayer: {fileID: 1217242092}
   player: {fileID: 1217242088}
@@ -2112,11 +2096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700e1ed5511ff2048b456bad3059ba22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1224301097 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
-  m_PrefabInstance: {fileID: 8675637908039394207}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1318321624
 GameObject:
   m_ObjectHideFlags: 0
@@ -3039,7 +3018,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 290322401}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1918392737
 MonoBehaviour:
@@ -3305,7 +3284,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 290322401}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3325,15 +3304,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2210582373745757605, guid: 17aee15c70f728549987a8acd1f9230f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3436,7 +3415,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 290322401}
+  - {fileID: 8675637908039394207}
   - {fileID: 1806683087}
+  - {fileID: 1918392736}
   - {fileID: 1014327629}
   - {fileID: 580467688}
   - {fileID: 189440258}

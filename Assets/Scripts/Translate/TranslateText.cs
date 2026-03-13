@@ -13,27 +13,29 @@ public class TranslateText : MonoBehaviour
 
     void OnEnable()
     {
-        TranslateManager.OnLanguageChanged += () => ChangeText();
+        TranslateManager.OnLanguageChanged += ChangeText;
+        if (TranslateManager.Instance != null)
+            ChangeText();
     }
 
     void OnDisable()
     {
-        TranslateManager.OnLanguageChanged -= () => ChangeText();
+        TranslateManager.OnLanguageChanged -= ChangeText;
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _textMesh.text = TranslateManager.Instance.GetText(_text);
+        if (TranslateManager.Instance != null)
+            _textMesh.text = TranslateManager.Instance.GetText(_text);
     }
 
     public void ChangeText()
     {
+        if (TranslateManager.Instance == null) return;
+        if (_textMesh == null) return;
         if (_dropdown != null)
-        {
             _textMesh.text = _dropdown.options[_dropdown.value].text;
-            Debug.Log(_textMesh.text);
-        }
-        _textMesh.text = TranslateManager.Instance.GetText(_text);
+        else
+            _textMesh.text = TranslateManager.Instance.GetText(_text);
     }
 }

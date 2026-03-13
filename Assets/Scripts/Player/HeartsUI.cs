@@ -9,9 +9,6 @@ public class HeartsUI : MonoBehaviour
     public Image emptyHeart;
     public Image fillHeart;
 
-    [SerializeField]
-    private DataManager data;
-
     public int size = 75;
 
     public LifePlayer lifePlayer;
@@ -27,7 +24,11 @@ public class HeartsUI : MonoBehaviour
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-            UpdateMaxHp(player.maxHp, player.maxHp);
+    }
+
+    void Start()
+    {
+        UpdateMaxHp(player.maxHp, player.maxHp);
     }
 
     public void changeLife(int current, int maxLife)
@@ -41,7 +42,7 @@ public class HeartsUI : MonoBehaviour
     {
         rectTransform.sizeDelta = new Vector2(maxLife * size, 65);
         fillHeart.fillAmount = 1 - (float)currentLife / (float)maxLife;
-        data.SaveHp(maxLife);
+        DataManager.Instance.SaveHp(maxLife);
     }
 
     private void LessHeart(int currentLife, int maxLife)

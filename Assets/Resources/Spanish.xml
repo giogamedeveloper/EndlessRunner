@@ -32,7 +32,6 @@
         <!--Menú de pausa-->
         <string key="button_Back">Regresar</string>
         <string key="_Skip">Saltar Tutorial</string>
-        
         <string key="button_BackMM">Regresar al Menú principal</string>
         <string key="button_Reanude">Reanudar juego</string>
         <string key="button_Restar">Reinciar juego</string>
@@ -40,9 +39,8 @@
         <!--Canvas-->
         <string key="gameOver">Has perdido!!</string>
         <string key="menuPause">Menú de pausa</string>
-       
         <!--Tutorial-->
-        <string key="welcome">¡Bienvenido al tutorial! 
+        <string key="welcome">¡Bienvenido al tutorial!
             El movimiento será automático</string>
         <string key="jump">Pulsa SPACE para saltar obstáculos y obtener puntos.</string>
         <string key="doubleJump">Haz un doble salto para mayor alcance.</string>
@@ -50,10 +48,14 @@
         <string key="finishTuto">¡Tutorial Finalizado!
             Regresando al menú principal...</string>
         <!--Habilidades-->
-        <string key="blueFlame">LLama azul, que te proporciona un escudo</string>
-        <string key="waterPurify">Agua purificadora, elimina a todos los enemigos</string>
-        <string key="evadBull">Restaura un corazón de salud</string>
-        <string key="bible">Añade un corazón a la salud máxima</string>
+        <string key="blueFlame">Llama azul, que te proporciona un escudo
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Tecla: 1&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="waterPurify">Agua purificadora, elimina a todos los enemigos
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Tecla: 2&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="evadBull">Restaura un corazón de salud
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Tecla: 3&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="bible">Añade un corazón a la salud máxima
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Tecla: 4&lt;/color&gt;&lt;/size&gt;</string>
         <string key="redFlame">Flama que te otorga inmortalidad (Ratio 20%)</string>
         <!--End-Game-->
         <string key="actualRecord">Record actual</string>

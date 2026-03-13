@@ -31,6 +31,7 @@
         <string key="text_Resolucion">Adjust the resolution to what you feel most comfortable playing with.</string>
         <!--Pause Menu-->
         <string key="button_Back">Back</string>
+        <string key="_Skip">Skip Tutorial</string>
         <string key="button_BackMM">Return to Main Menu</string>
         <string key="button_Reanude">Resume Game</string>
         <string key="button_Restar">Restart Game</string>
@@ -48,10 +49,14 @@
         <string key="finishTuto">Tutorial Completed!
             Returning to main menu...</string>
         <!--Abilities/Power-ups-->
-        <string key="blueFlame">Blue Flame, provides you with a shield.</string>
-        <string key="waterPurify">Purifying Water, eliminates all enemies.</string>
-        <string key="evadBull">Restores one health heart.</string>
-        <string key="bible">Adds one heart to maximum health.</string>
+        <string key="blueFlame">Blue Flame, provides you with a shield
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Key: 1&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="waterPurify">Purifying Water, eliminates all enemies
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Key: 2&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="evadBull">Restores one health heart
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Key: 3&lt;/color&gt;&lt;/size&gt;</string>
+        <string key="bible">Adds one heart to maximum health
+            &lt;size=110%&gt;&lt;color=#FFD700&gt;Key: 4&lt;/color&gt;&lt;/size&gt;</string>
         <string key="redFlame">Flame that grants immortality (20% Chance)</string>
         <!--End-Game-->
         <string key="actualRecord">Current Record</string>

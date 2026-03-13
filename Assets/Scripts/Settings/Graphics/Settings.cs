@@ -15,10 +15,9 @@ public class Settings : MonoBehaviour
 
     public void ChangeIdioma(int value)
     {
-        if (value == 0)
-            _changeLenguage = true;
-        else if (value == 1)
-            _changeLenguage = false;
+        Debug.Log($"TranslateManager.Instance: {TranslateManager.Instance}");
+        if (TranslateManager.Instance == null) return;
+        _changeLenguage = value == 0;
         TranslateManager.Instance.ChangeLanguage(_changeLenguage ? "Spanish" : "English");
     }
 }

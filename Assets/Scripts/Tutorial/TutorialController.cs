@@ -86,10 +86,10 @@ public class TutorialController : MonoBehaviour
         }
 
         if (playerController == null)
-            playerController = FindObjectOfType<PlayerController>();
+            playerController = FindFirstObjectByType<PlayerController>();
 
         if (typewriter == null)
-            typewriter = FindObjectOfType<TypewriterEffect>();
+            typewriter = FindFirstObjectByType<TypewriterEffect>();
 
         if (playerController != null && playerController.IsPlayingTuto)
         {
