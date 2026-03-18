@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
     public bool isPowerUp = false;
     public bool isPowerUpShield = false;
 
-    [Serialize]
+    [SerializeField]
     public int enemyCount;
 
     private Coroutine powerUpTimer;

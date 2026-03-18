@@ -1,21 +1,16 @@
-using System;
 using UnityEngine;
 
 public class ScoreSystem : MonoBehaviour
 {
     public static ScoreSystem Instance { get; private set; }
 
-    private int collectableCount = 0;
-    private float stepsCount = 0f;
-    private int enemiesDefeated = 0;
+    private ScoreData _data;
 
-    public int CollectableCount => collectableCount;
-    public float StepsCount => stepsCount;
-    public int EnemiesDefeated => enemiesDefeated;
-    public int TotalScore => (int)MathF.Round(stepsCount) 
-                             + collectableCount 
-                             + enemiesDefeated;
-    public float Coins => TotalScore / 3f;
+    public int CollectableCount => _data.CollectableCount;
+    public float StepsCount => _data.StepsCount;
+    public int EnemiesDefeated => _data.EnemiesDefeated;
+    public int TotalScore => _data.TotalScore;
+    public float Coins => _data.Coins;
 
     void Awake()
     {
@@ -25,30 +20,14 @@ public class ScoreSystem : MonoBehaviour
             return;
         }
         Instance = this;
+        _data = new ScoreData();
     }
 
-    public void AddCollectable(int value)
-    {
-        collectableCount += value;
-        OnScoreChanged?.Invoke();
-    }
-
-    public void UpdateSteps(float playerPositionX)
-    {
-        stepsCount = MathF.Round(playerPositionX + 3);
-        OnStepsChanged?.Invoke(stepsCount);
-    }
-
-    public void SetEnemiesDefeated(int count)
-    {
-        enemiesDefeated = count;
-    }
-
-    public bool IsNewStepsRecord()
-        => stepsCount > DataManager.Instance.maxStepsScore;
-
-    public bool IsNewScoreRecord()
-        => TotalScore > DataManager.Instance.maxScore;
+    public void AddCollectable(int value) => _data.AddCollectable(value);
+    public void UpdateSteps(float playerPositionX) => _data.UpdateSteps(playerPositionX);
+    public void SetEnemiesDefeated(int count) => _data.SetEnemiesDefeated(count);
+    public bool IsNewStepsRecord() => _data.IsNewStepsRecord(DataManager.Instance.maxStepsScore);
+    public bool IsNewScoreRecord() => _data.IsNewScoreRecord(DataManager.Instance.maxScore);
 
     public void SaveRecords()
     {
@@ -59,13 +38,9 @@ public class ScoreSystem : MonoBehaviour
         }
         if (IsNewStepsRecord())
         {
-            DataManager.Instance.maxStepsScore = stepsCount;
+            DataManager.Instance.maxStepsScore = StepsCount;
             DataManager.Instance.Save();
         }
         DataManager.Instance.SaveCoins((int)Coins);
     }
-
-    // Eventos para notificar a la UI sin conocerla
-    public event System.Action OnScoreChanged;
-    public event System.Action<float> OnStepsChanged;
 }
